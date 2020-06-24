@@ -1,2 +1,2 @@
-# stage
-stage - temporary training base
+# stage - temporary training base
+

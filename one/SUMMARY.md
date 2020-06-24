@@ -1,6 +1,6 @@
 # Summary
 
-9 datafiles
+13 datafiles
 
 
 
@@ -123,5 +123,65 @@
     FC Metz (38)                                              | Metz
     SM Caen (38)                 => Stade Malherbe Caen       | Caen
     Stade Brestois 29 (38)                                    | Brest
+```
+
+
+
+## Netherlands (nl)
+
+21 club names:
+
+```
+    ADO Den Haag (68)                                         | Den Haag,  Zuid-Holland
+    AFC Ajax (68)                => Ajax Amsterdam            | Amsterdam,  Noord-Holland
+    AZ (68)                      => AZ Alkmaar                | Alkmaar,  Noord-Holland
+    FC Emmen (68)                                             | Emmen,  Drenthe
+    FC Groningen (68)                                         | Groningen,  Groningen
+    FC Utrecht (68)                                           | Utrecht,  Utrecht
+    Feyenoord Rotterdam (68)                                  | Rotterdam,  Zuid-Holland
+    Fortuna Sittard (68)                                      | Sittard,  Limburg
+    Heracles Almelo (68)                                      | Almelo,  Overijssel
+    PEC Zwolle (68)                                           | Zwolle,  Overijssel
+    PSV (68)                     => PSV Eindhoven             | Eindhoven,  Noord-Brabant
+    SBV Vitesse (68)             => Vitesse Arnhem            | Arnhem,  Gelderland
+    SC Heerenveen (68)                                        | Heerenveen,  Friesland
+    VVV Venlo (68)                                            | Venlo,  Limburg
+    Willem II Tilburg (68)                                    | Tilburg,  Noord-Brabant
+    FC Twente '65 (34)           => FC Twente                 | Enschede,  Overijssel
+    NAC Breda (34)                                            | Breda,  Noord-Brabant
+    RKC Waalwijk (34)                                         | Waalwijk,  Noord-Brabant
+    SBV Excelsior (34)           => SBV Excelsior Rotterdam   | Rotterdam,  Zuid-Holland
+    Sparta Rotterdam (34)                                     | Rotterdam,  Zuid-Holland
+    VBV De Graafschap (34)       => BV De Graafschap          | Doetinchem,  Gelderland
+```
+
+
+
+## Portugal (pt)
+
+21 club names:
+
+```
+    Boavista FC (68)                                          | Porto
+    CD Aves (68)                                              | Aves
+    CD Santa Clara (68)                                       | Ponta Delgada
+    CD Tondela (68)                                           | Tondela
+    CS Marítimo (68)                                          | Funchal
+    FC Porto (68)                                             | Porto
+    Moreirense FC (68)                                        | Moreira de Cónegos
+    Os Belenenses Futebol (68)   => Os Belenenses             | Lisboa
+    Portimonense SC (68)                                      | Portimão
+    Rio Ave FC (68)                                           | Vila do Conde
+    Sport Lisboa e Benfica (68)  => SL Benfica                | Lisboa
+    Sporting Clube de Braga (68) => SC Braga                  | Braga
+    Sporting Clube de Portugal (68) => Sporting CP               | Lisboa
+    Vitória Guimarães (68)       => Vitória de Guimarães      | Guimarães
+    Vitória Setúbal (68)         => Vitória de Setúbal        | Setúbal
+    CD Feirense (34)                                          | Santa Maria da Feira
+    CD Nacional (34)             => CD Nacional Madeira       | Funchal
+    FC Famalicão (34)                                         | Vila Nova de Famalicão
+    FC Paços de Ferreira (34)                                 | Paços de Ferreira
+    GD Chaves (34)                                            | Chaves
+    Gil Vicente FC (34)                                       | Barcelos
 ```
 

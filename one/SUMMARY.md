@@ -1,6 +1,6 @@
 # Summary
 
-13 datafiles
+19 datafiles
 
 
 
@@ -29,13 +29,43 @@
     Goiás EC (76)                                             | Goiânia,  Goiás
     SC Recife (76)               => Sport Recife              | Recife,  Pernambuco
     AC Goianiense (38)           => Atlético GO               | Goiânia,  Goiás
-    América (MG) (38)            => América MG                | Belo Horizonte,  Minas Gerais
+    América MG (38)                                           | Belo Horizonte,  Minas Gerais
     Avaí FC (38)                                              | Florianópolis,  Santa Catarina
     CS Alagoano (38)                                          | Maceió,  Alagoas
     Coritiba FBC (38)            => Coritiba PR               | Curitiba,  Paraná
     EC Vitória (38)                                           | Salvador,  Bahia
     Paraná Clube (38)                                         | Curitiba,  Paraná
     RB Bragantino (38)                                        | Bragança Paulista,  São Paulo
+```
+
+
+
+## Germany (de)
+
+21 club names:
+
+```
+    1. FSV Mainz 05 (68)                                      | Mainz,  Rheinland-Pfalz
+    BV Borussia 09 Dortmund (68) => Borussia Dortmund         | Dortmund,  Nordrhein-Westfalen
+    Bayer 04 Leverkusen (68)                                  | Leverkusen,  Nordrhein-Westfalen
+    Borussia Mönchengladbach (68) => Bor. Mönchengladbach      | Mönchengladbach,  Nordrhein-Westfalen
+    Eintracht Frankfurt (68)                                  | Frankfurt am Main,  Hessen
+    FC Augsburg (68)                                          | Augsburg,  Bayern
+    FC Bayern München (68)       => Bayern München            | München,  Bayern
+    FC Schalke 04 (68)                                        | Gelsenkirchen,  Nordrhein-Westfalen
+    Hertha BSC (68)                                           | Berlin,  Berlin
+    RB Leipzig (68)                                           | Leipzig,  Sachsen
+    SC Freiburg (68)                                          | Freiburg,  Baden-Württemberg
+    SV Werder Bremen (68)        => Werder Bremen             | Bremen,  Bremen
+    TSG 1899 Hoffenheim (68)                                  | Sinsheim,  Baden-Württemberg
+    TSV Fortuna 95 Düsseldorf (68) => Fortuna Düsseldorf        | Düsseldorf,  Nordrhein-Westfalen
+    VfL Wolfsburg (68)                                        | Wolfsburg,  Niedersachsen
+    1. FC Köln (34)                                           | Köln,  Nordrhein-Westfalen
+    1. FC Nürnberg (34)                                       | Nürnberg,  Bayern
+    1. FC Union Berlin (34)                                   | Berlin,  Berlin
+    Hannover 96 (34)                                          | Hannover,  Niedersachsen
+    SC Paderborn 07 (34)                                      | Paderborn,  Nordrhein-Westfalen
+    VfB Stuttgart (34)                                        | Stuttgart,  Baden-Württemberg
 ```
 
 
@@ -96,6 +126,38 @@
 
 
 
+## Spain (es)
+
+23 club names:
+
+```
+    Athletic Club (76)           => Athletic Club Bilbao      | Bilbao,  País Vasco
+    CD Leganés (76)                                           | ?  
+    Club Atlético de Madrid (76) => Atlético Madrid           | Madrid,  Comunidad de Madrid
+    Deportivo Alavés (76)                                     | Vitoria,  País Vasco
+    FC Barcelona (76)                                         | Barcelona,  Cataluña
+    Getafe CF (76)                                            | Madrid,  Comunidad de Madrid
+    Levante UD (76)                                           | Valencia,  Comunidad Valenciana
+    RC Celta de Vigo (76)        => RC Celta Vigo             | Vigo,  Galicia
+    RCD Espanyol de Barcelona (76) => RCD Espanyol              | Barcelona,  Cataluña
+    Real Betis Balompié (76)     => Real Betis                | Sevilla,  Andalucía
+    Real Madrid CF (76)          => Real Madrid               | Madrid,  Comunidad de Madrid
+    Real Sociedad de Fútbol (76) => Real Sociedad             | San Sebastián,  País Vasco
+    Real Valladolid CF (76)                                   | ?  
+    SD Eibar (76)                                             | Eibar,  País Vasco
+    Sevilla FC (76)                                           | Sevilla,  Andalucía
+    Valencia CF (76)                                          | Valencia,  Comunidad Valenciana
+    Villarreal CF (76)                                        | Villarreal,  Comunidad Valenciana
+    CA Osasuna (38)                                           | ?  
+    Girona FC (38)                                            | Gerona,  Cataluña
+    Granada CF (38)                                           | Granada,  Andalucía
+    RCD Mallorca (38)                                         | Palma de Mallorca,  Islas Baleares
+    Rayo Vallecano de Madrid (38) => Rayo Vallecano            | Madrid,  Comunidad de Madrid
+    SD Huesca (38)                                            | Huesca,  Aragón
+```
+
+
+
 ## France (fr)
 
 22 club names:
@@ -123,6 +185,38 @@
     FC Metz (38)                                              | Metz
     SM Caen (38)                 => Stade Malherbe Caen       | Caen
     Stade Brestois 29 (38)                                    | Brest
+```
+
+
+
+## Italy (it)
+
+23 club names:
+
+```
+    AC Milan (76)                                             | Milano
+    ACF Fiorentina (76)                                       | Firenze
+    AS Roma (76)                                              | Roma
+    Atalanta BC (76)                                          | Bergamo
+    Bologna FC 1909 (76)         => Bologna FC                | Bologna
+    Cagliari Calcio (76)                                      | Cagliari
+    FC Internazionale Milano (76)                              | Milano
+    Genoa CFC (76)                                            | Genova
+    Juventus FC (76)             => Juventus                  | Torino
+    Parma Calcio 1913 (76)       => Parma                     | Parma
+    SPAL 2013 (76)               => SPAL                      | Ferrara
+    SS Lazio (76)                                             | Roma
+    SSC Napoli (76)                                           | Napoli
+    Torino FC (76)                                            | Torino
+    UC Sampdoria (76)                                         | Genova
+    US Sassuolo Calcio (76)                                   | Sassuolo
+    Udinese Calcio (76)                                       | Udine
+    AC Chievo Verona (38)                                     | Verona
+    Brescia Calcio (38)          => Brescia                   | Brescia
+    Empoli FC (38)               => Empoli                    | Empoli
+    Frosinone Calcio (38)        => Frosinone                 | Frosinone
+    Hellas Verona FC (38)                                     | Verona
+    US Lecce (38)                                             | Lecce
 ```
 
 

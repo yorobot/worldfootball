@@ -4,27 +4,6 @@
 
 
 
-**16 error(s):**
-- **SC Kriens > Switzerland**
-- **Stade Lausanne-Ouchy > Switzerland**
-- **Venezia FC > Italy**
-- **Avangard Kursk > Russia**
-- **Enisey Krasnoyarsk > Russia**
-- **FK Chertanovo Moskva > Russia**
-- **FK Krasnodar 2 > Russia**
-- **FK Nizhny Novgorod > Russia**
-- **FK Tom Tomsk > Russia**
-- **FK Torpedo Armavir > Russia**
-- **Luch-Energia > Russia**
-- **SKA-Energia Khabarovsk > Russia**
-- **Spartak Moskva 2 > Russia**
-- **Tekstilshchik Ivanovo > Russia**
-- **FK Ufa > Russia**
-- **Altınordu FSG > Turkey**
-
-
-
-
 ## Austria (at)
 
 36 club names:
@@ -188,9 +167,9 @@
     FC Zürich (36)                                            | Zürich,  Zürich
     Grasshopper Club Zürich (36) => Grasshoppers Zürich       | Zürich,  Zürich
     Neuchâtel Xamax FCS (36)     => Xamax Neuchâtel           | Neuchâtel,  Neuchâtel
-!!! SC Kriens (36)
+    SC Kriens (36)                                            | Kriens,  Luzern
     Servette Genève (36)         => Servette FC               | Genève,  Genève
-!!! Stade Lausanne-Ouchy (36)
+    Stade Lausanne-Ouchy (36)                                 | Lausanne (Ouchy),  Lausanne
 ```
 
 
@@ -230,24 +209,24 @@
 
 ```
     AC Perugia Calcio (38)       => AC Perugia                | Perugia
-    AC Pisa (38)                                              | Pisa
-    AS Cittadella (38)           => Cittadella                | Cittadella
+    AC Pisa (38)                                              | Pisa,  Toscana
+    AS Cittadella (38)           => Cittadella                | Cittadella,  Veneto
     AS Livorno (38)              => AS Livorno Calcio         | Livorno
-    Ascoli Calcio (38)           => Ascoli                    | Ascoli Piceno
-    Benevento Calcio (38)        => Benevento                 | Benevento
-    Chievo Verona (38)           => AC Chievo Verona          | Verona
+    Ascoli Calcio (38)           => Ascoli                    | Ascoli Piceno,  Marche
+    Benevento Calcio (38)        => Benevento                 | Benevento,  Campania
+    Chievo Verona (38)           => AC Chievo Verona          | Verona,  Veneto
     Cosenza Calcio (38)                                       | Cosenza
-    Empoli FC (38)               => Empoli                    | Empoli
-    FC Crotone (38)                                           | Crotone
+    Empoli FC (38)               => Empoli                    | Empoli,  Toscana
+    FC Crotone (38)                                           | Crotone,  Calabria
     Frosinone Calcio (38)        => Frosinone                 | Frosinone
     Pescara Calcio (38)          => Pescara                   | Pescara
     Pordenone Calcio (38)                                     | Pordenone
     SS Juve Stabia (38)                                       | Castellammare di Stabia
     Spezia Calcio (38)           => Spezia                    | La Spezia
     Trapani Calcio (38)                                       | Trapani
-    US Cremonese (38)            => Cremonese                 | Cremona
+    US Cremonese (38)            => Cremonese                 | Cremona,  Lombardia
     US Salernitana 1919 (38)     => Salernitana               | Salerno
-!!! Venezia FC (38)
+    Venezia FC (38)              => Venezia                   | Venezia,  Veneto
     Virtus Entella (38)                                       | Chiavari
 ```
 
@@ -258,25 +237,25 @@
 36 club names:
 
 ```
-!!! Avangard Kursk (38)
+    Avangard Kursk (38)          => FC Avangard Kursk         | Kursk
     Baltika Kaliningrad (38)     => FC Baltika                | Kaliningrad
     Chayka Peschanokopskoye (38) => FC Chayka                 | Peschanokopskoye
-!!! Enisey Krasnoyarsk (38)
+    Enisey Krasnoyarsk (38)      => Yenisey                   | Krasnoyarsk
     FC Neftekhimik (38)          => Neftekhimik Nizhnekamsk   | Nizhnekamsk
-!!! FK Chertanovo Moskva (38)
+    FK Chertanovo Moskva (38)    => FC Chertanovo Moskva      | Moskva
     FK Khimki (38)               => FC Khimki                 | Khimki
-!!! FK Krasnodar 2 (38)
-!!! FK Nizhny Novgorod (38)
-!!! FK Tom Tomsk (38)
-!!! FK Torpedo Armavir (38)
+    FK Krasnodar 2 (38)          => FC Krasnodar 2            | Krasnodar
+    FK Nizhny Novgorod (38)      => Nizhnii Novgorod          | Nizhny Novgorod
+    FK Tom Tomsk (38)            => Tom Tomsk                 | Tomsk
+    FK Torpedo Armavir (38)      => FC Armavir                | Armavir
     Fakel Voronezh (38)          => FC Fakel Voronezh         | Voronezh
-!!! Luch-Energia (38)
+    Luch-Energia (38)            => Luch Energia Vladivostok  | Vladivostok
     Mordovia Saransk (38)        => FC Mordovia               | Saransk
     Rotor Volgograd (38)         => Rotor                     | Volgograd
-!!! SKA-Energia Khabarovsk (38)
+    SKA-Energia Khabarovsk (38)  => SKA Khabarovsk            | Khabarovsk
     Shinnik Yaroslavl (38)       => Shinnik                   | Yaroslavl
-!!! Spartak Moskva 2 (38)
-!!! Tekstilshchik Ivanovo (38)
+    Spartak Moskva 2 (38)        => Spartak Moskva II         | Moskva
+    Tekstilshchik Ivanovo (38)   => FC Tekstilshchik Ivanovo  | Ivanovo
     Torpedo Moskva (38)                                       | Moskva
     Akhmat Grozny (30)                                        | Grozny
     Arsenal Tula (30)                                         | Tula
@@ -287,7 +266,7 @@
     FK Orenburg (30)             => FC Orenburg               | Orenburg
     FK Rostov (30)               => FC Rostov                 | Rostov-on-Don
     FK Tambov (30)               => FC Tambov                 | Tambov
-!!! FK Ufa (30)
+    FK Ufa (30)                  => FC Ufa                    | Ufa
     Krylia Sovetov (30)          => PFC Krylya Sovetov Samara | Samara
     Lokomotiv Moskva (30)                                     | Moskva
     PFC Sochi (30)                                            | Sochi
@@ -308,7 +287,7 @@
     Akhisar Belediyespor (34)    => Akhisarspor               | Akhisar
     Alanyaspor (34)                                           | Alanya
     Altay Izmir (34)             => Altay SK                  | İzmir
-!!! Altınordu FSG (34)
+    Altınordu FSG (34)           => Altınordu                 | İzmir
     Antalyaspor (34)                                          | Antalya
     Atiker Konyaspor (34)        => Konyaspor                 | Konya
     BB Erzurumspor (34)                                       | Erzurum

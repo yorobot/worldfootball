@@ -1,6 +1,6 @@
 # Summary
 
-26 datafiles
+44 datafiles
 
 
 
@@ -54,6 +54,67 @@
 - **LASK Linz** _(2)_ LASK Linz · LASK
 
 
+## Spain (es)
+
+52 club names:
+
+```
+    AD Alcorcón (336)                                         | Alcorcón,  Comunidad de Madrid
+    CD Lugo (336)                                             | ?  
+    CD Numancia (336)                                         | ?  
+    CD Tenerife (294)                                         | Santa Cruz de Tenerife,  Canarias
+    Real Zaragoza (294)                                       | Zaragoza,  Aragón
+    CD Mirandés (252)                                         | Miranda de Ebro,  Castilla y León
+    Córdoba CF (252)                                          | Córdoba,  Andalucía
+    Girona FC (252)                                           | Gerona,  Cataluña
+    Sporting Gijón (252)                                      | Gijón,  Asturias
+    UD Almería (252)                                          | Almería,  Andalucía
+    Albacete (210)               => Albacete Balompié         | Albacete,  Castilla-La Mancha
+    Elche CF (210)                                            | Elche,  Comunidad Valenciana
+    RCD Mallorca (210)                                        | Palma de Mallorca,  Islas Baleares
+    Real Oviedo (210)                                         | ?  
+    SD Huesca (210)                                           | Huesca,  Aragón
+    SD Ponferradina (210)                                     | ?  
+    UD Las Palmas (210)                                       | Las Palmas,  Islas Canarias
+    CA Osasuna (168)                                          | Pamplona
+    Cádiz CF (168)                                            | Cádiz,  Andalucía
+    FC Barcelona B (168)                                      | Barcelona,  Cataluña
+    Gimnàstic (168)              => Gimnàstic Tarragona       | Tarragona,  Cataluña
+    Real Valladolid (168)        => Real Valladolid CF        | ?  
+    CD Alavés (126)              => Deportivo Alavés          | Vitoria,  País Vasco
+    CE Sabadell (126)                                         | ?  
+    CF Reus Deportiu (126)       => CF Reus                   | Reus,  Cataluña
+    Deportivo La Coruña (126)    => RCD La Coruña             | La Coruña,  Galicia
+    Racing Santander (126)       => Real Racing Santander     | Santander
+    Rayo Vallecano (126)                                      | Madrid,  Comunidad de Madrid
+    Recreativo Huelva (126)                                   | ?  
+    CD Leganés (84)                                           | ?  
+    Extremadura UD (84)                                       | Almendralejo,  Extremadura
+    Granada CF (84)                                           | Granada,  Andalucía
+    Hércules CF (84)                                          | Alicante,  Comunidad Valenciana
+    Málaga CF (84)                                            | Málaga,  Andalucía
+    Real Madrid Castilla (84)                                 | ?  
+    Real Murcia (84)             => Real Murcia CF            | Murcia,  Región de Murcia
+    Sevilla Atlético (84)        => Sevilla FC B              | Sevilla,  Andalucía
+    UE Llagostera (84)                                        | ?  
+    Athletic Bilbao B (42)       => Athletic Club Bilbao B    | Bilbao,  País Vasco
+    CD Guadalajara (42)                                       | Guadalajara,  Castilla-La Mancha
+    CD Leonesa (42)              => Cultural Leonesa          | León
+    CF Fuenlabrada (42)                                       | Fuenlabrada,  Comunidad de Madrid
+    Getafe CF (42)                                            | Madrid,  Comunidad de Madrid
+    Levante UD (42)                                           | Valencia,  Comunidad Valenciana
+    Lorca FC (42)                                             | ?  
+    Rayo Majadahonda (42)        => CF Rayo Majadahonda       | Majadahonda,  Comunidad de Madrid
+    Real Betis (42)                                           | Sevilla,  Andalucía
+    Real Jaén (42)               => Real Jaén CF              | Jaén,  Andalucía
+    SD Eibar (42)                                             | Eibar,  País Vasco
+    UCAM Murcia CF (42)          => UCAM Murcia               | Murcia,  Región de Murcia
+    Villarreal CF (42)                                        | Villarreal,  Comunidad Valenciana
+    Xerez CD (42)                                             | ?  
+```
+
+
+
 ## Germany (de)
 
 18 club names:
@@ -77,6 +138,115 @@
     TSV 1860 München (34)                                     | München,  Bayern
     VfL Bochum (34)                                           | Bochum,  Nordrhein-Westfalen
     VfR Aalen (34)                                            | Aalen,  Baden-Württemberg
+```
+
+
+
+## Italy (it)
+
+49 club names:
+
+```
+    Spezia Calcio (284)          => Spezia                    | La Spezia
+    Brescia Calcio (246)         => Brescia                   | Brescia,  Lombardia
+    AC Perugia Calcio (242)      => AC Perugia                | Perugia
+    AS Cittadella (242)          => Cittadella                | Cittadella,  Veneto
+    Pescara Calcio (242)         => Pescara                   | Pescara
+    Ternana Calcio (210)         => Ternana                   | Terni
+    Trapani Calcio (206)                                      | Trapani
+    Virtus Entella (206)                                      | Chiavari
+    Carpi FC (204)               => Carpi                     | Carpi,  Emilia-Romagna
+    FC Crotone (200)                                          | Crotone,  Calabria
+    US Salernitana 1919 (200)    => Salernitana               | Salerno
+xxx AC Cesena (168)              => AC Cesena (1940-2018)     | Cesena,  Emilia-Romagna
+    FC Bari 1908 (168)           => Bari                      | Bari,  Puglia
+    Latina Calcio (168)          => SSD Latina Calcio         | Latina
+    Novara Calcio (168)          => Novara                    | Novara
+    Pro Vercelli (168)                                        | Vercelli
+    Frosinone Calcio (164)       => Frosinone                 | Frosinone
+    AS Livorno (158)             => AS Livorno Calcio         | Livorno
+    Ascoli Picchio FC (126)      => Ascoli                    | Ascoli Piceno,  Marche
+    Modena FC (126)                                           | Modena,  Emilia-Romagna
+    US Avellino (126)            => Avellino                  | Avellino,  Campania
+    Vicenza Calcio (126)         => LR Vicenza Virtus         | Vicenza,  Veneto
+    Virtus Lanciano (126)                                     | Lanciano
+    Empoli FC (122)              => Empoli                    | Empoli,  Toscana
+    US Palermo (120)             => Palermo                   | Palermo
+    Benevento Calcio (116)       => Benevento                 | Benevento,  Campania
+    US Cremonese (116)           => Cremonese                 | Cremona,  Lombardia
+    Venezia FC (116)             => Venezia                   | Venezia,  Veneto
+    AS Avellino (84)             => Avellino                  | Avellino,  Campania
+    AS Varese 1910 (84)          => Varese Calcio             | Varese
+    AC Pisa (80)                                              | Pisa,  Toscana
+    SS Juve Stabia (80)                                       | Castellammare di Stabia
+    Calcio Padova (78)                                        | Padova,  Veneto
+    Foggia Calcio (78)           => Calcio Foggia 1920        | Foggia,  Puglia
+    Hellas Verona (78)           => Hellas Verona FC          | Verona,  Veneto
+    Ascoli Calcio (74)           => Ascoli                    | Ascoli Piceno,  Marche
+    Cosenza Calcio (74)                                       | Cosenza
+    AC Siena (42)                => SS Robur Siena            | Siena,  Toscana
+    AS Bari (42)                 => Bari                      | Bari,  Puglia
+    Bologna FC (42)                                           | Bologna,  Emilia-Romagna
+    Cagliari Calcio (42)                                      | Cagliari,  Sardegna
+    Calcio Catania (42)                                       | Catania
+    Calcio Como (42)             => Como 1907                 | Como
+    Parma Calcio 1913 (42)       => Parma                     | Parma
+    Reggina Calcio (42)          => Reggina 1914              | Reggio Calabria
+    SPAL 2013 Ferrara (42)       => SPAL Ferrara              | Ferrara,  Emilia-Romagna
+    Chievo Verona (38)           => AC Chievo Verona          | Verona,  Veneto
+    Pordenone Calcio (38)                                     | Pordenone
+    US Lecce (36)                                             | Lecce
+```
+
+
+
+3 duplicates:
+- **Bari** _(2)_ FC Bari 1908 · AS Bari
+- **Ascoli** _(2)_ Ascoli Picchio FC · Ascoli Calcio
+- **Avellino** _(2)_ US Avellino · AS Avellino
+
+
+## France (fr)
+
+36 club names:
+
+```
+    AC Ajaccio (190)                                          | Ajaccio
+    AJ Auxerre (190)                                          | Auxerre
+    Chamois Niortais (190)       => Chamois Niortais FC       | Niort
+    Clermont Foot (190)          => Clermont Foot 63          | Clermont
+    FC Sochaux (190)             => FC Sochaux-Montbéliard    | Montbéliard
+    Le Havre AC (190)                                         | Le Havre
+    RC Lens (190)                                             | Lens
+    Valenciennes FC (190)                                     | Valenciennes
+    AS Nancy (152)               => AS Nancy Lorraine         | Nancy
+    Paris FC (152)                                            | Paris,  Île-de-France
+    Stade Brest (152)            => Stade Brestois 29         | Brest
+    US Orléans (152)                                          | Orléans
+    ESTAC Troyes (114)           => ES Troyes AC              | Troyes
+    FC Bourg-Péronnas (114)      => Bourg-en-Bresse 01        | Bourg-en-Bresse
+    FC Lorient (114)                                          | Lorient
+    GFC Ajaccio (114)                                         | Ajaccio
+    LB Châteauroux (114)                                      | Châteauroux
+    Nîmes Olympique (114)                                     | Nîmes
+    Red Star FC (114)                                         | Saint-Ouen,  Île-de-France
+    Tours FC (114)                                            | Tours
+    FC Metz (76)                                              | Metz
+    Grenoble Foot 38 (76)                                     | Grenoble
+    Stade Laval (76)             => Stade Lavallois           | Laval
+    Stade Reims (76)             => Stade de Reims            | Reims
+    AS Béziers (38)                                           | Béziers,  Occitanie
+    Amiens SC (38)                                            | Amiens,  Hauts-de-France
+    Dijon FCO (38)                                            | Dijon
+    EA Guingamp (38)                                          | Guingamp
+    FC Chambly (38)                                           | Chambly,  Hauts-de-France
+    Le Mans FC (38)                                           | Le Mans,  Pays de la Loire
+    RC Strasbourg (38)                                        | Strasbourg
+    Rodez AF (38)                                             | Rodez,  Occitanie
+    SM Caen (38)                 => Stade Malherbe Caen       | Caen
+    US Créteil-Lusitanos (38)    => US Créteil                | Créteil
+    US Quevilly-Rouen (38)       => US Quevilly-Rouen Métropole | Petit-Quevilly
+    Évian Thonon Gaillard (38)   => Évian TG FC               | Thonon-les-Bains
 ```
 
 
@@ -170,64 +340,6 @@
     SC Kriens (36)                                            | Kriens,  Luzern
     Servette Genève (36)         => Servette FC               | Genève,  Genève
     Stade Lausanne-Ouchy (36)                                 | Lausanne (Ouchy),  Lausanne
-```
-
-
-
-## France (fr)
-
-20 club names:
-
-```
-    AC Ajaccio (38)                                           | Ajaccio
-    AJ Auxerre (38)                                           | Auxerre
-    AS Nancy (38)                => AS Nancy Lorraine         | Nancy
-    Chamois Niortais (38)        => Chamois Niortais FC       | Niort
-    Clermont Foot (38)           => Clermont Foot 63          | Clermont
-    EA Guingamp (38)                                          | Guingamp
-    ESTAC Troyes (38)            => ES Troyes AC              | Troyes
-    FC Chambly (38)                                           | Chambly,  Hauts-de-France
-    FC Lorient (38)                                           | Lorient
-    FC Sochaux (38)              => FC Sochaux-Montbéliard    | Montbéliard
-    Grenoble Foot 38 (38)                                     | Grenoble
-    LB Châteauroux (38)                                       | Châteauroux
-    Le Havre AC (38)                                          | Le Havre
-    Le Mans FC (38)                                           | Le Mans,  Pays de la Loire
-    Paris FC (38)                                             | Paris,  Île-de-France
-    RC Lens (38)                                              | Lens
-    Rodez AF (38)                                             | Rodez,  Occitanie
-    SM Caen (38)                 => Stade Malherbe Caen       | Caen
-    US Orléans (38)                                           | Orléans
-    Valenciennes FC (38)                                      | Valenciennes
-```
-
-
-
-## Italy (it)
-
-20 club names:
-
-```
-    AC Perugia Calcio (38)       => AC Perugia                | Perugia
-    AC Pisa (38)                                              | Pisa,  Toscana
-    AS Cittadella (38)           => Cittadella                | Cittadella,  Veneto
-    AS Livorno (38)              => AS Livorno Calcio         | Livorno
-    Ascoli Calcio (38)           => Ascoli                    | Ascoli Piceno,  Marche
-    Benevento Calcio (38)        => Benevento                 | Benevento,  Campania
-    Chievo Verona (38)           => AC Chievo Verona          | Verona,  Veneto
-    Cosenza Calcio (38)                                       | Cosenza
-    Empoli FC (38)               => Empoli                    | Empoli,  Toscana
-    FC Crotone (38)                                           | Crotone,  Calabria
-    Frosinone Calcio (38)        => Frosinone                 | Frosinone
-    Pescara Calcio (38)          => Pescara                   | Pescara
-    Pordenone Calcio (38)                                     | Pordenone
-    SS Juve Stabia (38)                                       | Castellammare di Stabia
-    Spezia Calcio (38)           => Spezia                    | La Spezia
-    Trapani Calcio (38)                                       | Trapani
-    US Cremonese (38)            => Cremonese                 | Cremona,  Lombardia
-    US Salernitana 1919 (38)     => Salernitana               | Salerno
-    Venezia FC (38)              => Venezia                   | Venezia,  Veneto
-    Virtus Entella (38)                                       | Chiavari
 ```
 
 

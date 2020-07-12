@@ -119,36 +119,36 @@ Matchday,Date,Team 1,FT,HT,Team 2,Comments
 12,Wed Jul 1 2020,SE Palmeiras,(*),,CR Flamengo,postponed
 12,Wed Jul 1 2020,CA Paranaense,(*),,EC Bahia,postponed
 12,Wed Jul 1 2020,Ceará SC,(*),,Goiás EC,postponed
-13,Sun Jul 5 2020,Grêmio FBPA,,,SC Internacional,
-13,Sun Jul 5 2020,Botafogo FR,,,Fluminense FC,
-13,Sun Jul 5 2020,EC Bahia,,,SC Recife,
-13,Sun Jul 5 2020,CA Mineiro,,,CR Vasco da Gama,
-13,Sun Jul 5 2020,Coritiba FBC,,,São Paulo FC,
-13,Sun Jul 5 2020,CR Flamengo,,,CA Paranaense,
-13,Sun Jul 5 2020,SE Palmeiras,,,Ceará SC,
-13,Sun Jul 5 2020,Goiás EC,,,Santos FC,
-13,Sun Jul 5 2020,Fortaleza EC,,,AC Goianiense,
-13,Sun Jul 5 2020,RB Bragantino,,,SC Corinthians Paulista,
-14,Wed Jul 8 2020,São Paulo FC,,,AC Goianiense,
-14,Wed Jul 8 2020,Grêmio FBPA,,,Coritiba FBC,
-14,Wed Jul 8 2020,Botafogo FR,,,SE Palmeiras,
-14,Wed Jul 8 2020,EC Bahia,,,CR Vasco da Gama,
-14,Wed Jul 8 2020,CR Flamengo,,,SC Recife,
-14,Wed Jul 8 2020,SC Corinthians Paulista,,,Santos FC,
-14,Wed Jul 8 2020,CA Paranaense,,,Ceará SC,
-14,Wed Jul 8 2020,Goiás EC,,,Fluminense FC,
-14,Wed Jul 8 2020,Fortaleza EC,,,CA Mineiro,
-14,Wed Jul 8 2020,RB Bragantino,,,SC Internacional,
-15,Sun Jul 12 2020,SC Internacional,,,CA Paranaense,
-15,Sun Jul 12 2020,Santos FC,,,Grêmio FBPA,
-15,Sun Jul 12 2020,AC Goianiense,,,RB Bragantino,
-15,Sun Jul 12 2020,CA Mineiro,,,Goiás EC,
-15,Sun Jul 12 2020,Coritiba FBC,,,Fortaleza EC,
-15,Sun Jul 12 2020,CR Vasco da Gama,,,CR Flamengo,
-15,Sun Jul 12 2020,Fluminense FC,,,EC Bahia,
-15,Sun Jul 12 2020,SC Recife,,,Botafogo FR,
-15,Sun Jul 12 2020,SE Palmeiras,,,São Paulo FC,
-15,Sun Jul 12 2020,Ceará SC,,,SC Corinthians Paulista,
+13,Sun Jul 5 2020,Grêmio FBPA,(*),,SC Internacional,postponed
+13,Sun Jul 5 2020,Botafogo FR,(*),,Fluminense FC,postponed
+13,Sun Jul 5 2020,EC Bahia,(*),,SC Recife,postponed
+13,Sun Jul 5 2020,CA Mineiro,(*),,CR Vasco da Gama,postponed
+13,Sun Jul 5 2020,Coritiba FBC,(*),,São Paulo FC,postponed
+13,Sun Jul 5 2020,CR Flamengo,(*),,CA Paranaense,postponed
+13,Sun Jul 5 2020,SE Palmeiras,(*),,Ceará SC,postponed
+13,Sun Jul 5 2020,Goiás EC,(*),,Santos FC,postponed
+13,Sun Jul 5 2020,Fortaleza EC,(*),,AC Goianiense,postponed
+13,Sun Jul 5 2020,RB Bragantino,(*),,SC Corinthians Paulista,postponed
+14,Wed Jul 8 2020,São Paulo FC,(*),,AC Goianiense,postponed
+14,Wed Jul 8 2020,Grêmio FBPA,(*),,Coritiba FBC,postponed
+14,Wed Jul 8 2020,Botafogo FR,(*),,SE Palmeiras,postponed
+14,Wed Jul 8 2020,EC Bahia,(*),,CR Vasco da Gama,postponed
+14,Wed Jul 8 2020,CR Flamengo,(*),,SC Recife,postponed
+14,Wed Jul 8 2020,SC Corinthians Paulista,(*),,Santos FC,postponed
+14,Wed Jul 8 2020,CA Paranaense,(*),,Ceará SC,postponed
+14,Wed Jul 8 2020,Goiás EC,(*),,Fluminense FC,postponed
+14,Wed Jul 8 2020,Fortaleza EC,(*),,CA Mineiro,postponed
+14,Wed Jul 8 2020,RB Bragantino,(*),,SC Internacional,postponed
+15,Sun Jul 12 2020,SC Internacional,(*),,CA Paranaense,postponed
+15,Sun Jul 12 2020,Santos FC,(*),,Grêmio FBPA,postponed
+15,Sun Jul 12 2020,AC Goianiense,(*),,RB Bragantino,postponed
+15,Sun Jul 12 2020,CA Mineiro,(*),,Goiás EC,postponed
+15,Sun Jul 12 2020,Coritiba FBC,(*),,Fortaleza EC,postponed
+15,Sun Jul 12 2020,CR Vasco da Gama,(*),,CR Flamengo,postponed
+15,Sun Jul 12 2020,Fluminense FC,(*),,EC Bahia,postponed
+15,Sun Jul 12 2020,SC Recife,(*),,Botafogo FR,postponed
+15,Sun Jul 12 2020,SE Palmeiras,(*),,São Paulo FC,postponed
+15,Sun Jul 12 2020,Ceará SC,(*),,SC Corinthians Paulista,postponed
 16,Sun Jul 19 2020,Grêmio FBPA,,,Botafogo FR,
 16,Sun Jul 19 2020,Santos FC,,,AC Goianiense,
 16,Sun Jul 19 2020,CA Mineiro,,,Fluminense FC,

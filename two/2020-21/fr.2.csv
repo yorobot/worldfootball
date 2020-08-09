@@ -1,0 +1,381 @@
+Round,Date,Time,Team 1,FT,Team 2
+1,Sat Aug 22 2020,20:00,AC Ajaccio,,LB Châteauroux
+1,Sat Aug 22 2020,20:00,AJ Auxerre,,FC Sochaux
+1,Sat Aug 22 2020,20:00,Clermont Foot,,SM Caen
+1,Sat Aug 22 2020,20:00,EA Guingamp,,Chamois Niortais
+1,Sat Aug 22 2020,20:00,ESTAC Troyes,,Le Havre AC
+1,Sat Aug 22 2020,20:00,FC Chambly,,Paris FC
+1,Sat Aug 22 2020,20:00,Toulouse FC,,USL Dunkerque
+1,Sat Aug 22 2020,20:00,Valenciennes FC,,Pau FC
+1,Sat Aug 22 2020,20:00,Rodez AF,,Grenoble Foot 38
+1,Sat Aug 22 2020,20:00,Amiens SC,,AS Nancy
+2,Sat Aug 29 2020,20:00,Le Havre AC,,Amiens SC
+2,Sat Aug 29 2020,20:00,AS Nancy,,EA Guingamp
+2,Sat Aug 29 2020,20:00,Chamois Niortais,,FC Chambly
+2,Sat Aug 29 2020,20:00,Paris FC,,Valenciennes FC
+2,Sat Aug 29 2020,20:00,Pau FC,,Rodez AF
+2,Sat Aug 29 2020,20:00,FC Sochaux,,ESTAC Troyes
+2,Sat Aug 29 2020,20:00,Grenoble Foot 38,,Toulouse FC
+2,Sat Aug 29 2020,20:00,LB Châteauroux,,AJ Auxerre
+2,Sat Aug 29 2020,20:00,SM Caen,,AC Ajaccio
+2,Sat Aug 29 2020,20:00,USL Dunkerque,,Clermont Foot
+3,Sat Sep 12 2020,20:00,AC Ajaccio,,USL Dunkerque
+3,Sat Sep 12 2020,20:00,AJ Auxerre,,Clermont Foot
+3,Sat Sep 12 2020,20:00,EA Guingamp,,Le Havre AC
+3,Sat Sep 12 2020,20:00,ESTAC Troyes,,Pau FC
+3,Sat Sep 12 2020,20:00,FC Chambly,,Grenoble Foot 38
+3,Sat Sep 12 2020,20:00,Chamois Niortais,,AS Nancy
+3,Sat Sep 12 2020,20:00,Toulouse FC,,FC Sochaux
+3,Sat Sep 12 2020,20:00,Valenciennes FC,,LB Châteauroux
+3,Sat Sep 12 2020,20:00,Rodez AF,,SM Caen
+3,Sat Sep 12 2020,20:00,Amiens SC,,Paris FC
+4,Sat Sep 19 2020,20:00,Le Havre AC,,Chamois Niortais
+4,Sat Sep 19 2020,20:00,AJ Auxerre,,ESTAC Troyes
+4,Sat Sep 19 2020,20:00,Clermont Foot,,Toulouse FC
+4,Sat Sep 19 2020,20:00,Paris FC,,AS Nancy
+4,Sat Sep 19 2020,20:00,Pau FC,,EA Guingamp
+4,Sat Sep 19 2020,20:00,FC Sochaux,,Rodez AF
+4,Sat Sep 19 2020,20:00,Grenoble Foot 38,,AC Ajaccio
+4,Sat Sep 19 2020,20:00,LB Châteauroux,,Amiens SC
+4,Sat Sep 19 2020,20:00,SM Caen,,FC Chambly
+4,Sat Sep 19 2020,20:00,USL Dunkerque,,Valenciennes FC
+5,Sat Sep 26 2020,20:00,AC Ajaccio,,FC Sochaux
+5,Sat Sep 26 2020,20:00,AS Nancy,,Le Havre AC
+5,Sat Sep 26 2020,20:00,EA Guingamp,,Grenoble Foot 38
+5,Sat Sep 26 2020,20:00,ESTAC Troyes,,Clermont Foot
+5,Sat Sep 26 2020,20:00,FC Chambly,,LB Châteauroux
+5,Sat Sep 26 2020,20:00,Chamois Niortais,,Paris FC
+5,Sat Sep 26 2020,20:00,Toulouse FC,,AJ Auxerre
+5,Sat Sep 26 2020,20:00,Valenciennes FC,,SM Caen
+5,Sat Sep 26 2020,20:00,Rodez AF,,USL Dunkerque
+5,Sat Sep 26 2020,20:00,Amiens SC,,Pau FC
+6,Sat Oct 3 2020,20:00,AJ Auxerre,,AC Ajaccio
+6,Sat Oct 3 2020,20:00,Clermont Foot,,Rodez AF
+6,Sat Oct 3 2020,20:00,Paris FC,,Le Havre AC
+6,Sat Oct 3 2020,20:00,Pau FC,,AS Nancy
+6,Sat Oct 3 2020,20:00,FC Sochaux,,FC Chambly
+6,Sat Oct 3 2020,20:00,Toulouse FC,,ESTAC Troyes
+6,Sat Oct 3 2020,20:00,Grenoble Foot 38,,Valenciennes FC
+6,Sat Oct 3 2020,20:00,LB Châteauroux,,Chamois Niortais
+6,Sat Oct 3 2020,20:00,SM Caen,,Amiens SC
+6,Sat Oct 3 2020,20:00,USL Dunkerque,,EA Guingamp
+7,Sat Oct 17 2020,20:00,AC Ajaccio,,Toulouse FC
+7,Sat Oct 17 2020,20:00,Le Havre AC,,LB Châteauroux
+7,Sat Oct 17 2020,20:00,AS Nancy,,USL Dunkerque
+7,Sat Oct 17 2020,20:00,EA Guingamp,,AJ Auxerre
+7,Sat Oct 17 2020,20:00,FC Chambly,,Clermont Foot
+7,Sat Oct 17 2020,20:00,Chamois Niortais,,SM Caen
+7,Sat Oct 17 2020,20:00,Paris FC,,Pau FC
+7,Sat Oct 17 2020,20:00,Valenciennes FC,,FC Sochaux
+7,Sat Oct 17 2020,20:00,Rodez AF,,ESTAC Troyes
+7,Sat Oct 17 2020,20:00,Amiens SC,,Grenoble Foot 38
+8,Sat Oct 24 2020,20:00,AJ Auxerre,,FC Chambly
+8,Sat Oct 24 2020,20:00,Clermont Foot,,AC Ajaccio
+8,Sat Oct 24 2020,20:00,ESTAC Troyes,,Valenciennes FC
+8,Sat Oct 24 2020,20:00,Pau FC,,Chamois Niortais
+8,Sat Oct 24 2020,20:00,FC Sochaux,,Amiens SC
+8,Sat Oct 24 2020,20:00,Toulouse FC,,Rodez AF
+8,Sat Oct 24 2020,20:00,Grenoble Foot 38,,AS Nancy
+8,Sat Oct 24 2020,20:00,LB Châteauroux,,Paris FC
+8,Sat Oct 24 2020,20:00,SM Caen,,EA Guingamp
+8,Sat Oct 24 2020,20:00,USL Dunkerque,,Le Havre AC
+9,Sat Oct 31 2020,20:00,AC Ajaccio,,ESTAC Troyes
+9,Sat Oct 31 2020,20:00,Le Havre AC,,Pau FC
+9,Sat Oct 31 2020,20:00,AS Nancy,,LB Châteauroux
+9,Sat Oct 31 2020,20:00,EA Guingamp,,FC Sochaux
+9,Sat Oct 31 2020,20:00,FC Chambly,,USL Dunkerque
+9,Sat Oct 31 2020,20:00,Chamois Niortais,,Grenoble Foot 38
+9,Sat Oct 31 2020,20:00,Paris FC,,SM Caen
+9,Sat Oct 31 2020,20:00,Valenciennes FC,,Clermont Foot
+9,Sat Oct 31 2020,20:00,Rodez AF,,AJ Auxerre
+9,Sat Oct 31 2020,20:00,Amiens SC,,Toulouse FC
+10,Sat Nov 7 2020,20:00,AJ Auxerre,,Amiens SC
+10,Sat Nov 7 2020,20:00,Clermont Foot,,EA Guingamp
+10,Sat Nov 7 2020,20:00,ESTAC Troyes,,FC Chambly
+10,Sat Nov 7 2020,20:00,FC Sochaux,,Chamois Niortais
+10,Sat Nov 7 2020,20:00,Toulouse FC,,Valenciennes FC
+10,Sat Nov 7 2020,20:00,Grenoble Foot 38,,Le Havre AC
+10,Sat Nov 7 2020,20:00,LB Châteauroux,,Pau FC
+10,Sat Nov 7 2020,20:00,Rodez AF,,AC Ajaccio
+10,Sat Nov 7 2020,20:00,SM Caen,,AS Nancy
+10,Sat Nov 7 2020,20:00,USL Dunkerque,,Paris FC
+11,Sat Nov 21 2020,20:00,Le Havre AC,,SM Caen
+11,Sat Nov 21 2020,20:00,AS Nancy,,ESTAC Troyes
+11,Sat Nov 21 2020,20:00,EA Guingamp,,AC Ajaccio
+11,Sat Nov 21 2020,20:00,FC Chambly,,Toulouse FC
+11,Sat Nov 21 2020,20:00,Chamois Niortais,,USL Dunkerque
+11,Sat Nov 21 2020,20:00,Paris FC,,AJ Auxerre
+11,Sat Nov 21 2020,20:00,Pau FC,,Grenoble Foot 38
+11,Sat Nov 21 2020,20:00,Valenciennes FC,,Rodez AF
+11,Sat Nov 21 2020,20:00,LB Châteauroux,,FC Sochaux
+11,Sat Nov 21 2020,20:00,Amiens SC,,Clermont Foot
+12,Sat Nov 28 2020,20:00,AC Ajaccio,,FC Chambly
+12,Sat Nov 28 2020,20:00,AJ Auxerre,,Valenciennes FC
+12,Sat Nov 28 2020,20:00,Clermont Foot,,AS Nancy
+12,Sat Nov 28 2020,20:00,ESTAC Troyes,,Amiens SC
+12,Sat Nov 28 2020,20:00,FC Sochaux,,Le Havre AC
+12,Sat Nov 28 2020,20:00,Toulouse FC,,Chamois Niortais
+12,Sat Nov 28 2020,20:00,Grenoble Foot 38,,Paris FC
+12,Sat Nov 28 2020,20:00,Rodez AF,,EA Guingamp
+12,Sat Nov 28 2020,20:00,SM Caen,,LB Châteauroux
+12,Sat Nov 28 2020,20:00,USL Dunkerque,,Pau FC
+13,Tue Dec 1 2020,20:00,Le Havre AC,,AJ Auxerre
+13,Tue Dec 1 2020,20:00,AS Nancy,,Toulouse FC
+13,Tue Dec 1 2020,20:00,EA Guingamp,,ESTAC Troyes
+13,Tue Dec 1 2020,20:00,FC Chambly,,Rodez AF
+13,Tue Dec 1 2020,20:00,Chamois Niortais,,Clermont Foot
+13,Tue Dec 1 2020,20:00,Paris FC,,FC Sochaux
+13,Tue Dec 1 2020,20:00,Pau FC,,SM Caen
+13,Tue Dec 1 2020,20:00,Valenciennes FC,,AC Ajaccio
+13,Tue Dec 1 2020,20:00,LB Châteauroux,,Grenoble Foot 38
+13,Tue Dec 1 2020,20:00,Amiens SC,,USL Dunkerque
+14,Sat Dec 5 2020,20:00,AC Ajaccio,,Le Havre AC
+14,Sat Dec 5 2020,20:00,AJ Auxerre,,Chamois Niortais
+14,Sat Dec 5 2020,20:00,Clermont Foot,,Pau FC
+14,Sat Dec 5 2020,20:00,ESTAC Troyes,,Paris FC
+14,Sat Dec 5 2020,20:00,FC Chambly,,Valenciennes FC
+14,Sat Dec 5 2020,20:00,FC Sochaux,,AS Nancy
+14,Sat Dec 5 2020,20:00,Toulouse FC,,EA Guingamp
+14,Sat Dec 5 2020,20:00,Rodez AF,,Amiens SC
+14,Sat Dec 5 2020,20:00,SM Caen,,Grenoble Foot 38
+14,Sat Dec 5 2020,20:00,USL Dunkerque,,LB Châteauroux
+15,Tue Dec 15 2020,20:00,Le Havre AC,,Clermont Foot
+15,Tue Dec 15 2020,20:00,AS Nancy,,AJ Auxerre
+15,Tue Dec 15 2020,20:00,EA Guingamp,,Valenciennes FC
+15,Tue Dec 15 2020,20:00,Chamois Niortais,,AC Ajaccio
+15,Tue Dec 15 2020,20:00,Paris FC,,Rodez AF
+15,Tue Dec 15 2020,20:00,Pau FC,,FC Sochaux
+15,Tue Dec 15 2020,20:00,Grenoble Foot 38,,USL Dunkerque
+15,Tue Dec 15 2020,20:00,LB Châteauroux,,Toulouse FC
+15,Tue Dec 15 2020,20:00,Amiens SC,,FC Chambly
+15,Tue Dec 15 2020,20:00,SM Caen,,ESTAC Troyes
+16,Sat Dec 19 2020,20:00,AC Ajaccio,,AS Nancy
+16,Sat Dec 19 2020,20:00,AJ Auxerre,,Pau FC
+16,Sat Dec 19 2020,20:00,Clermont Foot,,Paris FC
+16,Sat Dec 19 2020,20:00,ESTAC Troyes,,Chamois Niortais
+16,Sat Dec 19 2020,20:00,FC Chambly,,EA Guingamp
+16,Sat Dec 19 2020,20:00,FC Sochaux,,Grenoble Foot 38
+16,Sat Dec 19 2020,20:00,Toulouse FC,,Le Havre AC
+16,Sat Dec 19 2020,20:00,Valenciennes FC,,Amiens SC
+16,Sat Dec 19 2020,20:00,Rodez AF,,LB Châteauroux
+16,Sat Dec 19 2020,20:00,USL Dunkerque,,SM Caen
+17,Tue Dec 22 2020,20:00,Le Havre AC,,Rodez AF
+17,Tue Dec 22 2020,20:00,AS Nancy,,FC Chambly
+17,Tue Dec 22 2020,20:00,Chamois Niortais,,Valenciennes FC
+17,Tue Dec 22 2020,20:00,Paris FC,,EA Guingamp
+17,Tue Dec 22 2020,20:00,Pau FC,,Toulouse FC
+17,Tue Dec 22 2020,20:00,Grenoble Foot 38,,ESTAC Troyes
+17,Tue Dec 22 2020,20:00,LB Châteauroux,,Clermont Foot
+17,Tue Dec 22 2020,20:00,Amiens SC,,AC Ajaccio
+17,Tue Dec 22 2020,20:00,SM Caen,,FC Sochaux
+17,Tue Dec 22 2020,20:00,USL Dunkerque,,AJ Auxerre
+18,Tue Jan 5 2021,20:00,AC Ajaccio,,Pau FC
+18,Tue Jan 5 2021,20:00,AJ Auxerre,,SM Caen
+18,Tue Jan 5 2021,20:00,Clermont Foot,,Grenoble Foot 38
+18,Tue Jan 5 2021,20:00,EA Guingamp,,Amiens SC
+18,Tue Jan 5 2021,20:00,ESTAC Troyes,,LB Châteauroux
+18,Tue Jan 5 2021,20:00,FC Chambly,,Le Havre AC
+18,Tue Jan 5 2021,20:00,FC Sochaux,,USL Dunkerque
+18,Tue Jan 5 2021,20:00,Toulouse FC,,Paris FC
+18,Tue Jan 5 2021,20:00,Valenciennes FC,,AS Nancy
+18,Tue Jan 5 2021,20:00,Rodez AF,,Chamois Niortais
+19,Sat Jan 9 2021,20:00,Le Havre AC,,Valenciennes FC
+19,Sat Jan 9 2021,20:00,AS Nancy,,Rodez AF
+19,Sat Jan 9 2021,20:00,Chamois Niortais,,Amiens SC
+19,Sat Jan 9 2021,20:00,Paris FC,,AC Ajaccio
+19,Sat Jan 9 2021,20:00,Pau FC,,FC Chambly
+19,Sat Jan 9 2021,20:00,FC Sochaux,,Clermont Foot
+19,Sat Jan 9 2021,20:00,Grenoble Foot 38,,AJ Auxerre
+19,Sat Jan 9 2021,20:00,LB Châteauroux,,EA Guingamp
+19,Sat Jan 9 2021,20:00,SM Caen,,Toulouse FC
+19,Sat Jan 9 2021,20:00,USL Dunkerque,,ESTAC Troyes
+20,Tue Jan 19 2021,20:00,AC Ajaccio,,SM Caen
+20,Tue Jan 19 2021,20:00,AJ Auxerre,,LB Châteauroux
+20,Tue Jan 19 2021,20:00,Clermont Foot,,USL Dunkerque
+20,Tue Jan 19 2021,20:00,EA Guingamp,,AS Nancy
+20,Tue Jan 19 2021,20:00,ESTAC Troyes,,FC Sochaux
+20,Tue Jan 19 2021,20:00,FC Chambly,,Chamois Niortais
+20,Tue Jan 19 2021,20:00,Toulouse FC,,Grenoble Foot 38
+20,Tue Jan 19 2021,20:00,Valenciennes FC,,Paris FC
+20,Tue Jan 19 2021,20:00,Rodez AF,,Pau FC
+20,Tue Jan 19 2021,20:00,Amiens SC,,Le Havre AC
+21,Sat Jan 23 2021,20:00,Le Havre AC,,EA Guingamp
+21,Sat Jan 23 2021,20:00,AS Nancy,,Chamois Niortais
+21,Sat Jan 23 2021,20:00,Clermont Foot,,AJ Auxerre
+21,Sat Jan 23 2021,20:00,Paris FC,,Amiens SC
+21,Sat Jan 23 2021,20:00,Pau FC,,ESTAC Troyes
+21,Sat Jan 23 2021,20:00,FC Sochaux,,Toulouse FC
+21,Sat Jan 23 2021,20:00,Grenoble Foot 38,,FC Chambly
+21,Sat Jan 23 2021,20:00,LB Châteauroux,,Valenciennes FC
+21,Sat Jan 23 2021,20:00,SM Caen,,Rodez AF
+21,Sat Jan 23 2021,20:00,USL Dunkerque,,AC Ajaccio
+22,Sat Jan 30 2021,20:00,AC Ajaccio,,Grenoble Foot 38
+22,Sat Jan 30 2021,20:00,AS Nancy,,Paris FC
+22,Sat Jan 30 2021,20:00,EA Guingamp,,Pau FC
+22,Sat Jan 30 2021,20:00,ESTAC Troyes,,AJ Auxerre
+22,Sat Jan 30 2021,20:00,FC Chambly,,SM Caen
+22,Sat Jan 30 2021,20:00,Chamois Niortais,,Le Havre AC
+22,Sat Jan 30 2021,20:00,Toulouse FC,,Clermont Foot
+22,Sat Jan 30 2021,20:00,Valenciennes FC,,USL Dunkerque
+22,Sat Jan 30 2021,20:00,Rodez AF,,FC Sochaux
+22,Sat Jan 30 2021,20:00,Amiens SC,,LB Châteauroux
+23,Tue Feb 2 2021,20:00,Le Havre AC,,AS Nancy
+23,Tue Feb 2 2021,20:00,AJ Auxerre,,Toulouse FC
+23,Tue Feb 2 2021,20:00,Clermont Foot,,ESTAC Troyes
+23,Tue Feb 2 2021,20:00,Paris FC,,Chamois Niortais
+23,Tue Feb 2 2021,20:00,Pau FC,,Amiens SC
+23,Tue Feb 2 2021,20:00,FC Sochaux,,AC Ajaccio
+23,Tue Feb 2 2021,20:00,Grenoble Foot 38,,EA Guingamp
+23,Tue Feb 2 2021,20:00,LB Châteauroux,,FC Chambly
+23,Tue Feb 2 2021,20:00,SM Caen,,Valenciennes FC
+23,Tue Feb 2 2021,20:00,USL Dunkerque,,Rodez AF
+24,Sat Feb 6 2021,20:00,AC Ajaccio,,AJ Auxerre
+24,Sat Feb 6 2021,20:00,Le Havre AC,,Paris FC
+24,Sat Feb 6 2021,20:00,AS Nancy,,Pau FC
+24,Sat Feb 6 2021,20:00,EA Guingamp,,USL Dunkerque
+24,Sat Feb 6 2021,20:00,ESTAC Troyes,,Toulouse FC
+24,Sat Feb 6 2021,20:00,FC Chambly,,FC Sochaux
+24,Sat Feb 6 2021,20:00,Chamois Niortais,,LB Châteauroux
+24,Sat Feb 6 2021,20:00,Valenciennes FC,,Grenoble Foot 38
+24,Sat Feb 6 2021,20:00,Rodez AF,,Clermont Foot
+24,Sat Feb 6 2021,20:00,Amiens SC,,SM Caen
+25,Sat Feb 13 2021,20:00,AJ Auxerre,,EA Guingamp
+25,Sat Feb 13 2021,20:00,Clermont Foot,,FC Chambly
+25,Sat Feb 13 2021,20:00,ESTAC Troyes,,Rodez AF
+25,Sat Feb 13 2021,20:00,Pau FC,,Paris FC
+25,Sat Feb 13 2021,20:00,FC Sochaux,,Valenciennes FC
+25,Sat Feb 13 2021,20:00,Toulouse FC,,AC Ajaccio
+25,Sat Feb 13 2021,20:00,Grenoble Foot 38,,Amiens SC
+25,Sat Feb 13 2021,20:00,LB Châteauroux,,Le Havre AC
+25,Sat Feb 13 2021,20:00,SM Caen,,Chamois Niortais
+25,Sat Feb 13 2021,20:00,USL Dunkerque,,AS Nancy
+26,Sat Feb 20 2021,20:00,AC Ajaccio,,Clermont Foot
+26,Sat Feb 20 2021,20:00,Le Havre AC,,USL Dunkerque
+26,Sat Feb 20 2021,20:00,AS Nancy,,Grenoble Foot 38
+26,Sat Feb 20 2021,20:00,EA Guingamp,,SM Caen
+26,Sat Feb 20 2021,20:00,FC Chambly,,AJ Auxerre
+26,Sat Feb 20 2021,20:00,Chamois Niortais,,Pau FC
+26,Sat Feb 20 2021,20:00,Paris FC,,LB Châteauroux
+26,Sat Feb 20 2021,20:00,Valenciennes FC,,ESTAC Troyes
+26,Sat Feb 20 2021,20:00,Rodez AF,,Toulouse FC
+26,Sat Feb 20 2021,20:00,Amiens SC,,FC Sochaux
+27,Sat Feb 27 2021,20:00,AJ Auxerre,,Rodez AF
+27,Sat Feb 27 2021,20:00,Clermont Foot,,Valenciennes FC
+27,Sat Feb 27 2021,20:00,ESTAC Troyes,,AC Ajaccio
+27,Sat Feb 27 2021,20:00,Pau FC,,Le Havre AC
+27,Sat Feb 27 2021,20:00,FC Sochaux,,EA Guingamp
+27,Sat Feb 27 2021,20:00,Toulouse FC,,Amiens SC
+27,Sat Feb 27 2021,20:00,Grenoble Foot 38,,Chamois Niortais
+27,Sat Feb 27 2021,20:00,LB Châteauroux,,AS Nancy
+27,Sat Feb 27 2021,20:00,SM Caen,,Paris FC
+27,Sat Feb 27 2021,20:00,USL Dunkerque,,FC Chambly
+28,Sat Mar 6 2021,20:00,AC Ajaccio,,Rodez AF
+28,Sat Mar 6 2021,20:00,Le Havre AC,,Grenoble Foot 38
+28,Sat Mar 6 2021,20:00,AS Nancy,,SM Caen
+28,Sat Mar 6 2021,20:00,EA Guingamp,,Clermont Foot
+28,Sat Mar 6 2021,20:00,FC Chambly,,ESTAC Troyes
+28,Sat Mar 6 2021,20:00,Chamois Niortais,,FC Sochaux
+28,Sat Mar 6 2021,20:00,Paris FC,,USL Dunkerque
+28,Sat Mar 6 2021,20:00,Pau FC,,LB Châteauroux
+28,Sat Mar 6 2021,20:00,Valenciennes FC,,Toulouse FC
+28,Sat Mar 6 2021,20:00,Amiens SC,,AJ Auxerre
+29,Sat Mar 13 2021,20:00,AC Ajaccio,,EA Guingamp
+29,Sat Mar 13 2021,20:00,AJ Auxerre,,Paris FC
+29,Sat Mar 13 2021,20:00,Clermont Foot,,Amiens SC
+29,Sat Mar 13 2021,20:00,ESTAC Troyes,,AS Nancy
+29,Sat Mar 13 2021,20:00,FC Sochaux,,LB Châteauroux
+29,Sat Mar 13 2021,20:00,Toulouse FC,,FC Chambly
+29,Sat Mar 13 2021,20:00,Grenoble Foot 38,,Pau FC
+29,Sat Mar 13 2021,20:00,Rodez AF,,Valenciennes FC
+29,Sat Mar 13 2021,20:00,SM Caen,,Le Havre AC
+29,Sat Mar 13 2021,20:00,USL Dunkerque,,Chamois Niortais
+30,Sat Mar 20 2021,20:00,Le Havre AC,,FC Sochaux
+30,Sat Mar 20 2021,20:00,AS Nancy,,Clermont Foot
+30,Sat Mar 20 2021,20:00,EA Guingamp,,Rodez AF
+30,Sat Mar 20 2021,20:00,FC Chambly,,AC Ajaccio
+30,Sat Mar 20 2021,20:00,Chamois Niortais,,Toulouse FC
+30,Sat Mar 20 2021,20:00,Paris FC,,Grenoble Foot 38
+30,Sat Mar 20 2021,20:00,Pau FC,,USL Dunkerque
+30,Sat Mar 20 2021,20:00,Valenciennes FC,,AJ Auxerre
+30,Sat Mar 20 2021,20:00,LB Châteauroux,,SM Caen
+30,Sat Mar 20 2021,20:00,Amiens SC,,ESTAC Troyes
+31,Sat Apr 3 2021,20:00,AC Ajaccio,,Valenciennes FC
+31,Sat Apr 3 2021,20:00,AJ Auxerre,,Le Havre AC
+31,Sat Apr 3 2021,20:00,Clermont Foot,,Chamois Niortais
+31,Sat Apr 3 2021,20:00,ESTAC Troyes,,EA Guingamp
+31,Sat Apr 3 2021,20:00,FC Sochaux,,Paris FC
+31,Sat Apr 3 2021,20:00,Toulouse FC,,AS Nancy
+31,Sat Apr 3 2021,20:00,Grenoble Foot 38,,LB Châteauroux
+31,Sat Apr 3 2021,20:00,Rodez AF,,FC Chambly
+31,Sat Apr 3 2021,20:00,SM Caen,,Pau FC
+31,Sat Apr 3 2021,20:00,USL Dunkerque,,Amiens SC
+32,Sat Apr 10 2021,20:00,Le Havre AC,,AC Ajaccio
+32,Sat Apr 10 2021,20:00,AS Nancy,,FC Sochaux
+32,Sat Apr 10 2021,20:00,EA Guingamp,,Toulouse FC
+32,Sat Apr 10 2021,20:00,Chamois Niortais,,AJ Auxerre
+32,Sat Apr 10 2021,20:00,Paris FC,,ESTAC Troyes
+32,Sat Apr 10 2021,20:00,Pau FC,,Clermont Foot
+32,Sat Apr 10 2021,20:00,Valenciennes FC,,FC Chambly
+32,Sat Apr 10 2021,20:00,Grenoble Foot 38,,SM Caen
+32,Sat Apr 10 2021,20:00,LB Châteauroux,,USL Dunkerque
+32,Sat Apr 10 2021,20:00,Amiens SC,,Rodez AF
+33,Sat Apr 17 2021,20:00,AC Ajaccio,,Chamois Niortais
+33,Sat Apr 17 2021,20:00,AJ Auxerre,,AS Nancy
+33,Sat Apr 17 2021,20:00,Clermont Foot,,Le Havre AC
+33,Sat Apr 17 2021,20:00,ESTAC Troyes,,SM Caen
+33,Sat Apr 17 2021,20:00,FC Chambly,,Amiens SC
+33,Sat Apr 17 2021,20:00,FC Sochaux,,Pau FC
+33,Sat Apr 17 2021,20:00,Toulouse FC,,LB Châteauroux
+33,Sat Apr 17 2021,20:00,Valenciennes FC,,EA Guingamp
+33,Sat Apr 17 2021,20:00,Rodez AF,,Paris FC
+33,Sat Apr 17 2021,20:00,USL Dunkerque,,Grenoble Foot 38
+34,Tue Apr 20 2021,20:00,Le Havre AC,,Toulouse FC
+34,Tue Apr 20 2021,20:00,AS Nancy,,AC Ajaccio
+34,Tue Apr 20 2021,20:00,EA Guingamp,,FC Chambly
+34,Tue Apr 20 2021,20:00,Chamois Niortais,,ESTAC Troyes
+34,Tue Apr 20 2021,20:00,Paris FC,,Clermont Foot
+34,Tue Apr 20 2021,20:00,Pau FC,,AJ Auxerre
+34,Tue Apr 20 2021,20:00,Grenoble Foot 38,,FC Sochaux
+34,Tue Apr 20 2021,20:00,LB Châteauroux,,Rodez AF
+34,Tue Apr 20 2021,20:00,Amiens SC,,Valenciennes FC
+34,Tue Apr 20 2021,20:00,SM Caen,,USL Dunkerque
+35,Sat Apr 24 2021,20:00,AC Ajaccio,,Amiens SC
+35,Sat Apr 24 2021,20:00,AJ Auxerre,,USL Dunkerque
+35,Sat Apr 24 2021,20:00,Clermont Foot,,LB Châteauroux
+35,Sat Apr 24 2021,20:00,EA Guingamp,,Paris FC
+35,Sat Apr 24 2021,20:00,ESTAC Troyes,,Grenoble Foot 38
+35,Sat Apr 24 2021,20:00,FC Chambly,,AS Nancy
+35,Sat Apr 24 2021,20:00,FC Sochaux,,SM Caen
+35,Sat Apr 24 2021,20:00,Toulouse FC,,Pau FC
+35,Sat Apr 24 2021,20:00,Valenciennes FC,,Chamois Niortais
+35,Sat Apr 24 2021,20:00,Rodez AF,,Le Havre AC
+36,Sat May 1 2021,20:00,Le Havre AC,,FC Chambly
+36,Sat May 1 2021,20:00,AS Nancy,,Valenciennes FC
+36,Sat May 1 2021,20:00,Chamois Niortais,,Rodez AF
+36,Sat May 1 2021,20:00,Paris FC,,Toulouse FC
+36,Sat May 1 2021,20:00,Pau FC,,AC Ajaccio
+36,Sat May 1 2021,20:00,Grenoble Foot 38,,Clermont Foot
+36,Sat May 1 2021,20:00,LB Châteauroux,,ESTAC Troyes
+36,Sat May 1 2021,20:00,Amiens SC,,EA Guingamp
+36,Sat May 1 2021,20:00,SM Caen,,AJ Auxerre
+36,Sat May 1 2021,20:00,USL Dunkerque,,FC Sochaux
+37,Sat May 8 2021,20:00,AC Ajaccio,,Paris FC
+37,Sat May 8 2021,20:00,AJ Auxerre,,Grenoble Foot 38
+37,Sat May 8 2021,20:00,Clermont Foot,,FC Sochaux
+37,Sat May 8 2021,20:00,EA Guingamp,,LB Châteauroux
+37,Sat May 8 2021,20:00,ESTAC Troyes,,USL Dunkerque
+37,Sat May 8 2021,20:00,FC Chambly,,Pau FC
+37,Sat May 8 2021,20:00,Toulouse FC,,SM Caen
+37,Sat May 8 2021,20:00,Valenciennes FC,,Le Havre AC
+37,Sat May 8 2021,20:00,Rodez AF,,AS Nancy
+37,Sat May 8 2021,20:00,Amiens SC,,Chamois Niortais
+38,Sat May 15 2021,20:00,Le Havre AC,,ESTAC Troyes
+38,Sat May 15 2021,20:00,AS Nancy,,Amiens SC
+38,Sat May 15 2021,20:00,Chamois Niortais,,EA Guingamp
+38,Sat May 15 2021,20:00,Paris FC,,FC Chambly
+38,Sat May 15 2021,20:00,Pau FC,,Valenciennes FC
+38,Sat May 15 2021,20:00,FC Sochaux,,AJ Auxerre
+38,Sat May 15 2021,20:00,Grenoble Foot 38,,Rodez AF
+38,Sat May 15 2021,20:00,LB Châteauroux,,AC Ajaccio
+38,Sat May 15 2021,20:00,SM Caen,,Clermont Foot
+38,Sat May 15 2021,20:00,USL Dunkerque,,Toulouse FC

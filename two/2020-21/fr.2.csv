@@ -48,26 +48,26 @@ Round,Date,Time,Team 1,FT,HT,Team 2
 5,Sat Sep 26 2020,19:00,Rodez AF,2-1,1-0,USL Dunkerque
 5,Sat Sep 26 2020,19:00,Amiens SC,0-0,0-0,Pau FC
 5,Mon Sep 28 2020,20:45,ESTAC Troyes,1-0,1-0,Clermont Foot
-3,Wed Sep 30 2020,19:00,AC Ajaccio,,,USL Dunkerque
-6,Sat Oct 3 2020,15:00,Toulouse FC,,,ESTAC Troyes
-6,Sat Oct 3 2020,15:30,SM Caen,,,Amiens SC
-6,Sat Oct 3 2020,19:00,AJ Auxerre,,,AC Ajaccio
-6,Sat Oct 3 2020,19:00,Clermont Foot,,,Rodez AF
-6,Sat Oct 3 2020,19:00,Paris FC,,,Le Havre AC
-6,Sat Oct 3 2020,19:00,Pau FC,,,AS Nancy
-6,Sat Oct 3 2020,19:00,FC Sochaux,,,FC Chambly
-6,Sat Oct 3 2020,19:00,Grenoble Foot 38,,,Valenciennes FC
-6,Sat Oct 3 2020,19:00,LB Châteauroux,,,Chamois Niortais
-6,Sat Oct 3 2020,19:00,USL Dunkerque,,,EA Guingamp
-7,Sat Oct 17 2020,20:00,AC Ajaccio,,,Toulouse FC
-7,Sat Oct 17 2020,20:00,Le Havre AC,,,LB Châteauroux
-7,Sat Oct 17 2020,20:00,AS Nancy,,,USL Dunkerque
-7,Sat Oct 17 2020,20:00,FC Chambly,,,Clermont Foot
-7,Sat Oct 17 2020,20:00,Chamois Niortais,,,SM Caen
-7,Sat Oct 17 2020,20:00,Paris FC,,,Pau FC
-7,Sat Oct 17 2020,20:00,Valenciennes FC,,,FC Sochaux
-7,Sat Oct 17 2020,20:00,Rodez AF,,,ESTAC Troyes
-7,Sat Oct 17 2020,20:00,Amiens SC,,,Grenoble Foot 38
+3,Wed Sep 30 2020,19:00,AC Ajaccio,1-0,0-0,USL Dunkerque
+6,Sat Oct 3 2020,15:00,Toulouse FC,0-0,0-0,ESTAC Troyes
+6,Sat Oct 3 2020,15:30,SM Caen,1-0,1-0,Amiens SC
+6,Sat Oct 3 2020,19:00,AJ Auxerre,5-1,4-1,AC Ajaccio
+6,Sat Oct 3 2020,19:00,Clermont Foot,3-0,2-0,Rodez AF
+6,Sat Oct 3 2020,19:00,Paris FC,3-0,1-0,Le Havre AC
+6,Sat Oct 3 2020,19:00,Pau FC,1-1,1-0,AS Nancy
+6,Sat Oct 3 2020,19:00,FC Sochaux,3-2,1-1,FC Chambly
+6,Sat Oct 3 2020,19:00,Grenoble Foot 38,2-0,1-0,Valenciennes FC
+6,Sat Oct 3 2020,19:00,LB Châteauroux,2-0,1-0,Chamois Niortais
+6,Sat Oct 3 2020,19:00,USL Dunkerque,1-0,0-0,EA Guingamp
+7,Sat Oct 17 2020,15:00,Valenciennes FC,,,FC Sochaux
+7,Sat Oct 17 2020,19:00,AC Ajaccio,,,Toulouse FC
+7,Sat Oct 17 2020,19:00,Le Havre AC,,,LB Châteauroux
+7,Sat Oct 17 2020,19:00,AS Nancy,,,USL Dunkerque
+7,Sat Oct 17 2020,19:00,FC Chambly,,,Clermont Foot
+7,Sat Oct 17 2020,19:00,Chamois Niortais,,,SM Caen
+7,Sat Oct 17 2020,19:00,Paris FC,,,Pau FC
+7,Sat Oct 17 2020,19:00,Rodez AF,,,ESTAC Troyes
+7,Sat Oct 17 2020,19:00,Amiens SC,,,Grenoble Foot 38
 7,Mon Oct 19 2020,20:45,EA Guingamp,,,AJ Auxerre
 8,Sat Oct 24 2020,20:00,AJ Auxerre,,,FC Chambly
 8,Sat Oct 24 2020,20:00,Clermont Foot,,,AC Ajaccio

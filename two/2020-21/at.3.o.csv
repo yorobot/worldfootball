@@ -35,12 +35,12 @@ Round,Date,Time,Team 1,FT,HT,Team 2,Comments
 6,Fri Sep 25 2020,19:30,1. Wiener Neustädter SC,0-2,0-1,SC Team Wiener Linien,
 6,Fri Sep 25 2020,19:30,Wiener Sport-Club,1-1,1-1,FCM Traiskirchen,
 6,Sun Sep 27 2020,,FC Admira Wacker II,,,SV Leobendorf,postponed
-7,Fri Oct 2 2020,19:00,SC Neusiedl/See 1919,,,FC Admira Wacker II,
-7,Fri Oct 2 2020,19:30,ASV Draßburg,,,FC Mannsdorf/Großenzersdorf,
-7,Fri Oct 2 2020,19:30,FCM Traiskirchen,,,1. Wiener Neustädter SC,
-7,Sat Oct 3 2020,16:30,SV Stripfing/Weiden,,,Wiener Sport-Club,
-7,Sat Oct 3 2020,16:30,SV Leobendorf,,,ASK-BSC Bruck/Leitha,
-7,Sun Oct 4 2020,16:00,FC Mauerwerk,,,SC Wiener Viktoria,
+7,Fri Oct 2 2020,,SC Neusiedl/See 1919,,,FC Admira Wacker II,postponed
+7,Fri Oct 2 2020,19:30,ASV Draßburg,2-2,2-2,FC Mannsdorf/Großenzersdorf,
+7,Fri Oct 2 2020,19:30,FCM Traiskirchen,5-0,1-0,1. Wiener Neustädter SC,
+7,Sat Oct 3 2020,16:30,SV Stripfing/Weiden,0-2,0-2,Wiener Sport-Club,
+7,Sat Oct 3 2020,16:30,SV Leobendorf,2-0,0-0,ASK-BSC Bruck/Leitha,
+7,Sun Oct 4 2020,16:00,FC Mauerwerk,0-3,0-0,SC Wiener Viktoria,
 8,Fri Oct 9 2020,19:00,ASK-BSC Bruck/Leitha,,,SC Neusiedl/See 1919,
 8,Fri Oct 9 2020,19:30,FCM Traiskirchen,,,SV Stripfing/Weiden,
 8,Fri Oct 9 2020,19:30,Wiener Sport-Club,,,FC Mauerwerk,

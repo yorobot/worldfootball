@@ -17,60 +17,60 @@ Grunddurchgang,3,Sat Sep 26 2020,17:00,SV Ried,1-3,0-1,RB Salzburg
 Grunddurchgang,3,Sun Sep 27 2020,14:30,Austria Wien,2-2,1-1,FC Admira Wacker
 Grunddurchgang,3,Sun Sep 27 2020,14:30,TSV Hartberg,1-1,0-1,Sturm Graz
 Grunddurchgang,3,Sun Sep 27 2020,17:00,LASK,3-1,1-0,Wolfsberger AC
-Grunddurchgang,4,Sat Oct 3 2020,17:00,FC Admira Wacker,,,SV Ried
-Grunddurchgang,4,Sat Oct 3 2020,17:00,WSG Tirol,,,Austria Wien
-Grunddurchgang,4,Sat Oct 3 2020,17:00,Wolfsberger AC,,,SKN St. Pölten
-Grunddurchgang,4,Sun Oct 4 2020,14:30,Sturm Graz,,,SCR Altach
-Grunddurchgang,4,Sun Oct 4 2020,14:30,RB Salzburg,,,TSV Hartberg
-Grunddurchgang,4,Sun Oct 4 2020,17:00,Rapid Wien,,,LASK
-Grunddurchgang,5,Sat Oct 24 2020,,Wolfsberger AC,,,Rapid Wien
-Grunddurchgang,5,Sat Oct 24 2020,,LASK,,,SKN St. Pölten
-Grunddurchgang,5,Sat Oct 24 2020,,Austria Wien,,,RB Salzburg
-Grunddurchgang,5,Sat Oct 24 2020,,SCR Altach,,,FC Admira Wacker
-Grunddurchgang,5,Sat Oct 24 2020,,WSG Tirol,,,TSV Hartberg
-Grunddurchgang,5,Sat Oct 24 2020,,SV Ried,,,Sturm Graz
-Grunddurchgang,6,Sat Oct 31 2020,,RB Salzburg,,,WSG Tirol
-Grunddurchgang,6,Sat Oct 31 2020,,Rapid Wien,,,SCR Altach
-Grunddurchgang,6,Sat Oct 31 2020,,TSV Hartberg,,,Austria Wien
-Grunddurchgang,6,Sat Oct 31 2020,,Sturm Graz,,,LASK
-Grunddurchgang,6,Sat Oct 31 2020,,SKN St. Pölten,,,SV Ried
-Grunddurchgang,6,Sat Oct 31 2020,,FC Admira Wacker,,,Wolfsberger AC
-Grunddurchgang,7,Sat Nov 7 2020,,Rapid Wien,,,RB Salzburg
-Grunddurchgang,7,Sat Nov 7 2020,,Wolfsberger AC,,,Sturm Graz
-Grunddurchgang,7,Sat Nov 7 2020,,LASK,,,FC Admira Wacker
-Grunddurchgang,7,Sat Nov 7 2020,,SCR Altach,,,Austria Wien
-Grunddurchgang,7,Sat Nov 7 2020,,SKN St. Pölten,,,WSG Tirol
-Grunddurchgang,7,Sat Nov 7 2020,,SV Ried,,,TSV Hartberg
-Grunddurchgang,8,Sat Nov 21 2020,,RB Salzburg,,,Sturm Graz
-Grunddurchgang,8,Sat Nov 21 2020,,TSV Hartberg,,,LASK
-Grunddurchgang,8,Sat Nov 21 2020,,Austria Wien,,,SKN St. Pölten
-Grunddurchgang,8,Sat Nov 21 2020,,SCR Altach,,,Wolfsberger AC
-Grunddurchgang,8,Sat Nov 21 2020,,WSG Tirol,,,FC Admira Wacker
-Grunddurchgang,8,Sat Nov 21 2020,,SV Ried,,,Rapid Wien
-Grunddurchgang,9,Sat Nov 28 2020,,Rapid Wien,,,Austria Wien
-Grunddurchgang,9,Sat Nov 28 2020,,Wolfsberger AC,,,SV Ried
-Grunddurchgang,9,Sat Nov 28 2020,,LASK,,,SCR Altach
-Grunddurchgang,9,Sat Nov 28 2020,,Sturm Graz,,,WSG Tirol
-Grunddurchgang,9,Sat Nov 28 2020,,SKN St. Pölten,,,RB Salzburg
-Grunddurchgang,9,Sat Nov 28 2020,,FC Admira Wacker,,,TSV Hartberg
-Grunddurchgang,10,Sat Dec 5 2020,,LASK,,,SV Ried
-Grunddurchgang,10,Sat Dec 5 2020,,TSV Hartberg,,,Rapid Wien
-Grunddurchgang,10,Sat Dec 5 2020,,Austria Wien,,,Sturm Graz
-Grunddurchgang,10,Sat Dec 5 2020,,SCR Altach,,,SKN St. Pölten
-Grunddurchgang,10,Sat Dec 5 2020,,FC Admira Wacker,,,RB Salzburg
-Grunddurchgang,10,Sat Dec 5 2020,,WSG Tirol,,,Wolfsberger AC
-Grunddurchgang,11,Sat Dec 12 2020,,RB Salzburg,,,LASK
-Grunddurchgang,11,Sat Dec 12 2020,,Rapid Wien,,,WSG Tirol
-Grunddurchgang,11,Sat Dec 12 2020,,Wolfsberger AC,,,Austria Wien
-Grunddurchgang,11,Sat Dec 12 2020,,Sturm Graz,,,FC Admira Wacker
-Grunddurchgang,11,Sat Dec 12 2020,,SKN St. Pölten,,,TSV Hartberg
-Grunddurchgang,11,Sat Dec 12 2020,,SV Ried,,,SCR Altach
-Grunddurchgang,12,Sat Dec 19 2020,,Austria Wien,,,LASK
-Grunddurchgang,12,Sat Dec 19 2020,,TSV Hartberg,,,SCR Altach
-Grunddurchgang,12,Sat Dec 19 2020,,FC Admira Wacker,,,Rapid Wien
-Grunddurchgang,12,Sat Dec 19 2020,,WSG Tirol,,,SV Ried
-Grunddurchgang,12,Sat Dec 19 2020,,Sturm Graz,,,SKN St. Pölten
-Grunddurchgang,12,Sat Dec 19 2020,,RB Salzburg,,,Wolfsberger AC
+Grunddurchgang,4,Sat Oct 3 2020,17:00,FC Admira Wacker,3-1,2-0,SV Ried
+Grunddurchgang,4,Sat Oct 3 2020,17:00,WSG Tirol,0-2,0-0,Austria Wien
+Grunddurchgang,4,Sat Oct 3 2020,17:00,Wolfsberger AC,2-4,1-3,SKN St. Pölten
+Grunddurchgang,4,Sun Oct 4 2020,14:30,Sturm Graz,4-0,3-0,SCR Altach
+Grunddurchgang,4,Sun Oct 4 2020,14:30,RB Salzburg,7-1,2-0,TSV Hartberg
+Grunddurchgang,4,Sun Oct 4 2020,17:00,Rapid Wien,3-0,2-0,LASK
+Grunddurchgang,5,Sat Oct 24 2020,17:00,Austria Wien,,,RB Salzburg
+Grunddurchgang,5,Sat Oct 24 2020,17:00,SCR Altach,,,FC Admira Wacker
+Grunddurchgang,5,Sat Oct 24 2020,17:00,SV Ried,,,Sturm Graz
+Grunddurchgang,5,Sun Oct 25 2020,14:30,LASK,,,SKN St. Pölten
+Grunddurchgang,5,Sun Oct 25 2020,14:30,WSG Tirol,,,TSV Hartberg
+Grunddurchgang,5,Sun Oct 25 2020,17:00,Wolfsberger AC,,,Rapid Wien
+Grunddurchgang,6,Sat Oct 31 2020,17:00,RB Salzburg,,,WSG Tirol
+Grunddurchgang,6,Sat Oct 31 2020,17:00,TSV Hartberg,,,Austria Wien
+Grunddurchgang,6,Sat Oct 31 2020,17:00,SKN St. Pölten,,,SV Ried
+Grunddurchgang,6,Sun Nov 1 2020,14:30,Rapid Wien,,,SCR Altach
+Grunddurchgang,6,Sun Nov 1 2020,14:30,FC Admira Wacker,,,Wolfsberger AC
+Grunddurchgang,6,Sun Nov 1 2020,17:00,Sturm Graz,,,LASK
+Grunddurchgang,7,Sat Nov 7 2020,17:00,SCR Altach,,,Austria Wien
+Grunddurchgang,7,Sat Nov 7 2020,17:00,SKN St. Pölten,,,WSG Tirol
+Grunddurchgang,7,Sat Nov 7 2020,17:00,SV Ried,,,TSV Hartberg
+Grunddurchgang,7,Sun Nov 8 2020,14:30,Wolfsberger AC,,,Sturm Graz
+Grunddurchgang,7,Sun Nov 8 2020,14:30,LASK,,,FC Admira Wacker
+Grunddurchgang,7,Sun Nov 8 2020,17:00,Rapid Wien,,,RB Salzburg
+Grunddurchgang,8,Sat Nov 21 2020,17:00,RB Salzburg,,,Sturm Graz
+Grunddurchgang,8,Sat Nov 21 2020,17:00,TSV Hartberg,,,LASK
+Grunddurchgang,8,Sat Nov 21 2020,17:00,SCR Altach,,,Wolfsberger AC
+Grunddurchgang,8,Sun Nov 22 2020,14:30,Austria Wien,,,SKN St. Pölten
+Grunddurchgang,8,Sun Nov 22 2020,14:30,WSG Tirol,,,FC Admira Wacker
+Grunddurchgang,8,Sun Nov 22 2020,17:00,SV Ried,,,Rapid Wien
+Grunddurchgang,9,Sat Nov 28 2020,17:00,Sturm Graz,,,WSG Tirol
+Grunddurchgang,9,Sat Nov 28 2020,17:00,SKN St. Pölten,,,RB Salzburg
+Grunddurchgang,9,Sat Nov 28 2020,17:00,FC Admira Wacker,,,TSV Hartberg
+Grunddurchgang,9,Sun Nov 29 2020,14:30,Wolfsberger AC,,,SV Ried
+Grunddurchgang,9,Sun Nov 29 2020,14:30,LASK,,,SCR Altach
+Grunddurchgang,9,Sun Nov 29 2020,17:00,Rapid Wien,,,Austria Wien
+Grunddurchgang,10,Sat Dec 5 2020,17:00,Austria Wien,,,Sturm Graz
+Grunddurchgang,10,Sat Dec 5 2020,17:00,SCR Altach,,,SKN St. Pölten
+Grunddurchgang,10,Sat Dec 5 2020,17:00,FC Admira Wacker,,,RB Salzburg
+Grunddurchgang,10,Sun Dec 6 2020,14:30,TSV Hartberg,,,Rapid Wien
+Grunddurchgang,10,Sun Dec 6 2020,14:30,WSG Tirol,,,Wolfsberger AC
+Grunddurchgang,10,Sun Dec 6 2020,17:00,LASK,,,SV Ried
+Grunddurchgang,11,Sat Dec 12 2020,17:00,Sturm Graz,,,FC Admira Wacker
+Grunddurchgang,11,Sat Dec 12 2020,17:00,SKN St. Pölten,,,TSV Hartberg
+Grunddurchgang,11,Sat Dec 12 2020,17:00,SV Ried,,,SCR Altach
+Grunddurchgang,11,Sun Dec 13 2020,14:30,Rapid Wien,,,WSG Tirol
+Grunddurchgang,11,Sun Dec 13 2020,14:30,Wolfsberger AC,,,Austria Wien
+Grunddurchgang,11,Sun Dec 13 2020,17:00,RB Salzburg,,,LASK
+Grunddurchgang,12,Sat Dec 19 2020,17:00,TSV Hartberg,,,SCR Altach
+Grunddurchgang,12,Sat Dec 19 2020,17:00,FC Admira Wacker,,,Rapid Wien
+Grunddurchgang,12,Sat Dec 19 2020,17:00,Sturm Graz,,,SKN St. Pölten
+Grunddurchgang,12,Sun Dec 20 2020,14:30,WSG Tirol,,,SV Ried
+Grunddurchgang,12,Sun Dec 20 2020,14:30,RB Salzburg,,,Wolfsberger AC
+Grunddurchgang,12,Sun Dec 20 2020,17:00,Austria Wien,,,LASK
 Grunddurchgang,13,Sat Jan 23 2021,,SCR Altach,,,RB Salzburg
 Grunddurchgang,13,Sat Jan 23 2021,,LASK,,,WSG Tirol
 Grunddurchgang,13,Sat Jan 23 2021,,Rapid Wien,,,Sturm Graz

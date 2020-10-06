@@ -9,16 +9,16 @@ Round,Date,Time,Team 1,FT,HT,Team 2
 1,Sat Sep 26 2020,16:00,Venezia FC,1-0,1-0,Vicenza Virtus
 1,Sun Sep 27 2020,15:00,US Cremonese,0-2,0-1,AS Cittadella
 1,Sun Sep 27 2020,21:00,AC Reggiana 1919,2-2,1-2,AC Pisa
-2,Sat Oct 3 2020,14:15,Chievo Verona,,,US Salernitana 1919
-2,Sat Oct 3 2020,16:15,Ascoli Calcio,,,US Lecce
-2,Sat Oct 3 2020,16:15,Empoli FC,,,SS Monza 1912
-2,Sat Oct 3 2020,16:15,Venezia FC,,,Frosinone Calcio
-2,Sat Oct 3 2020,16:15,Vicenza Virtus,,,Pordenone Calcio
-2,Sat Oct 3 2020,16:15,Reggina 1914,,,Pescara Calcio
-2,Sat Oct 3 2020,16:15,SPAL 2013 Ferrara,,,Cosenza Calcio
-2,Sat Oct 3 2020,16:15,Virtus Entella,,,AC Reggiana 1919
-2,Sun Oct 4 2020,15:00,AC Pisa,,,US Cremonese
-2,Sun Oct 4 2020,21:00,AS Cittadella,,,Brescia Calcio
+2,Sat Oct 3 2020,14:15,Chievo Verona,1-2,1-1,US Salernitana 1919
+2,Sat Oct 3 2020,16:15,Ascoli Calcio,0-2,0-0,US Lecce
+2,Sat Oct 3 2020,16:15,Empoli FC,0-0,0-0,SS Monza 1912
+2,Sat Oct 3 2020,16:15,Venezia FC,0-2,0-0,Frosinone Calcio
+2,Sat Oct 3 2020,16:15,Reggina 1914,3-1,3-0,Pescara Calcio
+2,Sat Oct 3 2020,16:15,SPAL 2013 Ferrara,1-1,0-0,Cosenza Calcio
+2,Sat Oct 3 2020,16:15,Virtus Entella,0-2,0-1,AC Reggiana 1919
+2,Sat Oct 3 2020,18:15,Vicenza Virtus,1-1,0-0,Pordenone Calcio
+2,Sun Oct 4 2020,15:00,AC Pisa,1-1,1-1,US Cremonese
+2,Sun Oct 4 2020,21:00,AS Cittadella,3-0,0-0,Brescia Calcio
 3,Sat Oct 17 2020,21:00,Brescia Calcio,,,US Lecce
 3,Sat Oct 17 2020,21:00,Cosenza Calcio,,,AS Cittadella
 3,Sat Oct 17 2020,21:00,Pescara Calcio,,,Empoli FC

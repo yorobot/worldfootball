@@ -20,10 +20,9 @@ Round,Date,Time,Team 1,FT,HT,Team 2,Comments
 1,Wed Sep 30 2020,18:00,Udinese Calcio,0-2,0-1,Spezia Calcio,
 1,Wed Sep 30 2020,20:45,Lazio Roma,1-4,0-3,Atalanta,
 3,Fri Oct 2 2020,20:45,ACF Fiorentina,1-2,0-1,Sampdoria,
-3,Sat Oct 3 2020,,Genoa CFC,,,Torino FC,postponed
 3,Sat Oct 3 2020,15:00,Sassuolo Calcio,4-1,1-0,FC Crotone,
 3,Sat Oct 3 2020,20:45,Udinese Calcio,0-1,0-0,AS Roma,
-3,Sun Oct 4 2020,,Juventus,(*),,SSC Napoli,cancelled
+3,Sun Oct 4 2020,,Juventus,,,SSC Napoli,postponed
 3,Sun Oct 4 2020,12:30,Atalanta,5-2,4-1,Cagliari Calcio,
 3,Sun Oct 4 2020,15:00,Benevento Calcio,1-0,0-0,Bologna FC,
 3,Sun Oct 4 2020,15:00,Lazio Roma,1-1,0-1,Inter,
@@ -59,6 +58,7 @@ Round,Date,Time,Team 1,FT,HT,Team 2,Comments
 6,Sun Nov 1 2020,,Udinese Calcio,,,AC Milan,
 6,Sun Nov 1 2020,,Hellas Verona,,,Benevento Calcio,
 6,Sun Nov 1 2020,,Sampdoria,,,Genoa CFC,
+3,Wed Nov 4 2020,17:00,Genoa CFC,,,Torino FC,
 7,Sun Nov 8 2020,,Atalanta,,,Inter,
 7,Sun Nov 8 2020,,Benevento Calcio,,,Spezia Calcio,
 7,Sun Nov 8 2020,,Bologna FC,,,SSC Napoli,

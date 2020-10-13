@@ -71,42 +71,42 @@ Round,Date,Time,Team 1,FT,HT,Team 2
 8,Sat Nov 21 2020,20:30,Hertha BSC,,,Borussia Dortmund
 8,Sun Nov 22 2020,15:30,SC Freiburg,,,1. FSV Mainz 05
 8,Sun Nov 22 2020,18:00,1. FC Köln,,,1. FC Union Berlin
-9,Sat Nov 28 2020,,Borussia Dortmund,,,1. FC Köln
-9,Sat Nov 28 2020,,RB Leipzig,,,Arminia Bielefeld
-9,Sat Nov 28 2020,,Bor. Mönchengladbach,,,FC Schalke 04
-9,Sat Nov 28 2020,,Bayer Leverkusen,,,Hertha BSC
-9,Sat Nov 28 2020,,VfL Wolfsburg,,,Werder Bremen
-9,Sat Nov 28 2020,,1. FC Union Berlin,,,Eintracht Frankfurt
-9,Sat Nov 28 2020,,1. FSV Mainz 05,,,1899 Hoffenheim
-9,Sat Nov 28 2020,,FC Augsburg,,,SC Freiburg
-9,Sat Nov 28 2020,,VfB Stuttgart,,,Bayern München
-10,Sat Dec 5 2020,,Bayern München,,,RB Leipzig
-10,Sat Dec 5 2020,,1899 Hoffenheim,,,FC Augsburg
-10,Sat Dec 5 2020,,SC Freiburg,,,Bor. Mönchengladbach
-10,Sat Dec 5 2020,,Eintracht Frankfurt,,,Borussia Dortmund
-10,Sat Dec 5 2020,,Hertha BSC,,,1. FC Union Berlin
-10,Sat Dec 5 2020,,FC Schalke 04,,,Bayer Leverkusen
-10,Sat Dec 5 2020,,1. FC Köln,,,VfL Wolfsburg
-10,Sat Dec 5 2020,,Werder Bremen,,,VfB Stuttgart
-10,Sat Dec 5 2020,,Arminia Bielefeld,,,1. FSV Mainz 05
-11,Sat Dec 12 2020,,Borussia Dortmund,,,VfB Stuttgart
-11,Sat Dec 12 2020,,RB Leipzig,,,Werder Bremen
-11,Sat Dec 12 2020,,Bor. Mönchengladbach,,,Hertha BSC
-11,Sat Dec 12 2020,,Bayer Leverkusen,,,1899 Hoffenheim
-11,Sat Dec 12 2020,,VfL Wolfsburg,,,Eintracht Frankfurt
-11,Sat Dec 12 2020,,SC Freiburg,,,Arminia Bielefeld
-11,Sat Dec 12 2020,,1. FC Union Berlin,,,Bayern München
-11,Sat Dec 12 2020,,1. FSV Mainz 05,,,1. FC Köln
-11,Sat Dec 12 2020,,FC Augsburg,,,FC Schalke 04
-12,Tue Dec 15 2020,,Bayern München,,,VfL Wolfsburg
-12,Tue Dec 15 2020,,1899 Hoffenheim,,,RB Leipzig
-12,Tue Dec 15 2020,,Eintracht Frankfurt,,,Bor. Mönchengladbach
-12,Tue Dec 15 2020,,Hertha BSC,,,1. FSV Mainz 05
-12,Tue Dec 15 2020,,FC Schalke 04,,,SC Freiburg
-12,Tue Dec 15 2020,,1. FC Köln,,,Bayer Leverkusen
-12,Tue Dec 15 2020,,Werder Bremen,,,Borussia Dortmund
-12,Tue Dec 15 2020,,Arminia Bielefeld,,,FC Augsburg
-12,Tue Dec 15 2020,,VfB Stuttgart,,,1. FC Union Berlin
+9,Fri Nov 27 2020,20:30,VfL Wolfsburg,,,Werder Bremen
+9,Sat Nov 28 2020,15:30,Borussia Dortmund,,,1. FC Köln
+9,Sat Nov 28 2020,15:30,RB Leipzig,,,Arminia Bielefeld
+9,Sat Nov 28 2020,15:30,1. FC Union Berlin,,,Eintracht Frankfurt
+9,Sat Nov 28 2020,15:30,FC Augsburg,,,SC Freiburg
+9,Sat Nov 28 2020,15:30,VfB Stuttgart,,,Bayern München
+9,Sat Nov 28 2020,18:30,Bor. Mönchengladbach,,,FC Schalke 04
+9,Sun Nov 29 2020,15:30,Bayer Leverkusen,,,Hertha BSC
+9,Sun Nov 29 2020,18:00,1. FSV Mainz 05,,,1899 Hoffenheim
+10,Fri Dec 4 2020,20:30,Hertha BSC,,,1. FC Union Berlin
+10,Sat Dec 5 2020,15:30,SC Freiburg,,,Bor. Mönchengladbach
+10,Sat Dec 5 2020,15:30,Eintracht Frankfurt,,,Borussia Dortmund
+10,Sat Dec 5 2020,15:30,1. FC Köln,,,VfL Wolfsburg
+10,Sat Dec 5 2020,15:30,Arminia Bielefeld,,,1. FSV Mainz 05
+10,Sat Dec 5 2020,18:30,Bayern München,,,RB Leipzig
+10,Sun Dec 6 2020,15:30,Werder Bremen,,,VfB Stuttgart
+10,Sun Dec 6 2020,18:00,FC Schalke 04,,,Bayer Leverkusen
+10,Mon Dec 7 2020,20:30,1899 Hoffenheim,,,FC Augsburg
+11,Fri Dec 11 2020,20:30,VfL Wolfsburg,,,Eintracht Frankfurt
+11,Sat Dec 12 2020,15:30,Borussia Dortmund,,,VfB Stuttgart
+11,Sat Dec 12 2020,15:30,RB Leipzig,,,Werder Bremen
+11,Sat Dec 12 2020,15:30,Bor. Mönchengladbach,,,Hertha BSC
+11,Sat Dec 12 2020,15:30,SC Freiburg,,,Arminia Bielefeld
+11,Sat Dec 12 2020,15:30,1. FSV Mainz 05,,,1. FC Köln
+11,Sat Dec 12 2020,18:30,1. FC Union Berlin,,,Bayern München
+11,Sun Dec 13 2020,15:30,FC Augsburg,,,FC Schalke 04
+11,Sun Dec 13 2020,18:00,Bayer Leverkusen,,,1899 Hoffenheim
+12,Tue Dec 15 2020,18:30,Eintracht Frankfurt,,,Bor. Mönchengladbach
+12,Tue Dec 15 2020,20:30,Hertha BSC,,,1. FSV Mainz 05
+12,Tue Dec 15 2020,20:30,Werder Bremen,,,Borussia Dortmund
+12,Tue Dec 15 2020,20:30,VfB Stuttgart,,,1. FC Union Berlin
+12,Wed Dec 16 2020,18:30,FC Schalke 04,,,SC Freiburg
+12,Wed Dec 16 2020,20:30,Bayern München,,,VfL Wolfsburg
+12,Wed Dec 16 2020,20:30,1899 Hoffenheim,,,RB Leipzig
+12,Wed Dec 16 2020,20:30,1. FC Köln,,,Bayer Leverkusen
+12,Wed Dec 16 2020,20:30,Arminia Bielefeld,,,FC Augsburg
 13,Sat Dec 19 2020,,RB Leipzig,,,1. FC Köln
 13,Sat Dec 19 2020,,Bor. Mönchengladbach,,,1899 Hoffenheim
 13,Sat Dec 19 2020,,Bayer Leverkusen,,,Bayern München

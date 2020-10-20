@@ -47,18 +47,18 @@ Round,Date,Time,Team 1,FT,HT,Team 2
 4,Sat Oct 3 2020,16:00,Swansea City,2-1,0-0,Millwall FC
 4,Sun Oct 4 2020,15:00,Brentford FC,2-4,2-0,Preston North End
 4,Sun Oct 4 2020,16:00,Stoke City,1-1,0-0,Birmingham City
-5,Fri Oct 16 2020,20:45,Derby County,,,Watford FC
-5,Sat Oct 17 2020,16:00,AFC Bournemouth,,,Queens Park Rangers
-5,Sat Oct 17 2020,16:00,Birmingham City,,,Sheffield Wednesday
-5,Sat Oct 17 2020,16:00,Blackburn Rovers,,,Nottingham Forest
-5,Sat Oct 17 2020,16:00,Barnsley FC,,,Bristol City
-5,Sat Oct 17 2020,16:00,Brentford FC,,,Coventry City
-5,Sat Oct 17 2020,16:00,Middlesbrough FC,,,Reading FC
-5,Sat Oct 17 2020,16:00,Luton Town,,,Stoke City
-5,Sat Oct 17 2020,16:00,Rotherham United,,,Norwich City
-5,Sat Oct 17 2020,16:00,Swansea City,,,Huddersfield Town
-5,Sat Oct 17 2020,16:00,Wycombe Wanderers,,,Millwall FC
-5,Sun Oct 18 2020,13:00,Preston North End,,,Cardiff City
+5,Fri Oct 16 2020,20:45,Derby County,0-1,0-0,Watford FC
+5,Sat Oct 17 2020,16:00,AFC Bournemouth,0-0,0-0,Queens Park Rangers
+5,Sat Oct 17 2020,16:00,Birmingham City,0-1,0-0,Sheffield Wednesday
+5,Sat Oct 17 2020,16:00,Blackburn Rovers,0-1,0-0,Nottingham Forest
+5,Sat Oct 17 2020,16:00,Barnsley FC,2-2,1-0,Bristol City
+5,Sat Oct 17 2020,16:00,Brentford FC,2-0,0-0,Coventry City
+5,Sat Oct 17 2020,16:00,Middlesbrough FC,0-0,0-0,Reading FC
+5,Sat Oct 17 2020,16:00,Luton Town,0-2,0-0,Stoke City
+5,Sat Oct 17 2020,16:00,Rotherham United,1-2,1-0,Norwich City
+5,Sat Oct 17 2020,16:00,Swansea City,1-2,1-1,Huddersfield Town
+5,Sat Oct 17 2020,16:00,Wycombe Wanderers,1-2,1-0,Millwall FC
+5,Sun Oct 18 2020,13:00,Preston North End,0-1,0-0,Cardiff City
 6,Tue Oct 20 2020,20:45,Bristol City,,,Middlesbrough FC
 6,Tue Oct 20 2020,20:45,Coventry City,,,Swansea City
 6,Tue Oct 20 2020,20:45,Millwall FC,,,Luton Town
@@ -70,7 +70,7 @@ Round,Date,Time,Team 1,FT,HT,Team 2
 6,Wed Oct 21 2020,20:45,Watford FC,,,Blackburn Rovers
 6,Wed Oct 21 2020,20:45,Queens Park Rangers,,,Preston North End
 6,Wed Oct 21 2020,20:45,Sheffield Wednesday,,,Brentford FC
-6,Wed Oct 21 2020,21:00,Stoke City,,,Barnsley FC
+6,Wed Oct 21 2020,20:45,Stoke City,,,Barnsley FC
 7,Fri Oct 23 2020,20:45,Nottingham Forest,,,Derby County
 7,Sat Oct 24 2020,13:30,Watford FC,,,AFC Bournemouth
 7,Sat Oct 24 2020,16:00,Bristol City,,,Swansea City

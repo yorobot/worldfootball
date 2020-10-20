@@ -59,26 +59,26 @@ Round,Date,Time,Team 1,FT,HT,Team 2
 6,Sat Oct 3 2020,19:00,Grenoble Foot 38,2-0,1-0,Valenciennes FC
 6,Sat Oct 3 2020,19:00,LB Châteauroux,2-0,1-0,Chamois Niortais
 6,Sat Oct 3 2020,19:00,USL Dunkerque,1-0,0-0,EA Guingamp
-7,Sat Oct 17 2020,15:00,Valenciennes FC,,,FC Sochaux
-7,Sat Oct 17 2020,19:00,AC Ajaccio,,,Toulouse FC
-7,Sat Oct 17 2020,19:00,Le Havre AC,,,LB Châteauroux
-7,Sat Oct 17 2020,19:00,AS Nancy,,,USL Dunkerque
-7,Sat Oct 17 2020,19:00,FC Chambly,,,Clermont Foot
-7,Sat Oct 17 2020,19:00,Chamois Niortais,,,SM Caen
-7,Sat Oct 17 2020,19:00,Paris FC,,,Pau FC
-7,Sat Oct 17 2020,19:00,Rodez AF,,,ESTAC Troyes
-7,Sat Oct 17 2020,19:00,Amiens SC,,,Grenoble Foot 38
-7,Mon Oct 19 2020,20:45,EA Guingamp,,,AJ Auxerre
-8,Sat Oct 24 2020,20:00,AJ Auxerre,,,FC Chambly
-8,Sat Oct 24 2020,20:00,Clermont Foot,,,AC Ajaccio
-8,Sat Oct 24 2020,20:00,ESTAC Troyes,,,Valenciennes FC
-8,Sat Oct 24 2020,20:00,Pau FC,,,Chamois Niortais
-8,Sat Oct 24 2020,20:00,FC Sochaux,,,Amiens SC
-8,Sat Oct 24 2020,20:00,Toulouse FC,,,Rodez AF
-8,Sat Oct 24 2020,20:00,Grenoble Foot 38,,,AS Nancy
-8,Sat Oct 24 2020,20:00,LB Châteauroux,,,Paris FC
-8,Sat Oct 24 2020,20:00,SM Caen,,,EA Guingamp
-8,Sat Oct 24 2020,20:00,USL Dunkerque,,,Le Havre AC
+7,Fri Oct 16 2020,19:00,FC Chambly,0-3,0-2,Clermont Foot
+7,Sat Oct 17 2020,15:00,Valenciennes FC,0-0,0-0,FC Sochaux
+7,Sat Oct 17 2020,19:00,AC Ajaccio,0-1,0-0,Toulouse FC
+7,Sat Oct 17 2020,19:00,Le Havre AC,1-1,1-1,LB Châteauroux
+7,Sat Oct 17 2020,19:00,AS Nancy,2-1,2-0,USL Dunkerque
+7,Sat Oct 17 2020,19:00,Chamois Niortais,3-0,1-0,SM Caen
+7,Sat Oct 17 2020,19:00,Paris FC,1-0,0-0,Pau FC
+7,Sat Oct 17 2020,19:00,Rodez AF,0-1,0-0,ESTAC Troyes
+7,Sat Oct 17 2020,19:00,Amiens SC,1-0,0-0,Grenoble Foot 38
+7,Mon Oct 19 2020,20:45,EA Guingamp,2-0,0-0,AJ Auxerre
+8,Sat Oct 24 2020,15:00,SM Caen,,,EA Guingamp
+8,Sat Oct 24 2020,19:00,AJ Auxerre,,,FC Chambly
+8,Sat Oct 24 2020,19:00,Clermont Foot,,,AC Ajaccio
+8,Sat Oct 24 2020,19:00,ESTAC Troyes,,,Valenciennes FC
+8,Sat Oct 24 2020,19:00,Pau FC,,,Chamois Niortais
+8,Sat Oct 24 2020,19:00,Toulouse FC,,,Rodez AF
+8,Sat Oct 24 2020,19:00,Grenoble Foot 38,,,AS Nancy
+8,Sat Oct 24 2020,19:00,LB Châteauroux,,,Paris FC
+8,Sat Oct 24 2020,19:00,USL Dunkerque,,,Le Havre AC
+8,Mon Oct 26 2020,20:45,FC Sochaux,,,Amiens SC
 9,Sat Oct 31 2020,20:00,AC Ajaccio,,,ESTAC Troyes
 9,Sat Oct 31 2020,20:00,Le Havre AC,,,Pau FC
 9,Sat Oct 31 2020,20:00,AS Nancy,,,LB Châteauroux

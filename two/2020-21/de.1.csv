@@ -26,15 +26,15 @@ Round,Date,Time,Team 1,FT,HT,Team 2
 3,Sat Oct 3 2020,18:30,RB Leipzig,4-0,3-0,FC Schalke 04
 3,Sun Oct 4 2020,15:30,VfL Wolfsburg,0-0,0-0,FC Augsburg
 3,Sun Oct 4 2020,18:00,Bayern München,4-3,1-0,Hertha BSC
-4,Sat Oct 17 2020,15:30,1899 Hoffenheim,,,Borussia Dortmund
-4,Sat Oct 17 2020,15:30,SC Freiburg,,,Werder Bremen
-4,Sat Oct 17 2020,15:30,Hertha BSC,,,VfB Stuttgart
-4,Sat Oct 17 2020,15:30,1. FSV Mainz 05,,,Bayer Leverkusen
-4,Sat Oct 17 2020,15:30,FC Augsburg,,,RB Leipzig
-4,Sat Oct 17 2020,18:30,Arminia Bielefeld,,,Bayern München
-4,Sat Oct 17 2020,20:30,Bor. Mönchengladbach,,,VfL Wolfsburg
-4,Sun Oct 18 2020,15:30,1. FC Köln,,,Eintracht Frankfurt
-4,Sun Oct 18 2020,18:00,FC Schalke 04,,,1. FC Union Berlin
+4,Sat Oct 17 2020,15:30,1899 Hoffenheim,0-1,0-0,Borussia Dortmund
+4,Sat Oct 17 2020,15:30,SC Freiburg,1-1,1-1,Werder Bremen
+4,Sat Oct 17 2020,15:30,Hertha BSC,0-2,0-1,VfB Stuttgart
+4,Sat Oct 17 2020,15:30,1. FSV Mainz 05,0-1,0-1,Bayer Leverkusen
+4,Sat Oct 17 2020,15:30,FC Augsburg,0-2,0-1,RB Leipzig
+4,Sat Oct 17 2020,18:30,Arminia Bielefeld,1-4,0-3,Bayern München
+4,Sat Oct 17 2020,20:30,Bor. Mönchengladbach,1-1,0-0,VfL Wolfsburg
+4,Sun Oct 18 2020,15:30,1. FC Köln,1-1,0-1,Eintracht Frankfurt
+4,Sun Oct 18 2020,18:00,FC Schalke 04,1-1,0-0,1. FC Union Berlin
 5,Fri Oct 23 2020,20:30,VfB Stuttgart,,,1. FC Köln
 5,Sat Oct 24 2020,15:30,Bayern München,,,Eintracht Frankfurt
 5,Sat Oct 24 2020,15:30,RB Leipzig,,,Hertha BSC

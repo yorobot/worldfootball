@@ -43,16 +43,16 @@ Round,Date,Time,Team 1,FT,HT,Team 2
 5,Sun Oct 25 2020,13:30,1. FC Heidenheim 1846,1-1,0-0,VfL Osnabrück
 5,Sun Oct 25 2020,13:30,VfL Bochum,2-0,0-0,Erzgebirge Aue
 5,Sun Oct 25 2020,13:30,SV Sandhausen,1-1,1-1,SC Paderborn 07
-4,Wed Oct 28 2020,18:30,VfL Osnabrück,,,SV Darmstadt 98
-6,Fri Oct 30 2020,18:30,Fortuna Düsseldorf,,,1. FC Heidenheim 1846
-6,Fri Oct 30 2020,18:30,Hamburger SV,,,FC St. Pauli
-6,Sat Oct 31 2020,13:00,SC Paderborn 07,,,Jahn Regensburg
-6,Sat Oct 31 2020,13:00,Erzgebirge Aue,,,Holstein Kiel
-6,Sat Oct 31 2020,13:00,VfL Osnabrück,,,SV Sandhausen
-6,Sat Oct 31 2020,13:00,Eintracht Braunschweig,,,1. FC Nürnberg
-6,Sun Nov 1 2020,13:30,SpVgg Greuther Fürth,,,Hannover 96
-6,Sun Nov 1 2020,13:30,Karlsruher SC,,,SV Darmstadt 98
-6,Sun Nov 1 2020,13:30,Würzburger Kickers,,,VfL Bochum
+4,Wed Oct 28 2020,18:30,VfL Osnabrück,1-1,0-1,SV Darmstadt 98
+6,Fri Oct 30 2020,18:30,Fortuna Düsseldorf,1-0,1-0,1. FC Heidenheim 1846
+6,Fri Oct 30 2020,18:30,Hamburger SV,2-2,1-1,FC St. Pauli
+6,Sat Oct 31 2020,13:00,SC Paderborn 07,3-1,1-1,Jahn Regensburg
+6,Sat Oct 31 2020,13:00,Erzgebirge Aue,1-1,1-1,Holstein Kiel
+6,Sat Oct 31 2020,13:00,VfL Osnabrück,2-1,2-0,SV Sandhausen
+6,Sat Oct 31 2020,13:00,Eintracht Braunschweig,3-2,1-2,1. FC Nürnberg
+6,Sun Nov 1 2020,13:30,SpVgg Greuther Fürth,4-1,2-0,Hannover 96
+6,Sun Nov 1 2020,13:30,Karlsruher SC,3-4,2-1,SV Darmstadt 98
+6,Sun Nov 1 2020,13:30,Würzburger Kickers,2-3,2-2,VfL Bochum
 7,Fri Nov 6 2020,18:30,1. FC Heidenheim 1846,,,Würzburger Kickers
 7,Fri Nov 6 2020,18:30,SV Sandhausen,,,Eintracht Braunschweig
 7,Sat Nov 7 2020,13:00,Hannover 96,,,Erzgebirge Aue

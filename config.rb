@@ -1,7 +1,7 @@
 #######################
 ## top-level countries / leagues
 
-XX_DATASETS = [
+DATASETS = [
  ['br.1',    %w[2020]],     # starts Sun Aug 9  - note: now runs into 2021!!!
 
  ['eng.1',   %w[2020/21]],   # starts Sat Sep 12
@@ -36,10 +36,6 @@ XX_DATASETS = [
  ['mx.1',    %w[2020/21]],   # starts Fri Jul 24
 ]
 
-
-DATASETS = [
-  ['at.1',    %w[2020/21]],   # starts Fri Sep 11
-]
 
 
 pp DATASETS

@@ -1,0 +1,307 @@
+Round,Date,Time,Team 1,FT,Team 2,Venue,Att
+1,Fri Feb 21 2020,19:00,Shonan Bellmare,2-3,Urawa Reds,Shonan BMW Stadium,13071
+1,Sat Feb 22 2020,14:00,Vegalta Sendai,1-1,Grampus,Yurtec Stadium Sendai,13968
+1,Sat Feb 22 2020,15:00,Cerezo Osaka,1-0,Oita Trinita,Yanmar Stadium Nagai,15535
+1,Sat Feb 22 2020,15:00,Kashiwa Reysol,4-2,Consa Sapporo,Sankyo Frontier Kashiwa Stadium,12468
+1,Sat Feb 22 2020,15:00,Kawa Frontale,0-0,Sagan Tosu,Kawasaki Todoroki Stadium,21117
+1,Sun Feb 23 2020,13:00,S-Pulse,1-3,FC Tokyo,IAI Stadium Nihondaira,17549
+1,Sun Feb 23 2020,14:00,Sanfrecce,3-0,Kashima Antlers,EDION Stadium,18713
+1,Sun Feb 23 2020,14:00,Marinos,1-2,Gamba Osaka,Nissan Stadium,34521
+1,Sun Feb 23 2020,16:00,Vissel Kobe,1-1,Yokohama FC,NOEVIR Stadium Kobe,25059
+2,Sat Jul 4 2020,18:00,Yokohama FC,1-2,Consa Sapporo,NHK Spring Mitsuzawa Football Stadium,
+2,Sat Jul 4 2020,18:00,S-Pulse,1-2,Grampus,IAI Stadium Nihondaira,
+2,Sat Jul 4 2020,18:00,Gamba Osaka,1-2,Cerezo Osaka,Panasonic Stadium Suita,
+2,Sat Jul 4 2020,18:30,Oita Trinita,2-0,Sagan Tosu,Ōita Bank Dome,
+2,Sat Jul 4 2020,19:00,Kawa Frontale,2-1,Kashima Antlers,Kawasaki Todoroki Stadium,
+2,Sat Jul 4 2020,19:00,Kashiwa Reysol,0-1,FC Tokyo,Sankyo Frontier Kashiwa Stadium,
+2,Sat Jul 4 2020,19:00,Urawa Reds,0-0,Marinos,Saitama Stadium 2002,
+2,Sat Jul 4 2020,19:00,Shonan Bellmare,0-1,Vegalta Sendai,Shonan BMW Stadium,
+2,Sat Jul 4 2020,19:30,Vissel Kobe,0-3,Sanfrecce,NOEVIR Stadium Kobe,
+3,Wed Jul 8 2020,18:00,Vegalta Sendai,1-2,Urawa Reds,Yurtec Stadium Sendai,
+3,Wed Jul 8 2020,18:00,Cerezo Osaka,2-0,S-Pulse,Yanmar Stadium Nagai,
+3,Wed Jul 8 2020,18:30,Kashiwa Reysol,1-3,Yokohama FC,Sankyo Frontier Kashiwa Stadium,
+3,Wed Jul 8 2020,19:00,Marinos,3-2,Shonan Bellmare,Nissan Stadium,
+3,Wed Jul 8 2020,19:00,Sanfrecce,1-2,Oita Trinita,EDION Stadium,
+3,Wed Jul 8 2020,19:00,Kashima Antlers,0-2,Consa Sapporo,Kashima Soccer Stadium,
+3,Wed Jul 8 2020,19:00,Sagan Tosu,0-1,Vissel Kobe,Ekimae Real Estate Stadium,
+3,Wed Jul 8 2020,19:30,Grampus,2-2,Gamba Osaka,Toyota Stadium,
+3,Wed Jul 8 2020,19:30,FC Tokyo,0-4,Kawa Frontale,Ajinomoto Stadium,
+4,Sat Jul 11 2020,19:00,Kawa Frontale,3-1,Kashiwa Reysol,Kawasaki Todoroki Stadium,4724
+4,Sat Jul 11 2020,19:00,Oita Trinita,1-1,Vissel Kobe,Ōita Bank Dome,4263
+4,Sun Jul 12 2020,18:00,S-Pulse,1-2,Gamba Osaka,IAI Stadium Nihondaira,4131
+4,Sun Jul 12 2020,18:00,Sagan Tosu,0-0,Sanfrecce,Ekimae Real Estate Stadium,2694
+4,Sun Jul 12 2020,18:00,Yokohama FC,1-1,Vegalta Sendai,NHK Spring Mitsuzawa Football Stadium,2235
+4,Sun Jul 12 2020,19:00,Shonan Bellmare,0-0,Consa Sapporo,Shonan BMW Stadium,3327
+4,Sun Jul 12 2020,19:00,Cerezo Osaka,0-2,Grampus,Yanmar Stadium Nagai,4026
+4,Sun Jul 12 2020,19:00,Urawa Reds,1-0,Kashima Antlers,Saitama Stadium 2002,3094
+4,Sun Jul 12 2020,19:30,Marinos,1-3,FC Tokyo,Nissan Stadium,4769
+5,Sat Jul 18 2020,18:00,Vegalta Sendai,2-2,Consa Sapporo,Yurtec Stadium Sendai,
+5,Sat Jul 18 2020,18:00,Yokohama FC,1-5,Kawa Frontale,NHK Spring Mitsuzawa Football Stadium,2733
+5,Sat Jul 18 2020,18:00,Kashima Antlers,4-2,Marinos,Kashima Soccer Stadium,
+5,Sat Jul 18 2020,18:00,Grampus,1-0,Sagan Tosu,Toyota Stadium,4827
+5,Sat Jul 18 2020,19:00,Vissel Kobe,3-1,S-Pulse,NOEVIR Stadium Kobe,3494
+5,Sat Jul 18 2020,19:00,FC Tokyo,2-0,Urawa Reds,Ajinomoto Stadium,4705
+5,Sat Jul 18 2020,19:00,Kashiwa Reysol,3-2,Shonan Bellmare,Sankyo Frontier Kashiwa Stadium,2645
+5,Sat Jul 18 2020,19:00,Gamba Osaka,2-1,Oita Trinita,Panasonic Stadium Suita,4395
+5,Sat Jul 18 2020,19:00,Sanfrecce,1-2,Cerezo Osaka,EDION Stadium,3084
+6,Wed Jul 22 2020,19:00,Marinos,4-0,Yokohama FC,Nissan Stadium,4819
+6,Wed Jul 22 2020,19:00,Shonan Bellmare,1-0,Kashima Antlers,Shonan BMW Stadium,3498
+6,Wed Jul 22 2020,19:00,Gamba Osaka,1-0,Sanfrecce,Panasonic Stadium Suita,4142
+6,Wed Jul 22 2020,19:00,Sagan Tosu,1-1,S-Pulse,Ekimae Real Estate Stadium,3117
+6,Wed Jul 22 2020,19:05,Consa Sapporo,1-1,FC Tokyo,Sapporo Dome,3151
+6,Wed Jul 22 2020,19:30,Urawa Reds,0-4,Kashiwa Reysol,Saitama Stadium 2002,4127
+6,Wed Jul 22 2020,19:30,Cerezo Osaka,0-0,Vissel Kobe,Yanmar Stadium Nagai,4981
+6,Wed Jul 22 2020,19:30,Vegalta Sendai,2-3,Kawa Frontale,Yurtec Stadium Sendai,2507
+6,Wed Jul 22 2020,19:30,Oita Trinita,0-3,Grampus,Ōita Bank Dome,3603
+7,Sun Jul 26 2020,13:05,Consa Sapporo,3-1,Marinos,Sapporo Dome,3305
+7,Sun Jul 26 2020,18:00,Yokohama FC,0-2,Urawa Reds,NHK Spring Mitsuzawa Football Stadium,2580
+7,Sun Jul 26 2020,18:00,S-Pulse,4-2,Oita Trinita,IAI Stadium Nihondaira,
+7,Sun Jul 26 2020,18:30,Kashima Antlers,2-2,FC Tokyo,Kashima Soccer Stadium,3027
+7,Sun Jul 26 2020,19:00,Kashiwa Reysol,5-1,Vegalta Sendai,Sankyo Frontier Kashiwa Stadium,2500
+7,Sun Jul 26 2020,19:00,Kawa Frontale,3-1,Shonan Bellmare,Kawasaki Todoroki Stadium,4724
+7,Sun Jul 26 2020,19:00,Sagan Tosu,1-1,Cerezo Osaka,Ekimae Real Estate Stadium,3413
+7,Sun Jul 26 2020,19:00,Vissel Kobe,0-2,Gamba Osaka,NOEVIR Stadium Kobe,4746
+8,Sat Aug 1 2020,18:00,Vegalta Sendai,0-1,Marinos,Yurtec Stadium Sendai,
+8,Sat Aug 1 2020,18:00,Grampus,0-1,Kashiwa Reysol,Toyota Stadium,4678
+8,Sat Aug 1 2020,18:00,Yokohama FC,0-2,Sanfrecce,NHK Spring Mitsuzawa Football Stadium,
+8,Sat Aug 1 2020,19:00,Urawa Reds,1-1,S-Pulse,Saitama Stadium 2002,
+8,Sat Aug 1 2020,19:00,Oita Trinita,1-4,Kashima Antlers,Ōita Bank Dome,4225
+8,Sat Aug 1 2020,19:00,Gamba Osaka,0-1,Kawa Frontale,Panasonic Stadium Suita,4925
+8,Sat Aug 1 2020,19:00,FC Tokyo,2-3,Sagan Tosu,Ajinomoto Stadium,4760
+8,Sat Aug 1 2020,19:00,Shonan Bellmare,0-1,Cerezo Osaka,Shonan BMW Stadium,
+8,Sun Aug 2 2020,14:00,Consa Sapporo,2-3,Vissel Kobe,Sapporo Dome,4675
+9,Sat Aug 8 2020,18:00,S-Pulse,3-1,Consa Sapporo,IAI Stadium Nihondaira,3981
+9,Sat Aug 8 2020,18:00,Grampus,6-2,Urawa Reds,Toyota Stadium,4956
+9,Sat Aug 8 2020,18:30,Kashima Antlers,2-0,Sagan Tosu,Kashima Soccer Stadium,3913
+9,Sat Aug 8 2020,19:00,Gamba Osaka,2-1,Yokohama FC,Panasonic Stadium Suita,4638
+9,Sat Aug 8 2020,19:00,Kawa Frontale,2-0,Oita Trinita,Kawasaki Todoroki Stadium,4735
+9,Sat Aug 8 2020,19:00,Vissel Kobe,1-2,Vegalta Sendai,NOEVIR Stadium Kobe,4333
+9,Sat Aug 8 2020,19:00,Marinos,1-1,Kashiwa Reysol,Nissan Stadium,4988
+9,Sun Aug 9 2020,18:00,Sanfrecce,1-0,Shonan Bellmare,EDION Stadium,
+9,Sun Aug 9 2020,19:00,Cerezo Osaka,0-0,FC Tokyo,Yanmar Stadium Nagai,
+10,Sat Aug 15 2020,14:00,Consa Sapporo,1-6,Kawa Frontale,Sapporo Dome,4601
+10,Sat Aug 15 2020,18:00,Yokohama FC,4-2,Shonan Bellmare,NHK Spring Mitsuzawa Football Stadium,2938
+10,Sat Aug 15 2020,18:00,Vegalta Sendai,0-0,S-Pulse,Yurtec Stadium Sendai,2718
+10,Sat Aug 15 2020,18:30,Oita Trinita,1-0,Marinos,Ōita Bank Dome,4311
+10,Sat Aug 15 2020,19:00,FC Tokyo,1-0,Grampus,Ajinomoto Stadium,4435
+10,Sat Aug 15 2020,19:00,Urawa Reds,1-0,Sanfrecce,Saitama Stadium 2002,4287
+10,Sat Aug 15 2020,19:00,Kashiwa Reysol,1-3,Cerezo Osaka,Sankyo Frontier Kashiwa Stadium,2603
+10,Sun Aug 16 2020,18:30,Kashima Antlers,2-2,Vissel Kobe,Kashima Soccer Stadium,4766
+11,Wed Aug 19 2020,19:00,Gamba Osaka,1-3,Urawa Reds,Panasonic Stadium Suita,4721
+11,Wed Aug 19 2020,19:00,Yokohama FC,1-0,Kashima Antlers,NHK Spring Mitsuzawa Football Stadium,2773
+11,Wed Aug 19 2020,19:00,Sanfrecce,3-3,FC Tokyo,EDION Stadium,2033
+11,Wed Aug 19 2020,19:00,Vissel Kobe,2-3,Kashiwa Reysol,NOEVIR Stadium Kobe,3578
+11,Wed Aug 19 2020,19:00,Kawa Frontale,5-2,Cerezo Osaka,Kawasaki Todoroki Stadium,4794
+11,Wed Aug 19 2020,19:00,Shonan Bellmare,0-1,Grampus,Shonan BMW Stadium,2976
+11,Wed Aug 19 2020,19:00,S-Pulse,3-4,Marinos,IAI Stadium Nihondaira,3279
+11,Wed Aug 19 2020,19:30,Consa Sapporo,1-1,Oita Trinita,Sapporo Dome,2039
+12,Sat Aug 22 2020,18:00,S-Pulse,2-3,Yokohama FC,IAI Stadium Nihondaira,4417
+12,Sun Aug 23 2020,18:00,Grampus,1-0,Kawa Frontale,Paloma Mizuho Stadium,4968
+12,Sun Aug 23 2020,19:00,Cerezo Osaka,2-1,Vegalta Sendai,Yanmar Stadium Nagai,3921
+12,Sun Aug 23 2020,19:00,Urawa Reds,1-2,Vissel Kobe,Saitama Stadium 2002,4435
+12,Sun Aug 23 2020,19:00,Marinos,3-1,Sanfrecce,Nissan Stadium,4771
+12,Sun Aug 23 2020,19:00,Kashima Antlers,1-1,Gamba Osaka,Kashima Soccer Stadium,4949
+12,Sun Aug 23 2020,19:00,Oita Trinita,0-0,Kashiwa Reysol,Ōita Bank Dome,4004
+12,Sun Aug 23 2020,19:00,FC Tokyo,3-0,Shonan Bellmare,Ajinomoto Stadium,4599
+24,Wed Aug 26 2020,19:00,Vissel Kobe,2-2,Kawa Frontale,NOEVIR Stadium Kobe,3453
+26,Wed Aug 26 2020,19:00,FC Tokyo,1-2,Kashima Antlers,Ajinomoto Stadium,4390
+29,Wed Aug 26 2020,19:30,Marinos,4-1,Consa Sapporo,Nissan Stadium,4181
+13,Sat Aug 29 2020,18:00,Vissel Kobe,3-3,Marinos,NOEVIR Stadium Kobe,4393
+13,Sat Aug 29 2020,19:00,Kashiwa Reysol,2-3,Kashima Antlers,Sankyo Frontier Kashiwa Stadium,2728
+13,Sat Aug 29 2020,19:00,Kawa Frontale,5-0,S-Pulse,Kawasaki Todoroki Stadium,4798
+13,Sat Aug 29 2020,19:00,Urawa Reds,2-1,Oita Trinita,Saitama Stadium 2002,4316
+13,Sat Aug 29 2020,19:00,Gamba Osaka,1-3,FC Tokyo,Panasonic Stadium Suita,4967
+13,Sat Aug 29 2020,19:00,Consa Sapporo,0-0,Grampus,Sapporo Dome,3479
+13,Sat Aug 29 2020,19:00,Sanfrecce,1-1,Vegalta Sendai,EDION Stadium,3124
+13,Sun Aug 30 2020,18:00,Yokohama FC,1-2,Cerezo Osaka,NHK Spring Mitsuzawa Football Stadium,3373
+14,Sat Sep 5 2020,14:00,Consa Sapporo,0-2,Sanfrecce,Sapporo Dome,2104
+14,Sat Sep 5 2020,18:00,Grampus,1-3,Kashima Antlers,Paloma Mizuho Stadium,4951
+14,Sat Sep 5 2020,18:00,Marinos,1-3,Kawa Frontale,Nissan Stadium,4971
+14,Sat Sep 5 2020,18:00,S-Pulse,1-2,Kashiwa Reysol,IAI Stadium Nihondaira,4264
+14,Sat Sep 5 2020,18:30,Oita Trinita,0-1,FC Tokyo,Ōita Bank Dome,4518
+14,Sat Sep 5 2020,18:30,Shonan Bellmare,1-1,Vissel Kobe,Shonan BMW Stadium,4312
+14,Sat Sep 5 2020,18:30,Vegalta Sendai,1-4,Gamba Osaka,Yurtec Stadium Sendai,2871
+14,Sat Sep 5 2020,18:45,Sagan Tosu,3-0,Yokohama FC,Ekimae Real Estate Stadium,3265
+14,Sat Sep 5 2020,19:30,Cerezo Osaka,3-0,Urawa Reds,Yanmar Stadium Nagai,4793
+15,Wed Sep 9 2020,18:30,Kawa Frontale,3-2,Vissel Kobe,Kawasaki Todoroki Stadium,4778
+15,Wed Sep 9 2020,19:00,FC Tokyo,2-1,Yokohama FC,Ajinomoto Stadium,4941
+15,Wed Sep 9 2020,19:00,Kashima Antlers,2-1,Vegalta Sendai,Kashima Soccer Stadium,3839
+15,Wed Sep 9 2020,19:00,Kashiwa Reysol,3-0,Gamba Osaka,Sankyo Frontier Kashiwa Stadium,2608
+15,Wed Sep 9 2020,19:00,Oita Trinita,2-2,Shonan Bellmare,Ōita Bank Dome,3465
+15,Wed Sep 9 2020,19:00,Sanfrecce,4-1,S-Pulse,EDION Stadium,1948
+15,Wed Sep 9 2020,19:30,Cerezo Osaka,2-0,Consa Sapporo,Yanmar Stadium Nagai,3140
+15,Wed Sep 9 2020,19:30,Grampus,2-1,Marinos,Paloma Mizuho Stadium,4005
+15,Wed Sep 9 2020,19:30,Urawa Reds,2-2,Sagan Tosu,Saitama Stadium 2002,4398
+16,Sat Sep 12 2020,18:00,S-Pulse,1-2,Kashima Antlers,IAI Stadium Nihondaira,4774
+16,Sat Sep 12 2020,19:00,Vissel Kobe,2-2,FC Tokyo,NOEVIR Stadium Kobe,4102
+16,Sun Sep 13 2020,13:05,Consa Sapporo,3-4,Urawa Reds,Sapporo Dome,4449
+16,Sun Sep 13 2020,18:00,Vegalta Sendai,0-3,Oita Trinita,Yurtec Stadium Sendai,2191
+16,Sun Sep 13 2020,18:00,Yokohama FC,3-2,Grampus,NHK Spring Mitsuzawa Football Stadium,3290
+16,Sun Sep 13 2020,18:30,Kawa Frontale,5-1,Sanfrecce,Kawasaki Todoroki Stadium,4770
+16,Sun Sep 13 2020,18:45,Sagan Tosu,2-1,Kashiwa Reysol,Ekimae Real Estate Stadium,4165
+16,Sun Sep 13 2020,19:00,Gamba Osaka,0-1,Shonan Bellmare,Panasonic Stadium Suita,4788
+16,Sun Sep 13 2020,19:00,Marinos,1-2,Cerezo Osaka,Nissan Stadium,4918
+24,Wed Sep 16 2020,19:00,FC Tokyo,2-3,Oita Trinita,Ajinomoto Stadium,4782
+25,Wed Sep 16 2020,19:00,Vissel Kobe,0-1,Cerezo Osaka,NOEVIR Stadium Kobe,3206
+12,Wed Sep 16 2020,19:30,Sagan Tosu,0-2,Consa Sapporo,Ekimae Real Estate Stadium,2592
+24,Wed Sep 16 2020,19:30,Marinos,3-0,S-Pulse,Nissan Stadium,4171
+17,Sat Sep 19 2020,14:00,Consa Sapporo,0-1,Gamba Osaka,Sapporo Dome,2749
+17,Sat Sep 19 2020,16:00,Sagan Tosu,1-3,Marinos,Ekimae Real Estate Stadium,4925
+17,Sat Sep 19 2020,17:00,Grampus,2-1,Vissel Kobe,Paloma Mizuho Stadium,11894
+17,Sat Sep 19 2020,18:00,Cerezo Osaka,1-2,Kashima Antlers,Yanmar Stadium Nagai,6836
+17,Sat Sep 19 2020,18:30,Shonan Bellmare,0-3,S-Pulse,Shonan BMW Stadium,4170
+17,Sat Sep 19 2020,19:00,Kashiwa Reysol,1-1,Sanfrecce,Sankyo Frontier Kashiwa Stadium,2728
+17,Sun Sep 20 2020,18:00,Oita Trinita,1-0,Yokohama FC,Ōita Bank Dome,6105
+17,Sun Sep 20 2020,19:00,Urawa Reds,0-3,Kawa Frontale,Saitama Stadium 2002,6357
+17,Sun Sep 20 2020,19:00,FC Tokyo,1-0,Vegalta Sendai,Ajinomoto Stadium,4981
+18,Wed Sep 23 2020,18:30,Consa Sapporo,0-1,Kashiwa Reysol,Sapporo Dome,3002
+18,Wed Sep 23 2020,19:00,Oita Trinita,0-2,Sanfrecce,Ōita Bank Dome,4247
+18,Wed Sep 23 2020,19:00,Kawa Frontale,3-2,Yokohama FC,Kawasaki Todoroki Stadium,4723
+18,Wed Sep 23 2020,19:00,Gamba Osaka,2-1,Grampus,Panasonic Stadium Suita,5153
+18,Wed Sep 23 2020,19:00,Kashima Antlers,1-0,Shonan Bellmare,Kashima Soccer Stadium,3194
+18,Wed Sep 23 2020,19:00,Vissel Kobe,4-3,Sagan Tosu,NOEVIR Stadium Kobe,2719
+18,Wed Sep 23 2020,19:00,FC Tokyo,2-0,Cerezo Osaka,Ajinomoto Stadium,4316
+18,Wed Sep 23 2020,19:30,Marinos,3-1,Vegalta Sendai,Nissan Stadium,3702
+18,Wed Sep 23 2020,19:30,S-Pulse,1-2,Urawa Reds,IAI Stadium Nihondaira,3095
+19,Sat Sep 26 2020,14:00,Grampus,3-1,S-Pulse,Paloma Mizuho Stadium,11002
+19,Sat Sep 26 2020,18:00,Urawa Reds,0-2,Yokohama FC,Saitama Stadium 2002,6401
+19,Sat Sep 26 2020,19:00,Vissel Kobe,4-0,Consa Sapporo,NOEVIR Stadium Kobe,5335
+19,Sun Sep 27 2020,13:00,Vegalta Sendai,2-3,Cerezo Osaka,Yurtec Stadium Sendai,2789
+19,Sun Sep 27 2020,16:00,Sagan Tosu,3-0,FC Tokyo,Ekimae Real Estate Stadium,4434
+19,Sun Sep 27 2020,17:00,Kashima Antlers,0-2,Oita Trinita,Kashima Soccer Stadium,6982
+19,Sun Sep 27 2020,18:00,Sanfrecce,1-2,Gamba Osaka,EDION Stadium,4104
+19,Sun Sep 27 2020,19:00,Shonan Bellmare,0-1,Kawa Frontale,Shonan BMW Stadium,4189
+19,Sun Sep 27 2020,19:00,Kashiwa Reysol,1-3,Marinos,Sankyo Frontier Kashiwa Stadium,2715
+25,Wed Sep 30 2020,19:00,Marinos,1-1,Sagan Tosu,Nissan Stadium,3431
+29,Wed Sep 30 2020,19:00,Vissel Kobe,1-0,Grampus,NOEVIR Stadium Kobe,4825
+29,Wed Sep 30 2020,19:30,Urawa Reds,0-1,FC Tokyo,Saitama Stadium 2002,5623
+20,Sat Oct 3 2020,14:00,Consa Sapporo,3-3,Vegalta Sendai,Sapporo Dome,5339
+20,Sat Oct 3 2020,15:00,Cerezo Osaka,1-3,Kawa Frontale,Yanmar Stadium Nagai,11842
+20,Sat Oct 3 2020,16:00,Yokohama FC,0-3,Kashiwa Reysol,NHK Spring Mitsuzawa Football Stadium,4571
+20,Sat Oct 3 2020,17:00,Sanfrecce,3-0,Sagan Tosu,EDION Stadium,3765
+20,Sat Oct 3 2020,19:00,Oita Trinita,2-1,S-Pulse,Ōita Bank Dome,6885
+20,Sat Oct 3 2020,19:00,Gamba Osaka,2-0,Kashima Antlers,Panasonic Stadium Suita,9313
+20,Sun Oct 4 2020,15:00,Shonan Bellmare,0-1,FC Tokyo,Shonan BMW Stadium,4691
+20,Sun Oct 4 2020,16:00,Marinos,2-3,Vissel Kobe,Nissan Stadium,7279
+20,Sun Oct 4 2020,17:00,Urawa Reds,0-1,Grampus,Saitama Stadium 2002,9357
+10,Wed Oct 7 2020,19:00,Sagan Tosu,1-2,Gamba Osaka,Ekimae Real Estate Stadium,3601
+21,Sat Oct 10 2020,14:00,FC Tokyo,0-1,Gamba Osaka,Ajinomoto Stadium,8166
+21,Sat Oct 10 2020,14:00,S-Pulse,2-3,Sanfrecce,IAI Stadium Nihondaira,3024
+21,Sat Oct 10 2020,14:00,Grampus,1-0,Cerezo Osaka,Paloma Mizuho Stadium,7861
+21,Sat Oct 10 2020,14:00,Consa Sapporo,2-1,Shonan Bellmare,Sapporo Dome,2859
+21,Sat Oct 10 2020,15:00,Kashiwa Reysol,4-3,Vissel Kobe,Sankyo Frontier Kashiwa Stadium,2515
+21,Sat Oct 10 2020,16:00,Kashima Antlers,3-2,Yokohama FC,Kashima Soccer Stadium,5671
+21,Sat Oct 10 2020,16:00,Marinos,4-0,Oita Trinita,Nissan Stadium,3675
+21,Sat Oct 10 2020,18:00,Kawa Frontale,1-0,Vegalta Sendai,Kawasaki Todoroki Stadium,8263
+21,Sat Oct 10 2020,18:00,Sagan Tosu,0-1,Urawa Reds,Ekimae Real Estate Stadium,8574
+22,Wed Oct 14 2020,18:45,Sagan Tosu,0-2,Kashima Antlers,Ekimae Real Estate Stadium,3882
+22,Wed Oct 14 2020,19:00,Sanfrecce,0-2,Kawa Frontale,EDION Stadium,3007
+22,Wed Oct 14 2020,19:00,Vegalta Sendai,0-0,Yokohama FC,Yurtec Stadium Sendai,3714
+22,Wed Oct 14 2020,19:00,FC Tokyo,3-1,S-Pulse,Ajinomoto Stadium,3812
+22,Wed Oct 14 2020,19:00,Kashiwa Reysol,1-1,Urawa Reds,Sankyo Frontier Kashiwa Stadium,2634
+22,Wed Oct 14 2020,19:00,Gamba Osaka,1-1,Marinos,Panasonic Stadium Suita,6455
+22,Wed Oct 14 2020,19:00,Vissel Kobe,1-1,Oita Trinita,NOEVIR Stadium Kobe,7417
+22,Wed Oct 14 2020,19:30,Grampus,3-0,Consa Sapporo,Paloma Mizuho Stadium,8895
+22,Wed Oct 14 2020,19:30,Cerezo Osaka,1-0,Shonan Bellmare,Yanmar Stadium Nagai,5526
+23,Sat Oct 17 2020,15:00,Cerezo Osaka,4-1,Marinos,Yanmar Stadium Nagai,6870
+23,Sun Oct 18 2020,13:00,Consa Sapporo,1-0,Kashima Antlers,Sapporo Dome,5359
+23,Sun Oct 18 2020,14:00,Yokohama FC,1-0,FC Tokyo,NHK Spring Mitsuzawa Football Stadium,5163
+23,Sun Oct 18 2020,14:00,Oita Trinita,0-1,Gamba Osaka,Ōita Bank Dome,8570
+23,Sun Oct 18 2020,14:00,S-Pulse,1-1,Sagan Tosu,IAI Stadium Nihondaira,4487
+23,Sun Oct 18 2020,15:00,Shonan Bellmare,3-2,Kashiwa Reysol,Shonan BMW Stadium,5006
+23,Sun Oct 18 2020,16:00,Urawa Reds,6-0,Vegalta Sendai,Saitama Stadium 2002,9831
+23,Sun Oct 18 2020,17:00,Sanfrecce,2-1,Vissel Kobe,EDION Stadium,8005
+23,Sun Oct 18 2020,19:00,Kawa Frontale,3-0,Grampus,Kawasaki Todoroki Stadium,10161
+33,Wed Oct 21 2020,18:00,Vissel Kobe,1-3,Kashima Antlers,NOEVIR Stadium Kobe,6553
+13,Wed Oct 21 2020,19:30,Shonan Bellmare,0-0,Sagan Tosu,Shonan BMW Stadium,2629
+33,Wed Oct 21 2020,19:30,Marinos,2-1,Grampus,Nissan Stadium,6607
+24,Sat Oct 24 2020,14:00,Grampus,1-0,Vegalta Sendai,Paloma Mizuho Stadium,9367
+24,Sat Oct 24 2020,14:00,Consa Sapporo,3-0,Yokohama FC,Sapporo Dome,6256
+24,Sat Oct 24 2020,14:00,Kashima Antlers,1-0,Sanfrecce,Kashima Soccer Stadium,7466
+28,Sat Oct 24 2020,15:00,FC Tokyo,0-4,Marinos,Ajinomoto Stadium,9518
+24,Sat Oct 24 2020,16:00,Gamba Osaka,2-1,Kashiwa Reysol,Panasonic Stadium Suita,10602
+24,Sat Oct 24 2020,17:00,Urawa Reds,3-1,Cerezo Osaka,Saitama Stadium 2002,12863
+24,Sun Oct 25 2020,14:00,Sagan Tosu,2-2,Shonan Bellmare,Ekimae Real Estate Stadium,5783
+30,Wed Oct 28 2020,19:00,FC Tokyo,1-3,Kashiwa Reysol,Ajinomoto Stadium,6632
+30,Wed Oct 28 2020,19:00,Vegalta Sendai,2-3,Vissel Kobe,Yurtec Stadium Sendai,4071
+32,Wed Oct 28 2020,19:00,Sanfrecce,3-1,Marinos,EDION Stadium,1984
+25,Sat Oct 31 2020,13:00,Vegalta Sendai,0-0,Sanfrecce,Yurtec Stadium Sendai,4001
+25,Sat Oct 31 2020,14:00,Oita Trinita,0-0,Urawa Reds,Ōita Bank Dome,7397
+25,Sat Oct 31 2020,15:00,Shonan Bellmare,1-0,Yokohama FC,Shonan BMW Stadium,5328
+25,Sat Oct 31 2020,16:00,Kashiwa Reysol,0-0,S-Pulse,Sankyo Frontier Kashiwa Stadium,2720
+25,Sat Oct 31 2020,17:00,Kashima Antlers,0-2,Grampus,Kashima Soccer Stadium,8912
+25,Sat Oct 31 2020,18:00,Kawa Frontale,2-1,FC Tokyo,Kawasaki Todoroki Stadium,11061
+25,Sat Oct 31 2020,19:00,Gamba Osaka,2-1,Consa Sapporo,Panasonic Stadium Suita,16183
+26,Tue Nov 3 2020,13:00,Sagan Tosu,0-0,Grampus,Ekimae Real Estate Stadium,6912
+31,Tue Nov 3 2020,13:00,Marinos,2-3,Kashima Antlers,Nissan Stadium,20515
+26,Tue Nov 3 2020,14:00,Cerezo Osaka,1-1,Gamba Osaka,Yanmar Stadium Nagai,19553
+26,Tue Nov 3 2020,14:00,Kawa Frontale,0-2,Consa Sapporo,Kawasaki Todoroki Stadium,11165
+26,Tue Nov 3 2020,15:00,S-Pulse,3-1,Vissel Kobe,IAI Stadium Nihondaira,6168
+26,Tue Nov 3 2020,16:00,Yokohama FC,2-3,Oita Trinita,NHK Spring Mitsuzawa Football Stadium,3704
+26,Tue Nov 3 2020,17:00,Sanfrecce,1-1,Urawa Reds,EDION Stadium,5475
+11,Sun Nov 8 2020,13:00,Vegalta Sendai,0-3,Sagan Tosu,Yurtec Stadium Sendai,5995
+28,Sun Nov 8 2020,14:00,Yokohama FC,2-1,Vissel Kobe,NHK Spring Mitsuzawa Football Stadium,6965
+7,Wed Nov 11 2020,19:00,Sanfrecce,2-0,Grampus,EDION Stadium,2508
+32,Wed Nov 11 2020,19:00,Gamba Osaka,1-0,Vissel Kobe,Panasonic Stadium Suita,11579
+33,Wed Nov 11 2020,19:00,FC Tokyo,1-0,Consa Sapporo,Ajinomoto Stadium,6357
+26,Wed Nov 11 2020,19:30,Shonan Bellmare,1-0,Marinos,Shonan BMW Stadium,5082
+27,Sat Nov 14 2020,14:00,Consa Sapporo,1-1,Sagan Tosu,Sapporo Dome,5663
+27,Sat Nov 14 2020,14:00,Sanfrecce,1-1,Yokohama FC,EDION Stadium,6081
+27,Sat Nov 14 2020,14:00,S-Pulse,3-1,Cerezo Osaka,IAI Stadium Nihondaira,6076
+27,Sat Nov 14 2020,15:00,Gamba Osaka,0-4,Vegalta Sendai,Panasonic Stadium Suita,11567
+27,Sat Nov 14 2020,16:00,Marinos,6-2,Urawa Reds,Nissan Stadium,18148
+27,Sat Nov 14 2020,17:00,Kashima Antlers,1-1,Kawa Frontale,Kashima Soccer Stadium,13463
+27,Sun Nov 15 2020,14:00,Vissel Kobe,0-2,Shonan Bellmare,NOEVIR Stadium Kobe,11232
+27,Sun Nov 15 2020,19:00,Grampus,1-0,FC Tokyo,Paloma Mizuho Stadium,16709
+31,Wed Nov 18 2020,18:00,Vissel Kobe,0-1,Urawa Reds,NOEVIR Stadium Kobe,8268
+30,Wed Nov 18 2020,19:00,Kawa Frontale,3-1,Marinos,Kawasaki Todoroki Stadium,11099
+32,Wed Nov 18 2020,19:00,Vegalta Sendai,2-2,FC Tokyo,Yurtec Stadium Sendai,3030
+28,Sat Nov 21 2020,14:00,Consa Sapporo,5-1,S-Pulse,Sapporo Dome,5220
+28,Sat Nov 21 2020,14:00,Oita Trinita,1-0,Kawa Frontale,Ōita Bank Dome,9820
+28,Sat Nov 21 2020,15:00,Kashiwa Reysol,1-2,Sagan Tosu,Sankyo Frontier Kashiwa Stadium,3784
+28,Sat Nov 21 2020,15:00,Vegalta Sendai,1-3,Kashima Antlers,Yurtec Stadium Sendai,7487
+28,Sat Nov 21 2020,16:00,Cerezo Osaka,0-1,Sanfrecce,Yanmar Stadium Nagai,6625
+28,Sat Nov 21 2020,17:00,Grampus,3-1,Shonan Bellmare,Paloma Mizuho Stadium,15480
+28,Sun Nov 22 2020,16:00,Urawa Reds,1-2,Gamba Osaka,Saitama Stadium 2002,20288
+29,Wed Nov 25 2020,18:30,Kawa Frontale,,Gamba Osaka,Kawasaki Todoroki Stadium,
+29,Wed Nov 25 2020,19:00,Oita Trinita,,Cerezo Osaka,Ōita Bank Dome,
+29,Wed Nov 25 2020,19:00,Kashima Antlers,,Kashiwa Reysol,Kashima Soccer Stadium,
+29,Wed Nov 25 2020,19:00,Yokohama FC,,S-Pulse,NHK Spring Mitsuzawa Football Stadium,
+29,Wed Nov 25 2020,19:30,Sagan Tosu,,Vegalta Sendai,Ekimae Real Estate Stadium,
+29,Wed Nov 25 2020,19:30,Shonan Bellmare,,Sanfrecce,Shonan BMW Stadium,
+30,Sat Nov 28 2020,14:00,Sanfrecce,,Consa Sapporo,EDION Stadium,
+30,Sat Nov 28 2020,14:00,Grampus,,Oita Trinita,Paloma Mizuho Stadium,
+30,Sun Nov 29 2020,14:00,S-Pulse,,Shonan Bellmare,IAI Stadium Nihondaira,
+30,Sun Nov 29 2020,15:00,Kashima Antlers,,Urawa Reds,Kashima Soccer Stadium,
+30,Sun Nov 29 2020,15:00,Cerezo Osaka,,Yokohama FC,Yanmar Stadium Nagai,
+30,Sun Nov 29 2020,17:00,Gamba Osaka,,Sagan Tosu,Panasonic Stadium Suita,
+26,Tue Dec 1 2020,19:00,Vegalta Sendai,,Kashiwa Reysol,Yurtec Stadium Sendai,
+31,Sat Dec 5 2020,14:00,Kashiwa Reysol,,Grampus,Sankyo Frontier Kashiwa Stadium,
+31,Sat Dec 5 2020,14:00,Consa Sapporo,,Cerezo Osaka,Sapporo Dome,
+31,Sat Dec 5 2020,14:00,S-Pulse,,Kawa Frontale,IAI Stadium Nihondaira,
+31,Sat Dec 5 2020,16:00,Yokohama FC,,Sagan Tosu,NHK Spring Mitsuzawa Football Stadium,
+31,Sun Dec 6 2020,14:00,Oita Trinita,,Vegalta Sendai,Ōita Bank Dome,
+31,Sun Dec 6 2020,15:00,Shonan Bellmare,,Gamba Osaka,Shonan BMW Stadium,
+27,Wed Dec 9 2020,19:00,Kashiwa Reysol,,Oita Trinita,Sankyo Frontier Kashiwa Stadium,
+31,Sat Dec 12 2020,14:00,FC Tokyo,,Sanfrecce,Ajinomoto Stadium,
+32,Sat Dec 12 2020,14:00,Cerezo Osaka,,Kashiwa Reysol,Yanmar Stadium Nagai,
+32,Sat Dec 12 2020,14:00,Sagan Tosu,,Kawa Frontale,Ekimae Real Estate Stadium,
+32,Sat Dec 12 2020,14:00,Grampus,,Yokohama FC,Paloma Mizuho Stadium,
+32,Sat Dec 12 2020,15:00,Oita Trinita,,Consa Sapporo,Ōita Bank Dome,
+32,Sat Dec 12 2020,16:00,Kashima Antlers,,S-Pulse,Kashima Soccer Stadium,
+32,Sat Dec 12 2020,17:00,Urawa Reds,,Shonan Bellmare,Saitama Stadium 2002,
+33,Wed Dec 16 2020,19:00,Kawa Frontale,,Urawa Reds,Kawasaki Todoroki Stadium,
+33,Wed Dec 16 2020,19:00,S-Pulse,,Vegalta Sendai,IAI Stadium Nihondaira,
+33,Wed Dec 16 2020,19:00,Yokohama FC,,Gamba Osaka,NHK Spring Mitsuzawa Football Stadium,
+33,Wed Dec 16 2020,19:00,Shonan Bellmare,,Oita Trinita,Shonan BMW Stadium,
+33,Wed Dec 16 2020,19:00,Cerezo Osaka,,Sagan Tosu,Yanmar Stadium Nagai,
+33,Wed Dec 16 2020,19:00,Sanfrecce,,Kashiwa Reysol,EDION Stadium,
+34,Sat Dec 19 2020,14:00,Kashiwa Reysol,,Kawa Frontale,Sankyo Frontier Kashiwa Stadium,
+34,Sat Dec 19 2020,14:00,Sagan Tosu,,Oita Trinita,Ekimae Real Estate Stadium,
+34,Sat Dec 19 2020,14:00,Gamba Osaka,,S-Pulse,Panasonic Stadium Suita,
+34,Sat Dec 19 2020,14:00,Kashima Antlers,,Cerezo Osaka,Kashima Soccer Stadium,
+34,Sat Dec 19 2020,14:00,Grampus,,Sanfrecce,Paloma Mizuho Stadium,
+34,Sat Dec 19 2020,14:00,Yokohama FC,,Marinos,NHK Spring Mitsuzawa Football Stadium,
+34,Sat Dec 19 2020,14:00,Vegalta Sendai,,Shonan Bellmare,Yurtec Stadium Sendai,
+34,Sat Dec 19 2020,14:00,FC Tokyo,,Vissel Kobe,Ajinomoto Stadium,
+34,Sat Dec 19 2020,14:00,Urawa Reds,,Consa Sapporo,Saitama Stadium 2002,

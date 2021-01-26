@@ -33,15 +33,15 @@ Round,Date,Time,Team 1,FT,Team 2,Venue
 4,Wed Aug 19 2020,21:30,Corinthians,3-1,Coritiba,Arena Corinthians
 4,Wed Aug 19 2020,21:30,Botafogo (RJ),2-1,Atlético Mineiro,Estádio Nilton Santos
 4,Thu Aug 20 2020,19:15,Sport Recife,0-1,Santos,Estádio Adelmar da Costa Carvalho
-4,Thu Aug 20 2020,20:00,São Paulo,1-1,Bahia,Estádio do Morumbi
 4,Thu Aug 20 2020,20:00,Ceará,0-3,Vasco da Gama,Estádio Castelão
+4,Thu Aug 20 2020,20:00,São Paulo,1-1,Bahia,Estádio do Morumbi
 5,Sat Aug 22 2020,16:00,Atl Paranaense,0-1,Fluminense,Estádio Joaquim Américo Guimarães
 5,Sat Aug 22 2020,19:00,Internacional,1-0,Atlético Mineiro,Estádio José Pinheiro Borba
 5,Sat Aug 22 2020,21:00,Goiás,2-0,Atl Goianiense,Estádio de Hailé Pinheiro
 5,Sun Aug 23 2020,11:00,Flamengo,1-1,Botafogo (RJ),Estadio Jornalista Mário Filho
 5,Sun Aug 23 2020,16:00,Palmeiras,2-1,Santos,Allianz Parque
-5,Sun Aug 23 2020,16:00,Vasco da Gama,0-0,Grêmio,Estádio Club de Regatas Vasco da Gama
 5,Sun Aug 23 2020,16:00,Bragantino,1-2,Coritiba,Estádio Nabi Abi Chedid
+5,Sun Aug 23 2020,16:00,Vasco da Gama,0-0,Grêmio,Estádio Club de Regatas Vasco da Gama
 5,Sun Aug 23 2020,19:00,Sport Recife,0-1,São Paulo,Estádio Adelmar da Costa Carvalho
 5,Sun Aug 23 2020,20:00,Ceará,2-0,Bahia,Estádio Castelão
 11,Wed Aug 26 2020,19:00,São Paulo,1-0,Atl Paranaense,Estádio do Morumbi
@@ -57,8 +57,8 @@ Round,Date,Time,Team 1,FT,Team 2,Venue
 7,Wed Sep 2 2020,19:00,Ceará,1-0,Fortaleza,Estádio Castelão
 7,Wed Sep 2 2020,19:15,Goiás,1-2,Corinthians,Estádio de Hailé Pinheiro
 7,Wed Sep 2 2020,19:30,Fluminense,1-1,Atl Goianiense,Estadio Jornalista Mário Filho
-7,Wed Sep 2 2020,20:30,Botafogo (RJ),0-0,Coritiba,Estádio Nilton Santos
 7,Wed Sep 2 2020,20:30,Bahia,3-5,Flamengo,Estádio Governador Roberto Santos
+7,Wed Sep 2 2020,20:30,Botafogo (RJ),0-0,Coritiba,Estádio Nilton Santos
 7,Wed Sep 2 2020,20:30,Atl Paranaense,1-1,Bragantino,Estádio Joaquim Américo Guimarães
 7,Wed Sep 2 2020,21:30,Santos,2-2,Vasco da Gama,Estádio Urbano Caldeira
 7,Wed Sep 2 2020,21:30,Palmeiras,1-1,Internacional,Allianz Parque
@@ -90,8 +90,8 @@ Round,Date,Time,Team 1,FT,Team 2,Venue
 10,Sun Sep 13 2020,16:00,Fluminense,2-1,Corinthians,Estadio Jornalista Mário Filho
 10,Sun Sep 13 2020,18:00,Goiás,1-0,Internacional,Estádio de Hailé Pinheiro
 10,Sun Sep 13 2020,18:00,Ceará,2-0,Flamengo,Estádio Castelão
-10,Sun Sep 13 2020,18:00,Atlético Mineiro,2-1,Bragantino,Estádio Raimundo Sampaio
 10,Sun Sep 13 2020,18:00,Bahia,0-1,Atl Goianiense,Estádio Governador Roberto Santos
+10,Sun Sep 13 2020,18:00,Atlético Mineiro,2-1,Bragantino,Estádio Raimundo Sampaio
 10,Sun Sep 13 2020,19:45,Palmeiras,2-2,Sport Recife,Allianz Parque
 10,Sun Sep 13 2020,20:30,Botafogo (RJ),2-3,Vasco da Gama,Estádio Nilton Santos
 11,Wed Sep 16 2020,21:30,Corinthians,3-2,Bahia,Arena Corinthians
@@ -112,16 +112,16 @@ Round,Date,Time,Team 1,FT,Team 2,Venue
 12,Sun Sep 27 2020,18:15,Ceará,2-2,Goiás,Estádio Castelão
 12,Sun Sep 27 2020,20:30,Santos,1-1,Fortaleza,Estádio Urbano Caldeira
 12,Mon Sep 28 2020,20:00,Fluminense,4-0,Coritiba,Estadio Jornalista Mário Filho
-1,Wed Sep 30 2020,21:30,Botafogo (RJ),1-2,Bahia,Estádio Nilton Santos
 1,Wed Sep 30 2020,21:30,Corinthians,0-0,Atl Goianiense,Arena Corinthians
+1,Wed Sep 30 2020,21:30,Botafogo (RJ),1-2,Bahia,Estádio Nilton Santos
 13,Sat Oct 3 2020,17:00,Grêmio,1-1,Internacional,Arena do Grêmio
 13,Sat Oct 3 2020,19:00,Palmeiras,2-1,Ceará,Allianz Parque
 13,Sat Oct 3 2020,21:00,Bragantino,0-0,Corinthians,Estádio Nabi Abi Chedid
 13,Sun Oct 4 2020,11:00,Botafogo (RJ),1-1,Fluminense,Estádio Nilton Santos
 13,Sun Oct 4 2020,16:00,Flamengo,3-1,Atl Paranaense,Estadio Jornalista Mário Filho
 13,Sun Oct 4 2020,16:00,Coritiba,1-1,São Paulo,Estádio Major Antônio Couto Pereira
-13,Sun Oct 4 2020,18:15,Fortaleza,0-0,Atl Goianiense,Estádio Castelão
 13,Sun Oct 4 2020,18:15,Bahia,1-2,Sport Recife,Estádio Governador Roberto Santos
+13,Sun Oct 4 2020,18:15,Fortaleza,0-0,Atl Goianiense,Estádio Castelão
 13,Sun Oct 4 2020,18:15,Goiás,2-3,Santos,Estádio de Hailé Pinheiro
 13,Sun Oct 4 2020,20:30,Atlético Mineiro,4-1,Vasco da Gama,Estádio Raimundo Sampaio
 14,Wed Oct 7 2020,19:00,Corinthians,1-1,Santos,Arena Corinthians
@@ -232,8 +232,8 @@ Round,Date,Time,Team 1,FT,Team 2,Venue
 24,Sat Dec 5 2020,19:00,Fluminense,3-1,Atl Paranaense,Estadio Jornalista Mário Filho
 24,Sat Dec 5 2020,19:00,Bahia,0-2,Ceará,Estádio Governador Roberto Santos
 24,Sat Dec 5 2020,21:00,Coritiba,0-0,Bragantino,Estádio Major Antônio Couto Pereira
-24,Sun Dec 6 2020,16:00,Grêmio,4-0,Vasco da Gama,Arena do Grêmio
 24,Sun Dec 6 2020,16:00,São Paulo,1-0,Sport Recife,Estádio do Morumbi
+24,Sun Dec 6 2020,16:00,Grêmio,4-0,Vasco da Gama,Arena do Grêmio
 24,Sun Dec 6 2020,18:15,Atlético Mineiro,2-2,Internacional,Estádio Raimundo Sampaio
 24,Mon Dec 7 2020,20:00,Atl Goianiense,0-1,Goiás,Estádio Olímpico Pedro Ludovico Teixeira
 18,Wed Dec 9 2020,21:30,São Paulo,4-0,Botafogo (RJ),Estádio do Morumbi
@@ -293,65 +293,64 @@ Round,Date,Time,Team 1,FT,Team 2,Venue
 30,Sun Jan 17 2021,18:15,Atlético Mineiro,3-1,Atl Goianiense,Estádio Raimundo Sampaio
 30,Sun Jan 17 2021,20:30,Ceará,1-2,Bragantino,Estádio Castelão
 30,Sun Jan 17 2021,20:30,Internacional,4-2,Fortaleza,Estádio José Pinheiro Borba
-28,Mon Jan 18 2021,19:00,Palmeiras,,Corinthians,Allianz Parque
-30,Mon Jan 18 2021,20:00,Goiás,,Flamengo,Estádio do Governo do Estado de Goiás
-31,Wed Jan 20 2021,17:00,Botafogo (RJ),,Atl Goianiense,Estádio Nilton Santos
-31,Wed Jan 20 2021,18:00,Bahia,,Atl Paranaense,Estádio Governador Roberto Santos
-31,Wed Jan 20 2021,19:15,Grêmio,,Atlético Mineiro,Arena do Grêmio
-31,Wed Jan 20 2021,20:30,Coritiba,,Fluminense,Estádio Major Antônio Couto Pereira
-31,Wed Jan 20 2021,21:30,Bragantino,,Vasco da Gama,Estádio Nabi Abi Chedid
-31,Wed Jan 20 2021,21:30,São Paulo,,Internacional,Estádio do Morumbi
-31,Thu Jan 21 2021,19:00,Goiás,,Ceará,Estádio do Governo do Estado de Goiás
-31,Thu Jan 21 2021,19:00,Fortaleza,,Santos,Estádio Castelão
-31,Thu Jan 21 2021,19:00,Flamengo,,Palmeiras,Estadio Jornalista Mário Filho
-31,Thu Jan 21 2021,21:00,Corinthians,,Sport Recife,Arena Corinthians
-32,Sat Jan 23 2021,19:00,Fluminense,,Botafogo (RJ),Estadio Jornalista Mário Filho
-32,Sat Jan 23 2021,21:00,São Paulo,,Coritiba,Estádio do Morumbi
-32,Sun Jan 24 2021,16:00,Atl Paranaense,,Flamengo,Estádio Joaquim Américo Guimarães
-32,Sun Jan 24 2021,16:00,Ceará,,Palmeiras,Estádio Castelão
-32,Sun Jan 24 2021,16:00,Internacional,,Grêmio,Estádio José Pinheiro Borba
-32,Sun Jan 24 2021,18:15,Sport Recife,,Bahia,Estádio Adelmar da Costa Carvalho
-32,Sun Jan 24 2021,18:15,Atl Goianiense,,Fortaleza,Estádio Olímpico Pedro Ludovico Teixeira
-32,Sun Jan 24 2021,18:15,Santos,,Goiás,Estádio Urbano Caldeira
-32,Sun Jan 24 2021,21:30,Vasco da Gama,,Atlético Mineiro,Estádio Club de Regatas Vasco da Gama
-32,Mon Jan 25 2021,21:00,Corinthians,,Bragantino,Arena Corinthians
+28,Mon Jan 18 2021,19:00,Palmeiras,4-0,Corinthians,Allianz Parque
+30,Mon Jan 18 2021,20:00,Goiás,0-3,Flamengo,Estádio do Governo do Estado de Goiás
+31,Wed Jan 20 2021,17:00,Botafogo (RJ),1-3,Atl Goianiense,Estádio Nilton Santos
+31,Wed Jan 20 2021,18:00,Bahia,1-0,Atl Paranaense,Estádio Governador Roberto Santos
+31,Wed Jan 20 2021,19:15,Grêmio,1-1,Atlético Mineiro,Arena do Grêmio
+31,Wed Jan 20 2021,20:30,Coritiba,3-3,Fluminense,Estádio Major Antônio Couto Pereira
+31,Wed Jan 20 2021,21:30,Bragantino,4-1,Vasco da Gama,Estádio Nabi Abi Chedid
+31,Wed Jan 20 2021,21:30,São Paulo,1-5,Internacional,Estádio do Morumbi
+31,Thu Jan 21 2021,19:00,Goiás,0-4,Ceará,Estádio do Governo do Estado de Goiás
+31,Thu Jan 21 2021,19:00,Flamengo,2-0,Palmeiras,Estadio Jornalista Mário Filho
+31,Thu Jan 21 2021,19:00,Fortaleza,2-0,Santos,Estádio Castelão
+31,Thu Jan 21 2021,21:00,Corinthians,3-0,Sport Recife,Arena Corinthians
+32,Sat Jan 23 2021,19:00,São Paulo,1-1,Coritiba,Estádio do Morumbi
+32,Sat Jan 23 2021,21:00,Vasco da Gama,3-2,Atlético Mineiro,Estádio Club de Regatas Vasco da Gama
+32,Sun Jan 24 2021,16:00,Atl Paranaense,2-1,Flamengo,Estádio Joaquim Américo Guimarães
+32,Sun Jan 24 2021,16:00,Ceará,2-1,Palmeiras,Estádio Castelão
+32,Sun Jan 24 2021,16:00,Internacional,2-1,Grêmio,Estádio José Pinheiro Borba
+32,Sun Jan 24 2021,18:15,Sport Recife,2-0,Bahia,Estádio Adelmar da Costa Carvalho
+32,Sun Jan 24 2021,18:15,Atl Goianiense,2-0,Fortaleza,Estádio Olímpico Pedro Ludovico Teixeira
+32,Sun Jan 24 2021,18:15,Santos,3-4,Goiás,Estádio Urbano Caldeira
+32,Sun Jan 24 2021,20:30,Fluminense,2-0,Botafogo (RJ),Estadio Jornalista Mário Filho
+32,Mon Jan 25 2021,20:00,Corinthians,,Bragantino,Arena Corinthians
 23,Wed Jan 27 2021,19:00,Grêmio,,Flamengo,Arena do Grêmio
 28,Wed Jan 27 2021,19:15,Atlético Mineiro,,Santos,Estádio Raimundo Sampaio
 1,Wed Jan 27 2021,21:30,Palmeiras,,Vasco da Gama,Allianz Parque
 30,Thu Jan 28 2021,19:00,Bahia,,Corinthians,Estádio Governador Roberto Santos
-33,Sun Jan 31 2021,,Atlético Mineiro,,Fortaleza,Estádio Raimundo Sampaio
-33,Sun Jan 31 2021,,Atl Goianiense,,São Paulo,Estádio Olímpico Pedro Ludovico Teixeira
-33,Sun Jan 31 2021,,Sport Recife,,Flamengo,Estádio Adelmar da Costa Carvalho
-33,Sun Jan 31 2021,,Coritiba,,Grêmio,Estádio Major Antônio Couto Pereira
-33,Sun Jan 31 2021,,Fluminense,,Goiás,Estadio Jornalista Mário Filho
-33,Sun Jan 31 2021,,Ceará,,Atl Paranaense,Estádio Castelão
-33,Sun Jan 31 2021,,Santos,,Corinthians,Estádio Urbano Caldeira
-33,Sun Jan 31 2021,,Palmeiras,,Botafogo (RJ),Allianz Parque
-33,Sun Jan 31 2021,,Vasco da Gama,,Bahia,Estádio Club de Regatas Vasco da Gama
-33,Sun Jan 31 2021,,Internacional,,Bragantino,Estádio José Pinheiro Borba
-34,Sun Feb 7 2021,,Flamengo,,Vasco da Gama,Estadio Jornalista Mário Filho
-34,Sun Feb 7 2021,,Bragantino,,Atl Goianiense,Estádio Nabi Abi Chedid
-34,Sun Feb 7 2021,,Fortaleza,,Coritiba,Estádio Castelão
-34,Sun Feb 7 2021,,Corinthians,,Ceará,Arena Corinthians
-34,Sun Feb 7 2021,,São Paulo,,Palmeiras,Estádio do Morumbi
-34,Sun Feb 7 2021,,Goiás,,Atlético Mineiro,
-34,Sun Feb 7 2021,,Botafogo (RJ),,Sport Recife,Estádio Nilton Santos
-34,Sun Feb 7 2021,,Bahia,,Fluminense,Estádio Governador Roberto Santos
-34,Sun Feb 7 2021,,Atl Paranaense,,Internacional,Estádio Joaquim Américo Guimarães
-34,Sun Feb 7 2021,,Grêmio,,Santos,Arena do Grêmio
-35,Sat Feb 13 2021,,Bragantino,,Flamengo,Estádio Nabi Abi Chedid
-35,Sat Feb 13 2021,,Botafogo (RJ),,Grêmio,Estádio Nilton Santos
-35,Sat Feb 13 2021,,Coritiba,,Palmeiras,Estádio Major Antônio Couto Pereira
-35,Sat Feb 13 2021,,São Paulo,,Ceará,Estádio do Morumbi
-35,Sat Feb 13 2021,,Fortaleza,,Vasco da Gama,Estádio Castelão
-35,Sat Feb 13 2021,,Corinthians,,Atl Paranaense,Arena Corinthians
-35,Sat Feb 13 2021,,Fluminense,,Atlético Mineiro,Estadio Jornalista Mário Filho
-35,Sat Feb 13 2021,,Bahia,,Goiás,Estádio Governador Roberto Santos
-35,Sat Feb 13 2021,,Internacional,,Sport Recife,Estádio José Pinheiro Borba
-35,Sat Feb 13 2021,,Atl Goianiense,,Santos,Estádio Olímpico Pedro Ludovico Teixeira
+33,Sun Jan 31 2021,16:00,Atl Goianiense,,São Paulo,Estádio Olímpico Pedro Ludovico Teixeira
+33,Sun Jan 31 2021,16:00,Coritiba,,Grêmio,Estádio Major Antônio Couto Pereira
+33,Sun Jan 31 2021,16:00,Vasco da Gama,,Bahia,Estádio Club de Regatas Vasco da Gama
+33,Sun Jan 31 2021,17:00,Atlético Mineiro,,Fortaleza,Estádio Raimundo Sampaio
+33,Sun Jan 31 2021,18:15,Internacional,,Bragantino,Estádio José Pinheiro Borba
+33,Sun Jan 31 2021,19:00,Ceará,,Atl Paranaense,Estádio Castelão
+33,Sun Jan 31 2021,20:30,Fluminense,,Goiás,Estadio Jornalista Mário Filho
+33,Mon Feb 1 2021,20:00,Sport Recife,,Flamengo,Estádio Adelmar da Costa Carvalho
+33,Tue Feb 2 2021,16:00,Palmeiras,,Botafogo (RJ),Allianz Parque
+34,Wed Feb 3 2021,16:00,Grêmio,,Santos,Arena do Grêmio
+34,Wed Feb 3 2021,19:15,Bragantino,,Atl Goianiense,Estádio Nabi Abi Chedid
+34,Wed Feb 3 2021,21:30,Goiás,,Atlético Mineiro,Estádio de Hailé Pinheiro
+34,Wed Feb 3 2021,21:30,Corinthians,,Ceará,Arena Corinthians
+34,Wed Feb 3 2021,21:30,Bahia,,Fluminense,Estádio Governador Roberto Santos
+34,Thu Feb 4 2021,18:30,Fortaleza,,Coritiba,Estádio Castelão
+34,Thu Feb 4 2021,21:00,Flamengo,,Vasco da Gama,Estadio Jornalista Mário Filho
+34,Thu Feb 4 2021,21:00,Atl Paranaense,,Internacional,Estádio Joaquim Américo Guimarães
+34,Fri Feb 5 2021,20:00,Botafogo (RJ),,Sport Recife,Estádio Nilton Santos
+34,Fri Feb 5 2021,21:00,São Paulo,,Palmeiras,Estádio do Morumbi
+35,Sat Feb 6 2021,19:00,Bahia,,Goiás,Estádio Governador Roberto Santos
+35,Sat Feb 6 2021,21:00,Atl Goianiense,,Santos,Estádio Olímpico Pedro Ludovico Teixeira
+35,Sun Feb 7 2021,16:00,Fluminense,,Atlético Mineiro,Estadio Jornalista Mário Filho
+35,Sun Feb 7 2021,16:00,Corinthians,,Atl Paranaense,Arena Corinthians
+35,Sun Feb 7 2021,20:30,Bragantino,,Flamengo,Estádio Nabi Abi Chedid
+35,Mon Feb 8 2021,18:00,Coritiba,,Palmeiras,Estádio Major Antônio Couto Pereira
+35,Mon Feb 8 2021,20:00,Botafogo (RJ),,Grêmio,Estádio Nilton Santos
+35,Wed Feb 10 2021,19:00,Internacional,,Sport Recife,Estádio José Pinheiro Borba
+35,Wed Feb 10 2021,19:15,Fortaleza,,Vasco da Gama,Estádio Castelão
+35,Wed Feb 10 2021,21:00,São Paulo,,Ceará,Estádio do Morumbi
 36,Wed Feb 17 2021,,Palmeiras,,Fortaleza,Allianz Parque
-36,Wed Feb 17 2021,,Sport Recife,,Bragantino,Estádio Adelmar da Costa Carvalho
 36,Wed Feb 17 2021,,Flamengo,,Corinthians,Estadio Jornalista Mário Filho
+36,Wed Feb 17 2021,,Sport Recife,,Bragantino,Estádio Adelmar da Costa Carvalho
 36,Wed Feb 17 2021,,Atl Paranaense,,Atl Goianiense,Estádio Joaquim Américo Guimarães
 36,Wed Feb 17 2021,,Goiás,,Botafogo (RJ),
 36,Wed Feb 17 2021,,Santos,,Coritiba,Estádio Urbano Caldeira
@@ -359,11 +358,12 @@ Round,Date,Time,Team 1,FT,Team 2,Venue
 36,Wed Feb 17 2021,,Atlético Mineiro,,Bahia,Estádio Raimundo Sampaio
 36,Wed Feb 17 2021,,Vasco da Gama,,Internacional,Estádio Club de Regatas Vasco da Gama
 36,Wed Feb 17 2021,,Ceará,,Fluminense,Estádio Castelão
+33,Wed Feb 17 2021,19:00,Santos,,Corinthians,Estádio Urbano Caldeira
 37,Sun Feb 21 2021,,Santos,,Fluminense,Estádio Urbano Caldeira
-37,Sun Feb 21 2021,,Goiás,,Bragantino,
 37,Sun Feb 21 2021,,Corinthians,,Vasco da Gama,Arena Corinthians
-37,Sun Feb 21 2021,,Flamengo,,Internacional,Estadio Jornalista Mário Filho
+37,Sun Feb 21 2021,,Goiás,,Bragantino,
 37,Sun Feb 21 2021,,Palmeiras,,Atl Goianiense,Allianz Parque
+37,Sun Feb 21 2021,,Flamengo,,Internacional,Estadio Jornalista Mário Filho
 37,Sun Feb 21 2021,,Botafogo (RJ),,São Paulo,Estádio Nilton Santos
 37,Sun Feb 21 2021,,Grêmio,,Atl Paranaense,Arena do Grêmio
 37,Sun Feb 21 2021,,Sport Recife,,Atlético Mineiro,Estádio Adelmar da Costa Carvalho
@@ -372,10 +372,10 @@ Round,Date,Time,Team 1,FT,Team 2,Venue
 38,Wed Feb 24 2021,,Bahia,,Santos,Estádio Governador Roberto Santos
 38,Wed Feb 24 2021,,Vasco da Gama,,Goiás,Estádio Club de Regatas Vasco da Gama
 38,Wed Feb 24 2021,,Bragantino,,Grêmio,Estádio Nabi Abi Chedid
-38,Wed Feb 24 2021,,São Paulo,,Flamengo,Estádio do Morumbi
 38,Wed Feb 24 2021,,Atl Paranaense,,Sport Recife,Estádio Joaquim Américo Guimarães
+38,Wed Feb 24 2021,,São Paulo,,Flamengo,Estádio do Morumbi
 38,Wed Feb 24 2021,,Internacional,,Corinthians,Estádio José Pinheiro Borba
 38,Wed Feb 24 2021,,Atlético Mineiro,,Palmeiras,Estádio Raimundo Sampaio
 38,Wed Feb 24 2021,,Fluminense,,Fortaleza,Estadio Jornalista Mário Filho
-38,Wed Feb 24 2021,,Ceará,,Botafogo (RJ),Estádio Castelão
 38,Wed Feb 24 2021,,Atl Goianiense,,Coritiba,Estádio Olímpico Pedro Ludovico Teixeira
+38,Wed Feb 24 2021,,Ceará,,Botafogo (RJ),Estádio Castelão

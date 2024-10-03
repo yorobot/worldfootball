@@ -45,17 +45,17 @@ parser = OptionParser.new do |parser|
 
   parser.on( "--cache", "--cached", "--offline",
                "use cached data in #{Webcache.root}" ) do |cached|
-    opts[:cached] = cached
+    opts[:cached] = true
   end
 
   parser.on( "--[no-]convert",
                "turn on/off conversion to .csv in #{Worldfootball.config.convert.out_dir} - default is (#{opts[:convert]})" ) do |convert|
-    opts[:convert] = convert
+    opts[:convert] = convert   # true|false
   end
 
   parser.on( "--print", "--pp",
                  "pretty print cached data in #{Webcache.root}; no download & conversion") do |print|
-    opts[:cached] = true
+    opts[:cached]  = true
     opts[:convert] = false
   end
 

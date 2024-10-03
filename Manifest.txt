@@ -3,6 +3,7 @@ Manifest.txt
 README.md
 Rakefile
 bin/wfb
+config/leagues_africa.csv
 config/leagues_america.csv
 config/leagues_asia.csv
 config/leagues_europe.csv
@@ -22,6 +23,7 @@ lib/worldfootball/mods.rb
 lib/worldfootball/page.rb
 lib/worldfootball/page_report.rb
 lib/worldfootball/page_schedule.rb
+lib/worldfootball/page_team.rb
 lib/worldfootball/stages.rb
 lib/worldfootball/vacuum.rb
 lib/worldfootball/version.rb

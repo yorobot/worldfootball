@@ -85,8 +85,12 @@ GENERATED_RE = %r{
      end
    end
 
+
 ######################
 ##  helper methods
+
+def debug?()  Worldfootball.debug?; end
+
 
 def squish( str )
   str = str.strip

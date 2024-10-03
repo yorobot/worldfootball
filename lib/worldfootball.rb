@@ -31,6 +31,13 @@ require_relative 'worldfootball/convert_reports'
 
 module Worldfootball
 
+   #########
+   ## add a global debug flag
+   def self.debug=(value) @debug = value; end
+   def self.debug?()      @debug ||= false; end  ## note: default is FALSE
+
+
+
 class Configuration
   #########
   ## nested configuration classes - use - why? why not?

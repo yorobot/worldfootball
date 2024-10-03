@@ -51,7 +51,7 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
 ##          <td colspan="2"></td>
 ##        </tr>
   ##
-  #   <tr class="e2-parent" data-liga_id="530" data-gs_match_id="10259222" 
+  #   <tr class="e2-parent" data-liga_id="530" data-gs_match_id="10259222"
   #       style="display:none;">
   ##    <td colspan="2"></td>
   ##    <td colspan="3">
@@ -68,7 +68,7 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
 
    i += 1
 
-    ## puts "[debug] row #{i} >#{tr.text.strip}<" 
+    ## puts "[debug] row #{i} >#{tr.text.strip}<"
 
     ### note - assume for now match lines use tds
     ##            and round lines use ths (NOT tds)!!
@@ -76,7 +76,7 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
 
     ths =  tr.css( 'th' )
     tds =  tr.css( 'td' )
-    
+
    if tr.text.strip =~ /Spieltag/ ||
       tr.text.strip =~ /[1-9]\.[ ]Runde|
                            Qual\.[ ][1-9]\.[ ]Runde|  # see EL or CL Quali
@@ -93,28 +93,30 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
                            Spiele|                # see Serie A 1960-61 Relegation
                            3\.[ ]Platz|      # see bra-serie-a-2000-yellow-module-playoffs
                            Spiel[ ]um[ ]Platz[ ]3|  # see campeonato-2009-cuadrangulares-deportivo-cuenca-cs-emelec
-                           Relegation|     # see egy-premiership-2013-2014-abstiegsplayoff    
-                           Copa[ ]Libertadores|  # see ecu-campeonato-2012-segunda-etapa-playoffs 
+                           Relegation|     # see egy-premiership-2013-2014-abstiegsplayoff
+                           Copa[ ]Libertadores|  # see ecu-campeonato-2012-segunda-etapa-playoffs
                            Copa[ ]Sudamericana|  # see campeonato-2012-liguilla-final-playoffs-cs-emelec-ldu-quito
-                           Repechaje|  # see nca-liga-primera-2023-2024-clausura-playoffs 
-                           Final[ ]de[ ]Grupos|   # see hon-liga-nacional-2020-2021-clausura-playoffs  
+                           Repechaje|  # see nca-liga-primera-2023-2024-clausura-playoffs
+                           Final[ ]de[ ]Grupos|   # see hon-liga-nacional-2020-2021-clausura-playoffs
                            Gran[ ]Final|   # see liga-nacional-2020-2021-apertura-playoffs-finale-olimpia-motagua
                            Finalrunde|  # see hon-liga-nacional-2019-2020-apertura-pentagonal
-                           Zona[ ]A|    # see gua-liga-nacional-2020-2021-clausura      
-                           Zona[ ]B|    # see liga-nacional-2020-2021-clausura-zona-a-comunicaciones-deportivo-malacateco    
+                           Zona[ ]A|    # see gua-liga-nacional-2020-2021-clausura
+                           Zona[ ]B|    # see liga-nacional-2020-2021-clausura-zona-a-comunicaciones-deportivo-malacateco
                            Interzone|    # see liga-nacional-2020-2021-clausura-zona-b-achuapa-sanarate
                            Final[ ]Segunda[ ]Ronda|    # see crc-primera-division-2018-2019-apertura-playoffs
                            Quadrangular      # see crc-primera-division-2016-2017-verano-playoffs
                            /x
-                          
-     puts
-     print '[%03d] ' % i
-     ## print squish( tr.text )
-     print "round >#{tr.text.strip}<"
-     print "\n"
+
+     if debug?
+       puts
+       print '[%03d] ' % i
+       ## print squish( tr.text )
+       print "round >#{tr.text.strip}<"
+       print "\n"
+     end
 
      last_round = tr.text.strip
-   elsif ths.count > 0 && 
+   elsif ths.count > 0 &&
          tds.count == 0
        ## check for round NOT yet configured!!!
        puts "!! WARN: found unregistered round line >#{tr.text.strip}<"
@@ -128,11 +130,12 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
 
      date_str = last_date_str    if date_str.empty?
 
-     ## note: for debugging - print as we go along (parsing)
-     print '[%03d]    ' % i
-     print "%-10s | " % date_str
-     print "%-5s | " % time_str
-
+     if debug?
+       ## note: for debugging - print as we go along (parsing)
+       print '[%03d]    ' % i
+       print "%-10s | " % date_str
+       print "%-5s | " % time_str
+     end
 
      # was: team1_str = squish( tds[2].text )
 
@@ -148,8 +151,10 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
        puts "!! WARN: no team1_ref for >#{team1_str}< found"
      end
 
-     ## note: for debugging - print as we go along (parsing)
-     print "%-22s | " % team1_str
+     if debug?
+       ## note: for debugging - print as we go along (parsing)
+       print "%-22s | " % team1_str
+     end
 
      ##  <td> - </td>
      ## e.g. -
@@ -168,9 +173,10 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
        puts "!! WARN: no team2_ref for >#{team2_str}< found"
      end
 
-     ## note: for debugging - print as we go along (parsing)
-     print "%-22s | " % team2_str
-
+     if debug?
+       ## note: for debugging - print as we go along (parsing)
+       print "%-22s | " % team2_str
+     end
 
 
      ### was: score_str = squish( tds[5].text )
@@ -197,11 +203,11 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
        score_str = '-:-'  # note: -:- gets replaced to ---
      end
 
-
-     print "%-10s | " % score_str
-     print (score_ref ? score_ref : 'n/a')
-     print "\n"
-
+     if debug?
+       print "%-10s | " % score_str
+       print (score_ref ? score_ref : 'n/a')
+       print "\n"
+     end
 
      ## change  2:1 (1:1)  to 2-1 (1-1)
      score_str = score_str.gsub( ':', '-' )
@@ -214,7 +220,7 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
 
      date     = if date_str == '00.00.0000'
                   nil
-                else 
+                else
                   Date.strptime( date_str, '%d.%m.%Y' )
                 end
 

@@ -24,7 +24,10 @@ class LeagueItem  # nested inside LeagueConfig
        ### todo/fix:
        ##     use from cache if not older than 1 (or 5/10?) hour(s) or such
        ##           why? why not?
-       Worldfootball::Metal.download_schedule( @slug )
+       schedule_url = Worldfootball::Metal.schedule_url( @slug )
+       if Webcache.expired_in_1d?( schedule_url )
+         Worldfootball::Metal.download_schedule( @slug )
+       end
        page = Worldfootball::Page::Schedule.from_cache( @slug )
 
      ## pp page.seasons

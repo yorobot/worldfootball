@@ -9,6 +9,9 @@ def self.convert( league:, season: )
   pages  = league.pages!( season: season )
 
 
+    ## collect all teams
+    teams_by_ref = {}
+
     recs = []
     pages.each do |slug, stage|
       ## note: stage might be nil
@@ -35,6 +38,30 @@ def self.convert( league:, season: )
       print "\n"
 
       rows = page.matches
+
+      teams = page.teams
+      ## e.g. {:count=>2, :name=>"AS Arta", :ref=>"as-arta"},
+      ##      {:count=>4, :name=>"Dekedaha FC", :ref=>"dekedaha-fc"},
+      ##        ...
+      teams.each do |h|
+          team_count = h[:count]
+          team_name  = norm_team( h[:name] )      ## note: norm team name!!!
+          team_ref   = h[:ref]
+
+          ## note: skip N.N.  (place holder team)
+          ##        team_ref is nil etc.
+          next if team_name == 'N.N.'
+
+          team_stat = teams_by_ref[ team_ref ] ||= { count: 0,
+                                                     name:  team_name }
+          team_stat[:count] += team_count
+          if team_name != team_stat[:name]
+              puts "!! ASSERT ERROR - team ref with differet names; expected #{team_stat[:name]} - got #{team_name}"
+              exit 1
+          end
+      end
+
+
       stage_recs = build( rows,
                           season: season,
                           league: league.key,
@@ -42,6 +69,60 @@ def self.convert( league:, season: )
 
       pp stage_recs[0]   ## check first record
       recs += stage_recs
+    end
+
+
+    clubs_intl  =  ['uefa.cl', 'uefa.el', 'uefa.conf',
+                    'copa.l',
+                    'caf.cl',
+                    'afl'].include?(league.key) ? true : false
+
+    ####
+    #   auto-add (fifa) country code if int'l club tournament
+    if clubs_intl
+ ##
+ ##   get country codes for team ref
+       teams_by_ref.each do |team_slug, h|
+
+          Metal.download_team( team_slug, cache: true )
+          team_page = Page::Team.from_cache( team_slug )
+          props = team_page.props
+          pp props
+          country_name = props[:country]
+          cty = Fifa.world.find_by_name( country_name )
+          if cty.nil?
+            puts "!! ERROR - no country found for #{country_name}"
+            exit 1
+          end
+          h[:code] = cty.code
+       end
+
+       ## generate lookup by name
+       teams_by_name = teams_by_ref.reduce( {} ) do |h, (slug,rec)|
+            h[ rec[:name]] = rec
+            h
+       end
+
+    #####
+    ## dump team refs
+    puts "  #{teams_by_ref.size} team(s) by ref:"
+    pp teams_by_name
+
+    ## quick hack
+    ##  add country (fifa) codes to team names
+        recs.each do |rec|
+           team1_org  =  rec[5]
+           if team1_org != 'N.N.'   ## note - skip place holder; keep as-is
+             country_code = teams_by_name[team1_org][:code]
+             rec[5]  = "#{team1_org} (#{country_code})"
+           end
+
+           team2_org = rec[8]
+           if team2_org != 'N.N.'   ## note - skip place holder; keep as-is
+             country_code = teams_by_name[team2_org][:code]
+             rec[8]  = "#{team2_org} (#{country_code})"
+           end
+        end
     end
 
 

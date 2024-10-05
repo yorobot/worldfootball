@@ -24,6 +24,12 @@ def self.norm_team( team )
    ##   others too?  - move to mods instead of generic rule - why? why not?
    team = team.sub( /[ ]+\(A\)/, ' II' )
 
+   ################
+   ## quick hack - norm(alize) all N.N. to N.N.
+   ##   e.g.
+   team = 'N.N.'    if ['Sieger HF 1',
+                        'Sieger HF 2'].include?( team )
+
    team
 end
 

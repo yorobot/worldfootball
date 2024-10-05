@@ -26,9 +26,12 @@ TEAMS = {}
 
 
 datasets = [
-    ['at.1',     ['2024/25', '2023/24']],
-    ['caf.cl',   ['2023/24','2024/25']],
-    ['afl',      ['2023']],
+  #  ['at.1',     ['2024/25', '2023/24']],
+  #  ['caf.cl',   ['2023/24','2024/25']],
+  #  ['afl',      ['2023']],
+  ['uefa.cl',   ['2024/25', '2023/24']],
+  ['uefa.el',   ['2024/25', '2023/24']],
+  ['uefa.conf', ['2024/25', '2023/24']],
 ]
 
 ## step 1 - download
@@ -51,9 +54,17 @@ datasets.each do |league_key, seasons|
           puts "   #{teams.size} teams(s)"
 
           teams.each do |h|
-             ## pp h
+             pp h
              team_name = h[:name]
              team_ref  = h[:ref]
+
+             ###
+             #   note - skip  N.N. !!! has no team page
+             next if [ 'N.N.',
+                       'Sieger HF 1',
+                       'Sieger HF 2',
+                     ].include?(team_name)
+
              team_url  = Worldfootball::Metal.team_url( team_ref )
              pp team_url
              if Webcache.cached?( team_url )

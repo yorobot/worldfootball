@@ -19,6 +19,7 @@ Hoe.spec 'worldfootball' do
 
   self.extra_deps = [
     ['football-timezones'],
+    ['fifa'],
     ['webget'],
     ['nokogiri'],
   ]

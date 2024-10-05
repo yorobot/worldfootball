@@ -2,15 +2,15 @@ module Worldfootball
 
 
 MAX_HEADERS = [
-'Stage',
-'Round',
-'Date',
-'Time',
-'Timezone',
-'Team 1',
-'FT',
-'HT',
-'Team 2',
+'Stage',    # 0
+'Round',    # 1
+'Date',     # 2
+'Time',     # 3
+'Timezone',  #4
+'Team 1',    #5
+'FT',      #6
+'HT',      #7
+'Team 2',   #8
 'ET',
 'P',
 'Comments',    ## e.g. awarded, cancelled/canceled, etc.

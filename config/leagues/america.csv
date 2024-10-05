@@ -27,6 +27,10 @@ mx.2,    mex-liga-de-expansion-2024-2025-apertura
 mx.cup,  mex-copa-mx-2019-2020
 
 
+### fix add from / to seasons !!! for mx!!!!
+mx.3,    mex-premier-de-ascenso-2020-2021-grupo-b
+
+
 
 ## change to mls - why? why not?
 us.1,    usa-major-league-soccer-2024
@@ -34,6 +38,12 @@ us.2,    usa-usl-championship-2024
 us.cup,  usa-u-s-open-cup-2024
 
 
+concacaf.cl,   concacaf-champions-league-2020
+
+
+
+#############
+###  South America
 
 br.1,    bra-serie-a-2024
 br.2,    bra-serie-b-2024
@@ -79,3 +89,15 @@ uy.2,            uru-segunda-division-2024-fase-regular
 uy.cup,          uru-copa-2024
 
 ve.1,            ven-primera-division-2024-clausura
+
+
+copa.l,    copa-libertadores-2020
+
+
+###################
+###  Central America & Caribbean Islands
+cr.1,  crc-primera-division-2020-2021-apertura
+sv.1,  slv-primera-division-2020-2021-apertura
+gt.1,  gua-liga-nacional-2020-2021-apertura
+hn.1,  hon-liga-nacional-2020-2021-apertura
+ni.1,  nca-liga-primera-2020-2021-apertura

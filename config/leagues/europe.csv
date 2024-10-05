@@ -1,5 +1,9 @@
 key,         slug
 
+
+###########
+####  Central Europe
+
 de.1,         bundesliga-2024-2025
 de.2,         2-bundesliga-2024-2025
 de.3,         3-liga-2024-2025
@@ -36,6 +40,8 @@ sk.1,       svk-super-liga-2024-2025
 pl.1,       pol-ekstraklasa-2024-2025
 
 
+#########
+###  British Isles / Western Europe
 
 eng.1,       eng-premier-league-2024-2025
 eng.2,       eng-championship-2024-2025
@@ -45,18 +51,19 @@ eng.5,       eng-national-league-2024-2025
 eng.cup,     eng-fa-cup-2023-2024              ### update to 2024-2025 later!!!
 eng.cup.l,   eng-league-cup-2024-2025
 
-
-
 sco.1,       sco-premiership-2024-2025
 wal.1,     wal-premier-league-2024-2025
 nir.1,      nir-premier-league-2024-2025
 ie.1,        irl-premier-division-2024
 
 
+
+##############
+### Benelux / Western Europe
+
 fr.1,       fra-ligue-1-2024-2025
 fr.2,       fra-ligue-2-2024-2025
 fr.cup,     fra-coupe-de-france-2023-2024     ### update to 2024-2025 later!!!
-
 
 lu.1,     lux-nationaldivision-2024-2025
 
@@ -68,6 +75,10 @@ be.1,     bel-eerste-klasse-a-2024-2025
 be.2,     bel-eerste-klasse-b-2024-2025
 be.cup,   bel-beker-van-belgie-2024-2025
 
+
+
+######################
+###  Southern Europe
 
 it.1,      ita-serie-a-2024-2025
 it.2,      ita-serie-b-2024-2025
@@ -91,11 +102,20 @@ ad.1,     and-1a-divisio-2024-2025
 gi.1,     gib-premier-divison-2024-2025
 
 
+
+###################
+###  Eastern Europe
+
 ro.1,     rou-liga-1-2024-2025
 ro.cup,   rou-cupa-romaniei-2024-2025
 
 bg.1,     bul-parva-liga-2024-2025
 
+##
+## note: ru - special (transition) league format for season 2011/12 (lasting 18 month!!)
+#  1)  rus-premier-liga-2011-2012/     -- 30 rounds
+#  2a) rus-premier-liga-2011-2012-meisterschaft/  -- 2011/2012 Meisterschaft (rounds 31 to 44)
+#   b) rus-premier-liga-2011-2012-relegation/     -- 2011/2012 Relegation    (rounds 31 to 44)
 ru.1,     rus-premier-liga-2024-2025
 ru.2,     rus-premier-liga-2024-2025
 
@@ -104,6 +124,12 @@ by.1,    blr-cempionat-2024
 ua.1,     ukr-premyer-liga-2024-2025
 
 
+## note: start with 2012/13 for now!!!
+## in 2011/12 a new format was introduced, in which after the regular season
+##  two play-off groups were played to decide over the Champions League and Europa League starting rounds
+## 1)  - tur-sueperlig-2011-2012
+## 2a) - tur-sueperlig-2012-meisterschaft  -- 2012 Meisterschaft
+## 2b) - tur-sueperlig-2012-platzierung    -- 2012 Platzierung
 
 tr.1,    tur-sueperlig-2024-2025
 tr.2,    tur-1-lig-2024-2025
@@ -133,6 +159,11 @@ am.1,      arm-premier-league-2024-2025
 az.1,      aze-premyer-liqasi-2024-2025
 ge.1,      geo-erovnuli-liga-2024
 
+
+
+
+###################
+### Northern Europe
 
 is.1,   isl-urvalsdeild-2024
 fo.1,   fro-effodeildin-2024

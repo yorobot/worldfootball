@@ -2,6 +2,9 @@
 
 ## tip: to test run:
 ##   ruby -I ./lib bin/wfb
+##    or
+##   ruby -I wfb/lib wfb/bin/wfb
+
 
 require 'worldfootball'
 
@@ -18,8 +21,16 @@ Worldfootball.config.convert.out_dir = if File.exist?( '/sports/cache.wfb')
                                            puts "  setting convert out_dir to >/sports/cache.wfb<"
                                            '/sports/cache.wfb'
                                         else
-                                           '.' ## use working dir
+                                           './tmp' ## use tmp in working dir
                                         end
+
+Worldfootball.config.generate.out_dir = if File.exist?( '/sports/cache.wfb.txt')
+                                           puts "  setting generate out_dir to >/sports/cache.wfb.txt<"
+                                           '/sports/cache.wfb.txt'
+                                        else
+                                           './tmp' ## use tmp in working dir
+                                        end
+
 
 require 'optparse'
 
@@ -28,9 +39,11 @@ module Worldfootball
 def self.main( args=ARGV )
 
 opts = {
-    cached:  false,
-    convert: true,
-    file:    nil,
+    debug:    false,
+    cached:   false,
+    convert:  true,
+    generate: true,
+    file:     nil,
  }
 
 
@@ -49,14 +62,22 @@ parser = OptionParser.new do |parser|
   end
 
   parser.on( "--[no-]convert",
-               "turn on/off conversion to .csv in #{Worldfootball.config.convert.out_dir} - default is (#{opts[:convert]})" ) do |convert|
+               "turn on/off conversion to (tabular) .csv format in #{Worldfootball.config.convert.out_dir} - default is (#{opts[:convert]})" ) do |convert|
     opts[:convert] = convert   # true|false
   end
 
+  parser.on( "--[no-]generate",
+               "turn on/off generation in football.txt format in #{Worldfootball.config.generate.out_dir} - default is (#{opts[:generate]})" ) do |generate|
+    opts[:generate] = generate   # true|false
+  end
+
+
   parser.on( "--print", "--pp",
-                 "pretty print cached data in #{Webcache.root}; no download & conversion") do |print|
-    opts[:cached]  = true
-    opts[:convert] = false
+                 "pretty print cached data in #{Webcache.root}; no download & conversion & generation") do |print|
+    opts[:debug]    = true
+    opts[:cached]   = true
+    opts[:convert]  = false
+    opts[:generate] = false
   end
 
   parser.on( "-f FILE", "--file FILE",
@@ -74,6 +95,14 @@ puts "OPTS:"
 p opts
 puts "ARGV:"
 p args
+
+
+## turn on debug output
+if opts[:debug]
+   Worldfootball.debug = true
+else
+  Worldfootball.debug = false
+end
 
 
 ### check special (built-in) commands first
@@ -127,6 +156,11 @@ datasets.each do |dataset|
 end
 
 
+###
+## collect league names & more
+extra = {}
+
+
 ## step 1 - download
 datasets.each do |league_key, seasons|
   league =  find_league!( league_key )  ## league info lookup
@@ -152,6 +186,10 @@ datasets.each do |league_key, seasons|
         matches = page.matches
 
         puts "   #{matches.size} match(es)"
+
+        league_extra = extra[ league.key ] ||= {}
+        season_extra = league_extra[ season.key] ||= { names: [] }
+        season_extra[:names]  <<  page.title
       end
   end # each seasons
 end # each league
@@ -167,6 +205,43 @@ if opts[:convert]
     end
   end
 end
+
+if opts[:generate]
+## step 3 - generate
+  datasets.each do |league_key, seasons|
+    seasons.each do |season|
+
+          path = "#{config.convert.out_dir}/#{season.to_path}/#{league_key}.csv"
+          ## get matches
+          puts "  ---> reading matches in #{path} ..."
+          matches = SportDb::CsvMatchParser.read( path )
+          puts "     #{matches.size} matches"
+
+          ## build
+          txt = SportDb::TxtMatchWriter.build( matches )
+          puts txt
+
+          path =  if season >= Season( '2000' )
+                    "#{config.generate.out_dir}/#{season.to_path}/#{league_key}.txt"
+                  else
+                    decade = season.start_year - (season.start_year%10)
+                    ## use archive-style before 2000!!!
+                    "#{config.generate.out_dir}/archive/#{decade}s/#{season.to_path}/#{league_key}.txt"
+                  end
+
+          buf = String.new
+          ## note - use league key for league name for now!!
+          buf << "= #{league_key.upcase.gsub('.', ' ')} #{season.key}\n\n"
+          buf << txt
+
+          puts "   writing to >#{path}<..."
+          write_text( path, buf )
+    end
+  end
+  ## for debugging dump page (slug) titles
+  pp extra
+end
+
 
 
 end   # def self.main

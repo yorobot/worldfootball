@@ -6,6 +6,9 @@ require 'webget'              ## incl. webget, webcache, webclient, etc.
 require 'nokogiri'
 
 
+require 'sportdb/writers'
+
+
 ###
 # our own code
 require_relative 'worldfootball/version'
@@ -47,9 +50,15 @@ class Configuration
      def out_dir()       @out_dir || './o'; end
      def out_dir=(value) @out_dir = value; end
   end
+  class Generate
+     def out_dir()       @out_dir || './o'; end
+     def out_dir=(value) @out_dir = value; end
+ end
 
- def convert()  @convert ||= Convert.new; end
+ def convert()  @convert  ||= Convert.new; end
+ def generate() @generate ||= Generate.new; end
 end # class Configuration
+
 
 ## lets you use
 ##   Worldfootball.configure do |config|

@@ -22,6 +22,7 @@ Hoe.spec 'worldfootball' do
     ['fifa'],
     ['webget'],
     ['nokogiri'],
+    ['sportdb-writers'],
   ]
 
   self.licenses = ['Public Domain']

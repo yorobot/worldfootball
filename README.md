@@ -3,7 +3,7 @@
 
 Gem(s)
 
-- [**wdf**](wfb) - worldfootball - get world football (leagues, cups & more) match data via the worldfootball.net/weltfussball.de pages
+- [**wfb**](wfb) - worldfootball - get world football (leagues, cups & more) match data via the worldfootball.net/weltfussball.de pages
 
 
 

@@ -15,32 +15,15 @@ puts "#{pages.size} pages"   #=> 3672 pages
 puts
 
 
-
-leagues = {}
-
 pages.each do |path|
    basename = File.basename( path, File.extname( path ) )
    print "%-50s" % basename
-   print " => "
-
-   page = Worldfootball.find_page( basename )
-   if page
-     league_key = page[:league]
-     season_key = page[:season]
-
-     print "    "
-     print "%-12s"    % league_key
-     print "| %-10s"  % season_key
-     print "\n"
-
-     seasons = leagues[league_key] ||= []
-     seasons << season_key   unless seasons.include?( season_key )
-   else
-     print "??"
-     print "\n"
-   end
+   print "\n"
 end
 
+
+puts "#{pages.size} pages"   #=> 3672 pages
+puts
 
 
 end_time = Time.now

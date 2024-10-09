@@ -1,12 +1,12 @@
 ##########
 #  to run use:
-#   $ ruby upslugs/preload.rb
+#   $ ruby upslugs/preload_v0.rb
 
 
 require_relative 'helper'
 
 
-Webget.config.sleep = 2
+Webget.config.sleep = 3
 
 
 
@@ -47,26 +47,26 @@ def preload( slug )
 end # method preload
 
 
-keys = Worldfootball::LEAGUES.keys
+
+datafiles = Dir.glob( "./slugs/**/*.csv" )
+pp datafiles
+
+puts  "   #{datafiles.size} datafile(s)"
 
 
 
 
-keys.each_with_index do |key, i|
+datafiles.each_with_index do |path, i|
 
-  league = Worldfootball::LEAGUES[key]
+  league = File.basename(path, File.extname(path))
+  puts "==> [#{i+1}/#{datafiles.size}] #{league}..."
+  recs = read_csv( path )
+  puts "  #{recs.size} record(s)"
 
-  seasons = league.seasons
-
-  puts "==> #{i+1}/#{keys.size} #{key} - #{seasons.size} seasons(s)..."
-
-  seasons.each_with_index do |season_rec,j|
-    season = season_rec[0]
-    pages = league.pages( season: season )
-    puts "  #{j+1}/#{seasons.size} #{key} #{season} - #{pages.size} page(s)..."
-    pages.each do |slug,_|
-      preload( slug )
-    end
+  recs.each_with_index do |rec,j|
+    slug = rec['slug']
+    puts "  #{league} [#{j+1}/#{recs.size}] >#{slug}<"
+    preload( slug )
   end
 end
 

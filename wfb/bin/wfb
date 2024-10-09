@@ -4,6 +4,8 @@
 ##   ruby -I ./lib bin/wfb
 ##    or
 ##   ruby -I wfb/lib wfb/bin/wfb
+##    or
+##   ruby -I wfb/lib wfb/bin/wfb -f max.csv --cached
 
 
 require 'worldfootball'
@@ -36,6 +38,23 @@ require 'optparse'
 
 
 module Worldfootball
+
+
+
+def self.exclude?( league:, season: )
+  ##  quick hack for broken pages - exclude for now
+  ##  [cache] saving /alle_spiele/ned-knvb-beker-1959-1960.html...
+  ##  !!! assert failed (in parse page) -
+  ##    no table.standard_tabelle found in schedule page!!
+  if league == 'nl.cup' && season == Season( '1959/60' )
+    true
+  else
+    false
+  end
+end
+
+
+
 def self.main( args=ARGV )
 
 opts = {
@@ -199,6 +218,7 @@ if opts[:convert]
 ## step 2 - convert
   datasets.each do |league_key, seasons|
     seasons.each do |season|
+        next if exclude?( league: league_key, season: season )
         ## write out (export to) comma-separated values (.csv) datafile
         convert( league: league_key,
                  season: season )
@@ -206,10 +226,12 @@ if opts[:convert]
   end
 end
 
+
 if opts[:generate]
 ## step 3 - generate
   datasets.each do |league_key, seasons|
     seasons.each do |season|
+          next if exclude?( league: league_key, season: season )
 
           path = "#{config.convert.out_dir}/#{season.to_path}/#{league_key}.csv"
           ## get matches

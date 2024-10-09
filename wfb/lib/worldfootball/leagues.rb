@@ -61,9 +61,12 @@ class LeagueItem  # nested inside LeagueConfig
         season, stage = text.split( ' ', 2 )
 
 ## todo/fix: add a waring here and auto log to logs.txt!!!!
-        next if season == '2019-2021'
-        next if season == '1958/1960'
-        next if season == '1955/1958'
+        if ['2019-2021',
+            '1958/1960',
+            '1955/1958'  ].include?( season )
+           log( "!! WARN - seasons for league #{@key} incl. invalid season #{season} - slug #{slug}; skipping season" )
+           next   ## note - skip invalid season entry
+        end
 
         season = Season.parse( season )
 
@@ -106,6 +109,13 @@ class LeagueItem  # nested inside LeagueConfig
     recs = seasons[season.key]
     recs ?  recs.reverse : nil
   end
+
+  def log( msg )  ### append to log
+    File.open( './logs.txt', 'a:utf-8' ) do |f|
+      f.write( msg )
+      f.write( "\n" )
+    end
+  end
 end # class LeagueItem
 
 
@@ -120,6 +130,9 @@ def [](key)  @table[key.to_s.downcase]; end
 def keys()   @table.keys; end
 def size()   @table.size; end
 end # class LeagueConfig
+
+
+
 
 
 LEAGUES = LeagueConfig.new

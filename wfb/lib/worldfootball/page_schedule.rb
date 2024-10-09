@@ -128,7 +128,7 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
      date_str  = squish( tds[0].text )
      time_str  = squish( tds[1].text )
 
-     date_str = last_date_str    if date_str.empty?
+     date_str = last_date_str    if date_str.empty? && last_date_str
 
      if debug?
        ## note: for debugging - print as we go along (parsing)
@@ -217,8 +217,12 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
      ## special case for '00.00.0000'
      ##   CANNOT parse
      ##   use empty date - why? why not?
+     ##   if start with 00.00. e.g. 00.00.1939
 
-     date     = if date_str == '00.00.0000'
+
+     date     = if date_str == '00.00.0000' ||
+                   date_str.start_with?( '00.00.' ) ||
+                   date_str.empty?
                   nil
                 else
                   Date.strptime( date_str, '%d.%m.%Y' )
@@ -237,7 +241,9 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
                report_ref: score_ref
              }
 
-     last_date_str = date_str
+     ## note - only update last date if date present
+     ##             might be empty (not available) in the beginning
+     last_date_str = date_str      if !date_str.empty?
    end
   end # each tr (table row)
 

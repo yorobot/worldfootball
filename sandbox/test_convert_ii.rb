@@ -1,3 +1,8 @@
+###################
+# to run use:
+#  $ ruby sandbox/test_convert_ii.rb
+
+
 require_relative 'helper'
 
 
@@ -16,7 +21,12 @@ require_relative 'helper'
 # Worldfootball.convert( league: 'uefa.el', season: '2023/24' )
 
 # Worldfootball.convert( league: 'uefa.conf', season: '2024/25' )
-Worldfootball.convert( league: 'uefa.conf', season: '2023/24' )
+# Worldfootball.convert( league: 'uefa.conf', season: '2023/24' )
+
+##  parsing bul-a-grupa-1991-1992...  title=>Parva Liga 1991/1992 » Spielplan<...
+##  240 row(s) - Worldfootball.build bg.1 1991/92
+Worldfootball.convert( league: 'bg.1', season: '1991/92' )
+
 
 # ['uefa.cl',   ['2024/25', '2023/24']],
 # ['uefa.el',   ['2024/25', '2023/24']],

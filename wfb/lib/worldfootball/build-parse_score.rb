@@ -31,13 +31,18 @@ def self.parse_score( score_str )
   et  = ''
   pen = ''
 
+##
+##  [085]    2021-10-21 | 22:00 | Metropolitanos FC      | LALA FC                | Aufg.
+##  !! ERROR - unsupported score format >Aufg.< - sorry; maybe add a score error fix/patch
+##  - handle with Aufg.
 
   if score_str == '---'   ## in the future (no score yet) - was -:-
     ft = ''
     ht = ''
   elsif score_str == 'n.gesp.' ||   ## cancelled (british) / canceled (us)
         score_str == 'ausg.'   ||   ## todo/check: change to some other status ????
-        score_str == 'annull.'      ## todo/check: change to some other status (see ie 2012) ????
+        score_str == 'annull.' ||   ## todo/check: change to some other status (see ie 2012) ????
+        score_str == 'Aufg.'
     ft = '(*)'
     ht = ''
     comments = 'cancelled'
@@ -172,13 +177,13 @@ def self.parse_score( score_str )
     puts "!! WARN - weird score n.V. only - >#{score_str}<"
   elsif score_str =~ /^([0-9]+) [ ]*-[ ]* ([0-9]+)
                           [ ]*
-                       i\.E\.
+                        (?: i\.E\. | n\.P\. )
                        $/x
     pen = "#{$1}-#{$2}"
     et  = ''
     ht  = ''
     ft  = ''
-    puts "!! WARN - weird score i.E. only - >#{score_str}<"
+    puts "!! WARN - weird score i.E. (n.P.) only - >#{score_str}<"
   else
      puts "!! ERROR - unsupported score format >#{score_str}< - sorry; maybe add a score error fix/patch"
      exit 1

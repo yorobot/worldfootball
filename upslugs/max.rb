@@ -6,45 +6,16 @@
 require_relative 'helper'
 
 
+##
+##  note - filter broken slugs/pages!!!!
+##  quick hack for broken pages - exclude for now
+##  [cache] saving /alle_spiele/ned-knvb-beker-1959-1960.html...
+##  !!! assert failed (in parse page) -
+##    no table.standard_tabelle found in schedule page!!
+
+
 Webget.config.sleep = 2
 
-
-
-def preload( slug )
-  ## note: check if passed in slug is cached too (if not - preload / download too)
-  url = Worldfootball::Metal.schedule_url( slug )
-
-  cached = false
-
-  if Webcache.cached?( url )
-    print "   OK "
-    cached = true
-  else
-    Worldfootball::Metal.download_schedule( slug )
-    print "      "
-  end
-
-
-   print "%-46s" % slug
-
-   if cached
-     ## do NOT read if cached for now
-     ##   to speed-up preload
-   else
-     page = Worldfootball::Page::Schedule.from_cache( slug )
-
-     ## clean-up title/strip "» Spielplan" from title
-     print '  /  '
-     print page.title.sub('» Spielplan', '').strip
-   end
-=begin
-   print '  -  '
-   ## check for match count
-   matches = page.matches
-   print "#{matches.size} match(es)"
-=end
-   print "\n"
-end # method preload
 
 
 headers = ['league', 'count', 'seasons']
@@ -55,19 +26,28 @@ keys = Worldfootball::LEAGUES.keys
 keys.each_with_index do |key, i|
 
   league = Worldfootball::LEAGUES[key]
-  seasons = league.seasons
+  seasons = league.seasons.map {|season| season[0]}
+  pp seasons
+
+  if key == 'nl.cup'
+      ### filter 1959/60
+      ##  !!! assert failed (in parse page) -
+      ##    no table.standard_tabelle found in schedule page!!
+     seasons = seasons.select { |season| season != '1959/60'  }
+  end
+
 
   puts "==> #{i+1}/#{keys.size} #{key} - #{seasons.size} seasons(s)..."
 
   rows << [ key,
             seasons.size.to_s,
-            seasons.map {|season| season[0]}.reverse.join(' ')
+            seasons.reverse.join(' ')
           ]
 end
 
 pp rows
 
 
-write_csv( "./max.csv", rows, headers: headers )
+write_csv( "./max2.csv", rows, headers: headers )
 
 puts "bye"

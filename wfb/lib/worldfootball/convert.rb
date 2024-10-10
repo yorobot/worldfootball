@@ -53,12 +53,9 @@ def self.convert( league:, season: )
           next if team_name == 'N.N.'
 
           team_stat = teams_by_ref[ team_ref ] ||= { count: 0,
-                                                     name:  team_name }
+                                                     names:  [] }
           team_stat[:count] += team_count
-          if team_name != team_stat[:name]
-              puts "!! ASSERT ERROR - team ref with differet names; expected #{team_stat[:name]} - got #{team_name}"
-              exit 1
-          end
+          team_stat[:names] << team_name   unless team_stat[:names].include?( team_name )
       end
 
 
@@ -83,7 +80,6 @@ def self.convert( league:, season: )
  ##
  ##   get country codes for team ref
        teams_by_ref.each do |team_slug, h|
-
           Metal.download_team( team_slug, cache: true )
           team_page = Page::Team.from_cache( team_slug )
           props = team_page.props
@@ -99,14 +95,20 @@ def self.convert( league:, season: )
 
        ## generate lookup by name
        teams_by_name = teams_by_ref.reduce( {} ) do |h, (slug,rec)|
-            h[ rec[:name]] = rec
-            h
+  ### todo/fix
+  ##    report warning if names size is > 1!!!!
+  ##
+             rec[:names].each do |name|
+                h[ name ] = rec
+              end
+              h
        end
+
 
     #####
     ## dump team refs
     puts "  #{teams_by_ref.size} team(s) by ref:"
-    pp teams_by_name
+    pp teams_by_ref
 
     ## quick hack
     ##  add country (fifa) codes to team names
@@ -129,10 +131,22 @@ def self.convert( league:, season: )
 ##   note:  sort matches by date before saving/writing!!!!
 ##     note: for now assume date in string in 1999-11-30 format (allows sort by "simple" a-z)
 ## note: assume date is third column!!! (stage/round/date/...)
-recs = recs.sort { |l,r| l[2] <=> r[2] }
+
+### note - do NOT sort for now
+##    keep "original" page order - why? why not?
+## recs = recs.sort { |l,r| l[2] <=> r[2] }
+
+
 ## reformat date / beautify e.g. Sat Aug 7 1993
 recs.each do |rec|
-         rec[2] = Date.strptime( rec[2], '%Y-%m-%d' ).strftime( '%a %b %-d %Y' )
+            if rec[2]
+              if rec[2] =~ /^\d{4}-\d{1,2}-\d{1,2}$/
+               rec[2] = Date.strptime( rec[2], '%Y-%m-%d' ).strftime( '%a %b %-d %Y' )
+              else
+                ## report unknown date format warning
+                puts "WARN - unsupported date format (cannot parse?) >#{rec[2]}<"
+              end
+            end
        end
 
    ## remove unused columns (e.g. stage, et, p, etc.)

@@ -40,21 +40,6 @@ require 'optparse'
 module Worldfootball
 
 
-
-def self.exclude?( league:, season: )
-  ##  quick hack for broken pages - exclude for now
-  ##  [cache] saving /alle_spiele/ned-knvb-beker-1959-1960.html...
-  ##  !!! assert failed (in parse page) -
-  ##    no table.standard_tabelle found in schedule page!!
-  if league == 'nl.cup' && season == Season( '1959/60' )
-    true
-  else
-    false
-  end
-end
-
-
-
 def self.main( args=ARGV )
 
 opts = {
@@ -218,7 +203,6 @@ if opts[:convert]
 ## step 2 - convert
   datasets.each do |league_key, seasons|
     seasons.each do |season|
-        next if exclude?( league: league_key, season: season )
         ## write out (export to) comma-separated values (.csv) datafile
         convert( league: league_key,
                  season: season )
@@ -231,33 +215,8 @@ if opts[:generate]
 ## step 3 - generate
   datasets.each do |league_key, seasons|
     seasons.each do |season|
-          next if exclude?( league: league_key, season: season )
-
-          path = "#{config.convert.out_dir}/#{season.to_path}/#{league_key}.csv"
-          ## get matches
-          puts "  ---> reading matches in #{path} ..."
-          matches = SportDb::CsvMatchParser.read( path )
-          puts "     #{matches.size} matches"
-
-          ## build
-          txt = SportDb::TxtMatchWriter.build( matches )
-          puts txt
-
-          path =  if season >= Season( '2000' )
-                    "#{config.generate.out_dir}/#{season.to_path}/#{league_key}.txt"
-                  else
-                    decade = season.start_year - (season.start_year%10)
-                    ## use archive-style before 2000!!!
-                    "#{config.generate.out_dir}/archive/#{decade}s/#{season.to_path}/#{league_key}.txt"
-                  end
-
-          buf = String.new
-          ## note - use league key for league name for now!!
-          buf << "= #{league_key.upcase.gsub('.', ' ')} #{season.key}\n\n"
-          buf << txt
-
-          puts "   writing to >#{path}<..."
-          write_text( path, buf )
+         generate( league: league_key,
+                   season: season )
     end
   end
   ## for debugging dump page (slug) titles

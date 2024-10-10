@@ -1,6 +1,38 @@
 # Notes
 
-todos
+# todos
+
+- [ ]  convert concaf - add to intl!!! to auto-add country codes
+    - concacaf.cl
+    - uefa.cl
+    - uefa.cl.q
+    - uefa.el
+    - uefa.el.q
+    - uefa.conf
+    - uefa.conf.q
+- [ ] add a new row column to all csv exports - why? why not?
+
+
+```
+fix - generate match without date!!! e.g.
+sportdb-writers-0.3.0/lib/sportdb/writers/txt_writer.rb:180:in `block in _build_batch': undefined method `strftime' for nil:NilClass (NoMethodError)
+
+     date_yyyymmdd = date.strftime( '%Y-%m-%d' )
+                         ^^^^^^^^^
+```
+
+
+```
+[cache] saving /sports/cache/www.weltfussball.de/teams/sporting-praia-cruz.html...
+{:name=>"Sporting Praia Cruz", :country=>"São Tomé und Príncipe"}
+!! ERROR - no country found for São Tomé und Príncipe
+```
+
+- [ ]  move admin scripts from upslugs to admin/ - why? why not?
+
+
+
+## more todos
 - [ ] automate slugs / seasons (stages) config
   - [ ] try to auto-get all slugs from all configured leagues (50+)
   - [ ]    use slugs to double check config

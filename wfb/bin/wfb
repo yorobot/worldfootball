@@ -8,6 +8,7 @@
 ##   ruby -I wfb/lib wfb/bin/wfb -f max.csv --cached
 
 
+$LOAD_PATH.unshift( '../../sportdb/fifa/lib' )
 require 'worldfootball'
 
 
@@ -35,7 +36,6 @@ Worldfootball.config.generate.out_dir = if File.exist?( '/sports/cache.wfb.txt')
 
 
 require 'optparse'
-
 
 module Worldfootball
 

@@ -12,6 +12,15 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
   end
 
 
+  PLACEHOLDERS = [
+     'N.N.',
+     'Verlierer HF 1',
+     'Verlierer HF 2',
+     'Sieger HF 1',
+     'Sieger HF 2',
+    ]
+  def placeholder?( str )  PLACEHOLDERS.include?( str ); end
+
 
   def matches
     @matches ||= begin
@@ -20,10 +29,12 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
  # <table class="standard_tabelle" cellpadding="3" cellspacing="1">
 
  ## note: use > for "strict" sibling (child without any in-betweens)
- table = doc.css( 'div.data > table.standard_tabelle' ).first    ## get table
+ tables = doc.css( 'div.data > table.standard_tabelle' )    ## get table
  # puts table.class.name  #=> Nokogiri::XML::Element
  # puts table.text
 
+ assert( tables.size==1, "expected one table.standard_tabelle; got #{tables.size}" )
+ table = tables.first
  assert( table, 'no table.standard_tabelle found in schedule page!!')
 
  trs   = table.css( 'tr' )
@@ -77,8 +88,10 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
     ths =  tr.css( 'th' )
     tds =  tr.css( 'td' )
 
-   if tr.text.strip =~ /Spieltag/ ||
-      tr.text.strip =~ /[1-9]\.[ ]Runde|
+    tr_text = squish( tr.text )
+
+   if tr_text =~ /Spieltag/ ||
+      tr_text =~ /[1-9]\.[ ]Runde|
                            Qual\.[ ][1-9]\.[ ]Runde|  # see EL or CL Quali
                            Qualifikation|     # see CA Championship
                            Sechzehntelfinale|   # see EL
@@ -110,19 +123,18 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
      if debug?
        puts
        print '[%03d] ' % i
-       ## print squish( tr.text )
-       print "round >#{tr.text.strip}<"
+       print "round >#{tr_text}<"
        print "\n"
      end
 
-     last_round = tr.text.strip
+     last_round = tr_text
    elsif ths.count > 0 &&
          tds.count == 0
        ## check for round NOT yet configured!!!
-       puts "!! WARN: found unregistered round line >#{tr.text.strip}<"
-       log( "!! WARN: found unregistered round line >#{tr.text.strip}< in page #{title}" )
+       puts "!! WARN: found unregistered round line >#{tr_text}<"
+       log( "!! WARN: found unregistered round line >#{tr_text}< in page #{title}" )
 
-       last_round = tr.text.strip
+       last_round = tr_text
    else   ## assume table row (tr) is match line
 
      date_str  = squish( tds[0].text )
@@ -148,7 +160,7 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
      else
        team1_str    = squish( tds[2].text )
        team1_ref    = nil
-       puts "!! WARN: no team1_ref for >#{team1_str}< found"
+       puts "!! WARN: no team1_ref for >#{team1_str}< found"  unless placeholder?( team1_str )
      end
 
      if debug?
@@ -170,8 +182,9 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
      else
        team2_str    = squish( tds[4].text )
        team2_ref    = nil
-       puts "!! WARN: no team2_ref for >#{team2_str}< found"
+       puts "!! WARN: no team2_ref for >#{team2_str}< found"  unless placeholder?( team2_str )
      end
+
 
      if debug?
        ## note: for debugging - print as we go along (parsing)
@@ -198,8 +211,12 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
      ##   <img src="https://s.hs-data.com/bilder/shared/live/2.png" /></a>
      ## </td>
      img = tds[6].css( 'img' )[0]
+
+
+
      if img && img[:src].index( '/live/')
-       puts "!! WARN: live match badge, resetting score from #{score_str} to -:-"
+       ## puts "!! WARN: live match badge, resetting score from #{score_str} to -:-"
+       print " LIVE BADGE "
        score_str = '-:-'  # note: -:- gets replaced to ---
      end
 

@@ -1,0 +1,51 @@
+#!/usr/bin/env ruby
+
+## tip: to test run:
+##   ruby -I ./lib bin/wfbconf
+##    or
+##   ruby -I wfb/lib wfb/bin/wfbconf
+
+$LOAD_PATH.unshift( '../../sportdb/fifa/lib' )
+require 'worldfootball'
+
+
+Webcache.root =  if File.exist?( '/sports/cache' )
+                     puts "  setting web cache to >/sports/cache<"
+                     '/sports/cache'
+                 else
+                     './cache'
+                 end
+
+
+
+require 'optparse'
+
+##
+#  by default convert all with overwrite/force set to false
+
+Webget.config.sleep = 2
+
+args = ARGV
+
+
+Worldfootball.debug = true
+
+##
+## download fresh copy?
+## Worldfootball::Metal.download_schedule( slug )
+
+key = args[0] || 'eng.1'
+
+league = Worldfootball::LEAGUES[key]
+seasons = league.seasons
+pp seasons
+
+puts "  #{key} - #{seasons.size} season(s)"
+
+puts
+latest = seasons.keys[0]
+puts " latest #{latest}: "
+pp seasons[latest]
+
+
+puts "bye"

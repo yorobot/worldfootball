@@ -173,8 +173,13 @@ recs.each do |rec|
    puts headers
    pp recs[0]   ## check first record
 
-   puts "write #{out_path}..."
+   puts "   writing to >#{out_path}< - #{recs.size} record(s)..."
    write_csv( out_path, recs, headers: headers )
+
+   ## add to tmp too for debugging
+   out_path2 = "#{config.convert.out_dir}/tmp/#{league.key}/#{season.to_path}.csv"
+   puts "   writing to >#{out_path2}< - #{recs.size} record(s)..."
+   write_csv( out_path2, recs, headers: headers )
 end
 end # module Worldfootball
 

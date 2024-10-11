@@ -9,33 +9,6 @@ require_relative 'helper'
 Webget.config.sleep = 2
 
 
-##
-##  fix - move upstream to generate
-##          overwrite/force: false  - why? why not?
-##             same for convert !!!
-
-def generate( league:, season: )
-   ## skip if already converted
-   season  = Season( season )
-   league_key  = league
-
-   out_path =  if season >= Season( '2000' )
-             "#{Worldfootball.config.generate.out_dir}/#{season.to_path}/#{league_key}.txt"
-           else
-             decade = season.start_year - (season.start_year%10)
-             ## use archive-style before 2000!!!
-             "#{Worldfootball.config.generate.out_dir}/archive/#{decade}s/#{season.to_path}/#{league_key}.txt"
-           end
-
-   if File.exist?( out_path )
-     ## skip
-     puts "  OK #{league} #{season}"
-   else
-     Worldfootball.generate( league: league, season: season )
-   end
-end # method convert
-
-
 
 
 keys = Worldfootball::LEAGUES.keys[0,3]
@@ -53,9 +26,11 @@ keys.each_with_index do |key, i|
 
   seasons.each_with_index do |season_rec,j|
     season = season_rec[0]
+    next if key == 'nl.cup' && season == '1959/60'
 
     puts "  #{j+1}/#{seasons.size} #{key} #{season}..."
-    generate( league: key, season: season )
+
+    Worldfootball.generate( league: key, season: season, overwrite: true )
   end
 end
 

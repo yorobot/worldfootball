@@ -2,11 +2,21 @@
 module Worldfootball
 
 
-def self.convert( league:, season: )
+def self.convert( league:, season:,
+                  overwrite: true )
   season = Season( season )  ## cast (ensure) season class (NOT string, integer, etc.)
 
   league = find_league!( league )
   pages  = league.pages!( season: season )
+
+
+  out_path = "#{config.convert.out_dir}/#{season.path}/#{league.key}.csv"
+  if !overwrite && File.exist?( out_path )
+    ## skip generation
+    puts "  OK #{league.key} #{season}   (do NOT overwrite)"
+    return
+  end
+
 
 
     ## collect all teams
@@ -48,6 +58,11 @@ def self.convert( league:, season: )
           team_name  = norm_team( h[:name] )      ## note: norm team name!!!
           team_ref   = h[:ref]
 
+###
+##   quick fix for broken refs/links
+##    olympique-lyon => olympique-lyonnais
+       #   team_ref = 'olympique-lyonnais'   if team_ref == 'olympique-lyon'
+
           ## note: skip N.N.  (place holder team)
           ##        team_ref is nil etc.
           next if team_name == 'N.N.'
@@ -70,9 +85,12 @@ def self.convert( league:, season: )
 
 
     clubs_intl  =  ['uefa.cl', 'uefa.el', 'uefa.conf',
-                    'copa.l',
+                    'uefa.cl.q', 'uefa.el.q', 'uefa.conf.q',
+                     'copa.l',
+                    'concacaf.cl',
                     'caf.cl',
-                    'afl'].include?(league.key) ? true : false
+                    'afl',
+                  ].include?(league.key) ? true : false
 
     ####
     #   auto-add (fifa) country code if int'l club tournament
@@ -154,8 +172,6 @@ recs.each do |rec|
 
    puts headers
    pp recs[0]   ## check first record
-
-   out_path = "#{config.convert.out_dir}/#{season.path}/#{league.key}.csv"
 
    puts "write #{out_path}..."
    write_csv( out_path, recs, headers: headers )

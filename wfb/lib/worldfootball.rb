@@ -79,17 +79,35 @@ end   # module Worldfootball
 
 
 
-
-
 ###
 # todo - move generate to generate file!!!
 module Worldfootball
-def self.generate( league:, season: )
+def self.generate( league:, season:,
+                   overwrite: true )
    season = Season( season )  ## cast (ensure) season class (NOT string, integer, etc.)
-   league_key = league
 
-   path = "#{config.convert.out_dir}/#{season.to_path}/#{league_key}.csv"
+   league = find_league!( league )
+   pages  = league.pages!( season: season )
+
+
+   out_path = if season >= Season( '2000' )
+                "#{config.generate.out_dir}/#{season.to_path}/#{league.key}.txt"
+              else
+                decade = season.start_year - (season.start_year%10)
+                ## use archive-style before 2000!!!
+                "#{config.generate.out_dir}/archive/#{decade}s/#{season.to_path}/#{league.key}.txt"
+              end
+
+   ## check if output exists already
+   if !overwrite && File.exist?( out_path )
+     ## skip generation
+     puts "  OK #{league.key} #{season}   (do NOT overwrite)"
+     return
+   end
+
+
    ## get matches
+   path = "#{config.convert.out_dir}/#{season.to_path}/#{league.key}.csv"
    puts "  ---> reading matches in #{path} ..."
    matches = SportDb::CsvMatchParser.read( path )
    puts "     #{matches.size} matches"
@@ -98,21 +116,19 @@ def self.generate( league:, season: )
    txt = SportDb::TxtMatchWriter.build( matches )
    puts txt
 
-   path =  if season >= Season( '2000' )
-             "#{config.generate.out_dir}/#{season.to_path}/#{league_key}.txt"
-           else
-             decade = season.start_year - (season.start_year%10)
-             ## use archive-style before 2000!!!
-             "#{config.generate.out_dir}/archive/#{decade}s/#{season.to_path}/#{league_key}.txt"
-           end
 
    buf = String.new
    ## note - use league key for league name for now!!
-   buf << "= #{league_key.upcase.gsub('.', ' ')} #{season.key}\n\n"
+   buf << "= #{league.key.upcase.gsub('.', ' ')} #{season.key}\n\n"
    buf << txt
 
-   puts "   writing to >#{path}<..."
-   write_text( path, buf )
+   puts "   writing to >#{out_path}<..."
+   write_text( out_path, buf )
+
+   ## add to tmp too for debugging
+   out_path2 = "#{config.generate.out_dir}/tmp/#{league.key}/#{season.to_path}.txt"
+   puts "   writing to >#{out_path2}<..."
+   write_text( out_path2, buf )
 end
 end   # module Worldfootball
 

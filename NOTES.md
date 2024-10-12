@@ -2,6 +2,8 @@
 
 # todos
 
+- [ ] add/update config for int'l cups tournaments flag !!!
+
 - [ ]  convert concaf - add to intl!!! to auto-add country codes
     - concacaf.cl
     - uefa.cl

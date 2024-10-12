@@ -1,11 +1,12 @@
 #!/usr/bin/env ruby
 
 ## tip: to test run:
-##   ruby -I ./lib bin/wfbconv
+##   ruby -I ./lib bin/wfbgen
 ##    or
-##   ruby -I wfb/lib wfb/bin/wfbconv
+##   ruby -I wfb/lib wfb/bin/wfbgen
 
 $LOAD_PATH.unshift( '../sport.db.more/timezones/lib' )
+$LOAD_PATH.unshift( '../sport.db.more/sportdb-writers/lib' )
 $LOAD_PATH.unshift( '../../sportdb/fifa/lib' )
 require 'worldfootball'
 
@@ -86,8 +87,8 @@ keys.each_with_index do |key, i|
     next if key == 'nl.cup' && season == '1959/60'
 
     puts "  #{j+1}/#{seasons.size} #{key} #{season}..."
-    Worldfootball.convert( league: key, season: season,
-                           overwrite: opts[:force] )
+    Worldfootball.generate( league: key, season: season,
+                            overwrite: opts[:force] )
   end
 end
 

@@ -10,11 +10,20 @@ module Worldfootball
 def self.norm_team( team )
    ## clean team name and asciify (e.g. ’->' )
    team = team.sub( '(old)', '' ).strip
-   team = team.gsub( '’', "'" )     ## e.g. Hawke’s Bay United FC
 
-   ## Criciúma - SC     =>     Criciúma - SC
-   ## Bahia - BA        =>     Bahia - BA
+   ## e.g. Hawke’s Bay United FC   or
+   ##         ASC Monts d`Or Chasselay   or
+   ##        VV Heerlen ´16  / EMM ´15 / Wormer SV´30 / Swift ´36 / etc.
+   team = team.gsub( /[’´`]/, "'" )
+
+
+   ## br
+   ## Criciúma - SC      =>     Criciúma SC
+   ## Bahia - BA         =>     Bahia BA
+   ##  cz
+   ## Baník Most - Souš  =>     Baník Most Souš
    ##  remove inline dash ( - ) with single space
+   ##  to log
    team = team.gsub( /[ ]+[-][ ]+/, ' ' )
 
 
@@ -23,6 +32,22 @@ def self.norm_team( team )
    ##    Austria Wien (A)   =>   Austria Wien (A)
    ##   others too?  - move to mods instead of generic rule - why? why not?
    team = team.sub( /[ ]+\(A\)/, ' II' )
+
+##
+##  remove ()  - used/reserved for country code for now - why? why not?
+##  e.g. Lloyds FC (Sittingbourne)  => Lloyds FC Sittingbourne
+##       August 1st (Army Team)     => August 1st Army Team
+##
+## add warning - why? why not?
+   team = team.sub( /\(
+                        ([^)]+?)   ## eat-up all non-greed to next )
+                     \)/x, '\1' )
+
+##
+## strip special case
+##   MFK Frýdek-Místek, a.s.   =>  MFK Frýdek-Místek
+     team = team.sub( ', a.s.', '' )
+
 
    ################
    ## quick hack - norm(alize) all N.N. to N.N.

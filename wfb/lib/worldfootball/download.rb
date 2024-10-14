@@ -4,12 +4,16 @@ module Worldfootball
 
 #################
 ##  porcelain "api"
-def self.schedule( league:, season: )
+def self.schedule( league:, season:, overwrite: true )
   season = Season( season )   ## cast (ensure) season class (NOT string, integer, etc.)
 
   pages = find_league_pages!( league: league, season: season )
   pages.each do |slug, _|
-    Metal.download_schedule( slug )
+    if !overwrite && Webcache.cached?( Metal.schedule_url( slug ))
+      puts "  OK #{league} #{season}  - #{slug}   (do NOT overwrite)"
+    else
+      Metal.download_schedule( slug )
+    end
   end # each page
 end
 

@@ -23,12 +23,19 @@ ca.cup,   can-canadian-championship-2024
 #        - Finale
 #      /mex-primera-division-2018-2019-clausura-playoffs/
 mx.1,    mex-primera-division-2024-2025-apertura_2
-mx.2,    mex-liga-de-expansion-2024-2025-apertura
+
+##  merge  expansion and ascenso into one (mx.2) - possible? why? why not?
+
+## first expansion season ->  2020/21 Apertura
+## last ascenso season    ->  2019/20 Clausura
+mx.2.expansion,   mex-liga-de-expansion-2024-2025-apertura
+mx.2.ascenso,     mex-liga-de-ascenso-2019-2020-clausura
+
 mx.cup,  mex-copa-mx-2019-2020
 
 
-### fix add from / to seasons !!! for mx!!!!
-mx.3,    mex-premier-de-ascenso-2020-2021-grupo-b
+mx.3.a,  mex-lp-serie-a-2024-2025-apertura
+mx.3.b,  mex-lp-serie-b-2024-2025-apertura
 
 
 

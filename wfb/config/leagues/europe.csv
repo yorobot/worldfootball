@@ -33,7 +33,10 @@ hu.1,       hun-nb-i-2024-2025
 
 cz.1,       cze-1-fotbalova-liga-2024-2025
 cz.2,       cze-2-fotbalova-liga-2024-2025
-cz.3,       cze-3-fotbalova-liga-2024-2025-cfl-a
+
+## commented out for now (three leagues in one - split !!)
+## cz.3,       cze-3-fotbalova-liga-2024-2025-cfl-a
+
 
 sk.1,       svk-super-liga-2024-2025
 
@@ -151,7 +154,7 @@ rs.1,    srb-super-liga-2024-2025
 si.1,    svn-prvaliga-2024-2025
 
 ## todo/fix - change to kos.1 - why? why not?
-xk.1,     kos-superliga-2024-2025
+## xk.1,     kos-superliga-2024-2025
 kos.1,    kos-superliga-2024-2025
 
 

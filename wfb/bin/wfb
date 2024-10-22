@@ -8,6 +8,7 @@
 ##   ruby -I wfb/lib wfb/bin/wfb -f max.csv --cached
 
 
+$LOAD_PATH.unshift( '../../yorobot/sport.db.more/timezones/lib' )
 $LOAD_PATH.unshift( '../../sportdb/fifa/lib' )
 require 'worldfootball'
 

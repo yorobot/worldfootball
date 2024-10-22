@@ -29,13 +29,14 @@ keys.each_with_index do |key, i|
   seasons = league.seasons.map {|season| season[0]}
   pp seasons
 
+=begin
   if key == 'nl.cup'
       ### filter 1959/60
       ##  !!! assert failed (in parse page) -
       ##    no table.standard_tabelle found in schedule page!!
      seasons = seasons.select { |season| season != '1959/60'  }
   end
-
+=end
 
   puts "==> #{i+1}/#{keys.size} #{key} - #{seasons.size} seasons(s)..."
 
@@ -48,6 +49,6 @@ end
 pp rows
 
 
-write_csv( "./max2.csv", rows, headers: headers )
+write_csv( "./max.csv", rows, headers: headers )
 
 puts "bye"

@@ -5,7 +5,15 @@
 ##    or
 ##   ruby -I wfb/lib wfb/bin/wfbdump
 
-$LOAD_PATH.unshift( '../../sportdb/fifa/lib' )
+
+#####
+#  wfbdump - dump matches, teams, rounds and more for (page) slug
+#    e.g.
+#    wfbdump caf-champions-league-2008
+#    wfbdump aut-bundesliga-2024-2025
+
+
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/fifa/lib' )
 require 'worldfootball'
 
 

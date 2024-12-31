@@ -5,9 +5,15 @@
 ##    or
 ##   ruby -I wfb/lib wfb/bin/wfbgen
 
-$LOAD_PATH.unshift( '../sport.db.more/timezones/lib' )
-$LOAD_PATH.unshift( '../sport.db.more/sportdb-writers/lib' )
-$LOAD_PATH.unshift( '../../sportdb/fifa/lib' )
+###############
+#  wfbgen  
+#  
+
+
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/timezones/lib' )
+$LOAD_PATH.unshift( '/sports/sportdb/sportdb-writers/lib' )
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/fifa/lib' )
+
 require 'worldfootball'
 
 

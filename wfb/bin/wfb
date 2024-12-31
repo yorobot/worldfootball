@@ -8,8 +8,8 @@
 ##   ruby -I wfb/lib wfb/bin/wfb -f max.csv --cached
 
 
-$LOAD_PATH.unshift( '../../yorobot/sport.db.more/timezones/lib' )
-$LOAD_PATH.unshift( '../../sportdb/fifa/lib' )
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/timezones/lib' )
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/fifa/lib' )
 require 'worldfootball'
 
 
@@ -38,9 +38,9 @@ Worldfootball.config.generate.out_dir = if File.exist?( '/sports/cache.wfb.txt')
 
 require 'optparse'
 
+
+
 module Worldfootball
-
-
 def self.main( args=ARGV )
 
 opts = {
@@ -135,15 +135,14 @@ end
 #  assume leagues
 
 datasets = if opts[:file]
-              read_datasets( opts[:file] )
+              read_leagueset( opts[:file] )
            else
-              parse_datasets_args( args )
+              parse_leagueset_args( args )
            end
 
 
 ## step 0 - validate and fill-up seasons etc.
-datasets.each do |dataset|
-  league_key, seasons = dataset
+datasets.each do |league_key, seasons|
 
   league =  find_league!( league_key )  ## league info lookup
 
@@ -155,8 +154,8 @@ datasets.each do |dataset|
   ##              might be 2024/25 or 2024 or
   #                 for world cup 2022 or such
   if seasons.empty?
-     seasons = [Season(league.seasons.keys[0])]
-     dataset[1] = seasons
+     season = Season(league.seasons.keys[0])
+     seasons << season
   end
 end
 

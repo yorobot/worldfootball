@@ -5,7 +5,11 @@
 ##    or
 ##   ruby -I wfb/lib wfb/bin/wfbconf
 
-$LOAD_PATH.unshift( '../../sportdb/fifa/lib' )
+####
+#  wfbconf - check built-in config(uration) for league
+#    e.g.     wfbconf eng.1
+
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/fifa/lib' )
 require 'worldfootball'
 
 

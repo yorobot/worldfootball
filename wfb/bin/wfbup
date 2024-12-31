@@ -13,8 +13,8 @@
 ## -  stopping at si.1 2017/18...
 
 
-$LOAD_PATH.unshift( '../sport.db.more/timezones/lib' )
-$LOAD_PATH.unshift( '../../sportdb/fifa/lib' )
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/timezones/lib' )
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/fifa/lib' )
 require 'worldfootball'
 
 

@@ -39,14 +39,56 @@ and so on.
 
 
 
-### More
+### More Command-Line Tools
 
+<!--
 Debugging tips & tricks. List all cached (offline local) match schedule pages:
 
 ```
 $ wfb cache
 ```
+-->
 
+wfbup -
+wfbconv -
+wfbgen -
+wfbconf -   
+wfbdump
+
+
+#### wfbup -  download leagues (if no league passed in, download all!)
+
+```
+$ wfbup        # download ALL leagues and ALL seasons (uses all built-in configs)
+$ wfbup at.1   # download ALL seasons for league 
+```
+
+#### wfbconv - convert (to .csv) leagues (if no league passed in, converts all!)
+
+```
+$ wfbconv        # convert ALL leagues and ALL seasons (uses all built-in configs)
+$ wfbconv at.1   # convert ALL seasons for league 
+```
+
+#### wfbgen - generate (.txt) leagues (if no league passed in, generate all!)
+
+```
+$ wfbgen        # generate ALL leagues and ALL seasons (uses all built-in configs)
+$ wfbgen at.1   # generate ALL seasons for league 
+```
+
+
+#### wfbconf - check built-in config(uration) for league
+
+```
+$ wfbconf eng.1
+```
+
+#### wfbdump - dump (page) slug incl. matches, teams, rounds & more
+
+```
+$ wfbdump aut-bundesliga-2024-2025
+```
 
 
 

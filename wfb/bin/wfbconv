@@ -5,8 +5,13 @@
 ##    or
 ##   ruby -I wfb/lib wfb/bin/wfbconv
 
-$LOAD_PATH.unshift( '../sport.db.more/timezones/lib' )
-$LOAD_PATH.unshift( '../../sportdb/fifa/lib' )
+###
+#  wfbconv -  convert (to .csv) all leagues  (if no league passed in, converts all!)
+# 
+
+
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/timezones/lib' )
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/fifa/lib' )
 require 'worldfootball'
 
 

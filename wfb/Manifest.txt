@@ -3,6 +3,11 @@ Manifest.txt
 README.md
 Rakefile
 bin/wfb
+bin/wfbconf
+bin/wfbconv
+bin/wfbdump
+bin/wfbgen
+bin/wfbup
 config/leagues/africa.csv
 config/leagues/america.csv
 config/leagues/asia.csv

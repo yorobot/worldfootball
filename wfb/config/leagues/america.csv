@@ -40,9 +40,14 @@ mx.3.b,  mex-lp-serie-b-2024-2025-apertura
 
 
 ## change to mls - why? why not?
+## note - add alt msl for now
+
 us.1,    usa-major-league-soccer-2024
+mls,     usa-major-league-soccer-2024
+
 us.2,    usa-usl-championship-2024
 us.cup,  usa-u-s-open-cup-2024
+
 
 
 concacaf.cl,   concacaf-champions-league-2020

@@ -32,27 +32,22 @@ Worldfootball.config.generate.out_dir =  './gen2/o' ## use tmp in working dir
 
 module Worldfootball
 def self.generate2( league:, season:,
+                    outpath:,
+                   name:,
                    overwrite: true )
    season = Season( season )  ## cast (ensure) season class (NOT string, integer, etc.)
 
    league = find_league!( league )
+   pp league
+
    pages  = league.pages!( season: season )
 
 ###
 #  get league title from (cached) page
     pp pages
 
-    slug = pages[0][0]
-    page = Worldfootball::Page::Schedule.from_cache( slug )
-
-    league_name = page.title
-    pp league_name 
-
-
-   out_path = "#{config.generate.out_dir}/#{league.key}/#{season.to_path}_#{league.key}.txt"
-
    ## check if output exists already
-   if !overwrite && File.exist?( out_path )
+   if !overwrite && File.exist?( outpath )
      ## skip generation
      puts "  OK #{league.key} #{season}   (do NOT overwrite)"
      return
@@ -65,34 +60,53 @@ def self.generate2( league:, season:,
    matches = SportDb::CsvMatchParser.read( path )
    puts "     #{matches.size} matches"
 
-   ## build
-   txt = SportDb::TxtMatchWriter.build( matches )
-   ## puts txt
 
-
-   buf = String.new
-   ## note - use league key for league name for now!!
-   ##   todo/fix - use league name from page itself
-   buf << "= #{league.key.upcase.gsub('.', ' ')} #{season.key}\n\n"
-   buf << txt
-
-   puts "   writing to >#{out_path}<..."
-   write_text( out_path, buf )
+   ## build & write out
+   puts "   writing to >#{outpath}<..."
+   SportDb::TxtMatchWriter.write_v2( outpath, matches,
+                                      name: name )
 end
 end   # module Worldfootball
 
 
 
+league_name = 'Major League Soccer'
+league = 'mls'
+seasons =  %w[2005 2006]    ##[2022 2023 2024 2025]
+league_path = 'north-america/major-league-soccer'
 
-# league = 'mls'
-# seasons =  ['2022', '2023', '2024', '2025']
+# world/north-america/major-league-soccer/2005_mls.txt
 
-league = 'mx.1'
-seasons =  ['2023/24', '2024/25']
 
+
+=begin
+league_name  = 'Australia | A-League'
+league = 'au.1'
+seasons = %w[2018/19 2019/20 2020/21 2021/22 2022/23 2023/24 2024/25]
+league_path  = 'pacific/australia' 
+=end
+
+# league = 'mx.1'
+# seasons =  ['2023/24', '2024/25']
+
+#  world/pacific/australia/2018-19_au1.txt
+
+
+# rootdir = "./gen2/o"
+rootdir = "/sports/openfootball/world"
 
 seasons.each do |season|
-    Worldfootball.generate2( league: league, season: season )
+    
+   outpath = "#{rootdir}"
+   outpath += "/#{league_path}"
+   outpath += "/#{Season(season).to_path}_"  ## e.g. 2024-25 
+   outpath += "#{league.gsub('.', '')}"      ## au.1 to au1
+   outpath += ".txt"
+
+
+    Worldfootball.generate2( league: league, season: season,
+                             name: "#{league_name} #{season}",
+                             outpath: outpath )
 end   
 
 
@@ -115,3 +129,12 @@ __END__
        "Primera División 2024/2025 Clausura » Spielplan"]}}}
 
 
+
+{"au.1"=>
+  {"2018/19"=>{:names=>["A-League 2018/2019 » Spielplan", "A-League 2018/2019 Finals » Spielplan"]},
+   "2019/20"=>{:names=>["A-League 2019/2020 » Spielplan", "A-League 2019/2020 Finals » Spielplan"]},
+   "2020/21"=>{:names=>["A-League 2020/2021 » Spielplan", "A-League 2020/2021 Finals » Spielplan"]},
+   "2021/22"=>{:names=>["A-League 2021/2022 » Spielplan", "A-League 2021/2022 Finals » Spielplan"]},
+   "2022/23"=>{:names=>["A-League 2022/2023 » Spielplan", "A-League 2022/2023 Finals » Spielplan"]},
+   "2023/24"=>{:names=>["A-League 2023/2024 » Spielplan", "A-League 2023/2024 Finals » Spielplan"]},
+   "2024/25"=>{:names=>["A-League 2024/2025 » Spielplan", "A-League 2024/2025 Finals » Spielplan"]}}}

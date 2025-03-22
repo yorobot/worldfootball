@@ -1,12 +1,11 @@
 # Update Notes
 
 
-- get datasets via wfb
+- get datasets via wfbsync
+  - will (automagically) re(use) cached pages for season NOT latest
 
 ```
-$ ruby -I wfb/lib wfb/bin/wfb -f world.csv 
-
-
+$ ruby -I wfb/lib wfb/bin/wfbsync -f world.csv 
 ```
 
 

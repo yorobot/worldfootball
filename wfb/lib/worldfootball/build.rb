@@ -73,10 +73,28 @@ def self.build( rows, season:, league:, stage: '' )   ## rename to fixup or such
 
     date_str  = row[:date]
     time_str  = row[:time]
+
+
     team1_str = row[:team1]
     team2_str = row[:team2]
-    score_str = row[:score]
+   
+    ## R. Betis / Jag. Białystok v Celje / Fiorentina
+    ## Legia Warszawa / Chelsea v Djurgårdens / Rapid Wien
+    team1_ref = row[:team1_ref]
+    team2_ref = row[:team2_ref]
+ 
+    ##  reset team name to N.N.  if team_ref is nil and name include " / " 
+    if team1_ref.nil? && team1_str.index( ' / ')
+      puts "!! WARN - change placeholder team #{team1_str} to N.N."
+      team1_str = 'N.N.'
+    end 
+    if team2_ref.nil? && team2_str.index( ' / ')
+      puts "!! WARN - change placeholder team #{team2_str} to N.N."
+      team2_str = 'N.N.'
+    end 
 
+
+    score_str = row[:score]
 
 
     ### check for score_error; first (step 1) lookup by date

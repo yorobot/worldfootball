@@ -53,6 +53,14 @@ def self.convert( league:, season:,
       ## e.g. {:count=>2, :name=>"AS Arta", :ref=>"as-arta"},
       ##      {:count=>4, :name=>"Dekedaha FC", :ref=>"dekedaha-fc"},
       ##        ...
+      ###   {:count=>2, :name=>"Arsenal / Real Madrid", :ref=>nil},
+      ##   {:count=>2, :name=>"PSG / Aston Villa", :ref=>nil},
+      ##   {:count=>2, :name=>"Barcelona / Dortmund", :ref=>nil},
+      ##   {:count=>2, :name=>"Bayern / Inter", :ref=>nil},
+      ##   {:count=>1, :name=>"Sieger HF 1", :ref=>nil},
+      ##  {:count=>1, :name=>"Sieger HF 2", :ref=>nil}]
+
+
       teams.each do |h|
           team_count = h[:count]
           team_name  = norm_team( h[:name] )      ## note: norm team name!!!
@@ -66,7 +74,10 @@ def self.convert( league:, season:,
           ## note: skip N.N.  (place holder team)
           ##        team_ref is nil etc.
           next if team_name == 'N.N.'
-
+          ### warn if team_ref is nil and skip !!!
+          next if team_ref.nil?
+      
+          
           team_stat = teams_by_ref[ team_ref ] ||= { count: 0,
                                                      names:  [] }
           team_stat[:count] += team_count
@@ -130,15 +141,19 @@ def self.convert( league:, season:,
 
     ## quick hack
     ##  add country (fifa) codes to team names
+    ##
+    ##  note - some placeholder teams have no ref!! and, thus no entry with country code
         recs.each do |rec|
            team1_org  =  rec[5]
-           if team1_org != 'N.N.'   ## note - skip place holder; keep as-is
+           if team1_org != 'N.N.' &&  ## note - skip place holder; keep as-is
+              teams_by_name[team1_org]
              country_code = teams_by_name[team1_org][:code]
              rec[5]  = "#{team1_org} (#{country_code})"
            end
 
            team2_org = rec[8]
-           if team2_org != 'N.N.'   ## note - skip place holder; keep as-is
+           if team2_org != 'N.N.' &&   ## note - skip place holder; keep as-is
+              teams_by_name[team2_org]
              country_code = teams_by_name[team2_org][:code]
              rec[8]  = "#{team2_org} (#{country_code})"
            end

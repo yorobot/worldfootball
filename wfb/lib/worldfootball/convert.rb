@@ -97,7 +97,7 @@ def self.convert( league:, season:,
 
     clubs_intl  =  ['uefa.cl', 'uefa.el', 'uefa.conf',
                     'uefa.cl.q', 'uefa.el.q', 'uefa.conf.q',
-                     'copa.l',
+                     'copa.l', 'copa.s',
                     'concacaf.cl',
                     'caf.cl',
                     'afl',

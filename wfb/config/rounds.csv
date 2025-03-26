@@ -1,21 +1,29 @@
 key,  name1, name2
 
 ## de to en
-*,  1. Runde,      Round 1
-*,  2. Runde,      Round 2
-*,  3. Runde,      Round 3
-*,  4. Runde,      Round 4
-*,  5. Runde,      Round 5
-*,  6. Runde,      Round 6
-*,  7. Runde,      Round 7
-*,  8. Runde,      Round 8
-*,  9. Runde,      Round 9
-*,  Achtelfinale,  Round of 16
-*,  Viertelfinale, Quarterfinals
-*,  Halbfinale,    Semifinals
-*,  Finale,        Final
+*,  1. Runde,         Round 1
+*,  2. Runde,         Round 2
+*,  3. Runde,         Round 3
+*,  4. Runde,         Round 4
+*,  5. Runde,         Round 5
+*,  6. Runde,         Round 6
+*,  7. Runde,         Round 7
+*,  8. Runde,         Round 8
+*,  9. Runde,         Round 9
+*,  Sechzehntelfinal, Round of 32
+*,  Achtelfinale,     Round of 16
+*,  Viertelfinale,    Quarterfinals
+*,  Halbfinale,       Semifinals
+*,  Finale,           Final
 
+*,  Spiel um Platz 6,   Match 6th Place
 *,  Spiel um Platz 3,   Match for 3rd place
+
+*, 11. Platz,  Match 11th Place
+*, 9. Platz,   Match 9th Place
+*, 7. Platz,   Match 7th Place
+*, 5. Platz,   Match 5th Place
+
 
 *,  Vorrunde,      Preliminary round
 
@@ -24,8 +32,32 @@ key,  name1, name2
 
 
 *, Entscheidungsspiel,  Decider
-*, Finalrunde,          Finals
+*, Finalrunde,          Finals    ## use Final round ???
 *, Ligaphase,           League phase
+
+
+
+*, Gruppe A,  Group A
+*, Gruppe B,  Group B
+*, Gruppe C,  Group C
+*, Gruppe D,  Group D
+*, Gruppe E,  Group E
+*, Gruppe F,  Group F
+*, Gruppe G,  Group G
+*, Gruppe H,  Group H
+*, Gruppe I,  Group I
+*, Gruppe J,  Group J
+*, Gruppe K,  Group K
+*, Gruppe L,  Group L
+
+*, Gruppe 1,  Group 1
+*, Gruppe 2,  Group 2
+*, Gruppe 3,  Group 3
+*, Gruppe 4,  Group 4
+*, Gruppe 5,  Group 5
+*, Gruppe 6,  Group 6
+*, Gruppe 7,  Group 7
+*, Gruppe 8,  Group 8
 
 
 

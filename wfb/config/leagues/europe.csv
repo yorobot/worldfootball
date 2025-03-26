@@ -43,19 +43,32 @@ sk.1,       svk-super-liga-2024-2025
 pl.1,       pol-ekstraklasa-2024-2025
 
 
+
 #########
 ###  British Isles / Western Europe
+##
+##   fix - move to config  europe-british_isles  !!!
 
 eng.1,       eng-premier-league-2024-2025
 eng.2,       eng-championship-2024-2025
 eng.3,       eng-league-one-2024-2025
 eng.4,       eng-league-two-2024-2025
 eng.5,       eng-national-league-2024-2025
+
+
+### use fa cup and efl cup (league cup) as codes for now
+##     use eng.cup.fa and cup.efl instead - why? why not?
+eng.fa.cup,   eng-fa-cup-2023-2024
+eng.efl.cup,  eng-league-cup-2024-2025
+## "old" codes for compat   (cup and cup.l aka league cup)
 eng.cup,     eng-fa-cup-2023-2024              ### update to 2024-2025 later!!!
 eng.cup.l,   eng-league-cup-2024-2025
 
+
+
+
 sco.1,       sco-premiership-2024-2025
-wal.1,     wal-premier-league-2024-2025
+wal.1,      wal-premier-league-2024-2025
 nir.1,      nir-premier-league-2024-2025
 ie.1,        irl-premier-division-2024
 

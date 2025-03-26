@@ -34,22 +34,30 @@ args = ARGV
 
 Worldfootball.debug = true
 
-##
-## download fresh copy?
-## Worldfootball::Metal.download_schedule( slug )
 
-key = args[0] || 'eng.1'
+if args.size == 0   ## no args; print all keys
+    keys = Worldfootball::LEAGUES.keys
 
-league = Worldfootball::LEAGUES[key]
-seasons = league.seasons
-pp seasons
+    pp keys
+    puts "   #{keys.size} league(s)"
+else
+  ##
+  ## download fresh copy?
+  ## Worldfootball::Metal.download_schedule( slug )
 
-puts "  #{key} - #{seasons.size} season(s)"
+  key = args[0] || 'eng.1'
 
-puts
-latest = seasons.keys[0]
-puts " latest #{latest}: "
-pp seasons[latest]
+  league = Worldfootball::LEAGUES[key]
+  seasons = league.seasons
+  pp seasons
+
+  puts "  #{key} - #{seasons.size} season(s)"
+
+  puts
+  latest = seasons.keys[0]
+  puts " latest #{latest}: "
+  pp seasons[latest]
+end
 
 
 puts "bye"

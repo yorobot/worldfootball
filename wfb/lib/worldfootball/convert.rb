@@ -101,6 +101,7 @@ def self.convert( league:, season:,
                     'concacaf.cl',
                     'caf.cl',
                     'afl',
+                    'world.clubs',   ## club worldcup
                   ].include?(league.key) ? true : false
 
     ####

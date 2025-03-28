@@ -134,14 +134,14 @@ end # class LeagueConfig
 
 
 
-
 LEAGUES = LeagueConfig.new
 ['africa',
  'america',
  'asia',
  'europe',
  'middle_east',
- 'pacific'].each do |name|
+ 'pacific',
+ 'world'].each do |name|
   recs = read_csv( "#{Worldfootball.root}/config/leagues/#{name}.csv" )
   pp recs
   puts "   #{recs.size} league(s) in #{name}"

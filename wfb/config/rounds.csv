@@ -16,13 +16,15 @@ key,  name1, name2
 *,  Halbfinale,       Semifinals
 *,  Finale,           Final
 
-*,  Spiel um Platz 6,   Match 6th Place
-*,  Spiel um Platz 3,   Match for 3rd place
+*,  Spiel um Platz 6,   Match 6th place
+*,  Spiel um Platz 5,   Match 5th place
+*,  Spiel um Platz 3,   Match 3rd place     ## use Match for 3rd place
 
-*, 11. Platz,  Match 11th Place
-*, 9. Platz,   Match 9th Place
-*, 7. Platz,   Match 7th Place
-*, 5. Platz,   Match 5th Place
+*, 11. Platz,  Match 11th place
+*, 9. Platz,   Match 9th place
+*, 7. Platz,   Match 7th place
+*, 5. Platz,   Match 5th place
+*, 3. Platz,   Match 3rd place
 
 
 *,  Vorrunde,      Preliminary round

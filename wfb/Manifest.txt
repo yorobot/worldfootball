@@ -15,6 +15,7 @@ config/leagues/asia.csv
 config/leagues/europe.csv
 config/leagues/middle_east.csv
 config/leagues/pacific.csv
+config/leagues/world.csv
 config/rounds.csv
 config/stages.csv
 lib/worldfootball.rb

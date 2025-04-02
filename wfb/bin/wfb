@@ -8,7 +8,7 @@
 ##   ruby -I wfb/lib wfb/bin/wfb -f max.csv --cached
 
 
-$LOAD_PATH.unshift( '/sports/sportdb/sport.db/timezones/lib' )
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/leagues/lib' )
 $LOAD_PATH.unshift( '/sports/sportdb/sport.db/fifa/lib' )
 require 'worldfootball'
 
@@ -134,11 +134,21 @@ end
 ####
 #  assume leagues
 
+autofiller = ->(league_query) {
+                  league =  find_league!( league_query )  ## league info lookup
+                   ## note - default to latest season of league
+                   ##  might be 2024/25 or 2024 or
+                   #   for world cup 2022 or such
+                  league.seasons.keys[0]  ## assume first entry is latest season
+               }
+
+
 datasets = if opts[:file]
-              read_leagueset( opts[:file] )
+              read_leagueset( opts[:file], autofill: autofiller )
            else
-              parse_leagueset_args( args )
+              parse_leagueset_args( args, autofill: autofiller )
            end
+
 
 
 ## step 0 - validate and fill-up seasons etc.
@@ -149,14 +159,6 @@ datasets.each do |league_key, seasons|
   ## output more page meta info
   puts "league meta:"
   pp league
-
-  ## note - default to latest season of league
-  ##              might be 2024/25 or 2024 or
-  #                 for world cup 2022 or such
-  if seasons.empty?
-     season = Season(league.seasons.keys[0])
-     seasons << season
-  end
 end
 
 

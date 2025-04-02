@@ -15,8 +15,9 @@ def self.build( rows, season:, league:, stage: '' )   ## rename to fixup or such
    print " - #{stage}" unless stage.empty?
    print "\n"
 
-
-   zone = find_zone!( league: league, season: season )
+   ## fix - use find_by!  - add upstream
+   league_info = LeagueCodes.find_by( code: league, season: season )
+   zone        = league_info['tz']
 
 
    ## note: use only first part from key for lookup

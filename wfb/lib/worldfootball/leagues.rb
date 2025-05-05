@@ -67,6 +67,9 @@ class LeagueItem  # nested inside LeagueConfig
            log( "!! WARN - seasons for league #{@key} incl. invalid season #{season} - slug #{slug}; skipping season" )
            next   ## note - skip invalid season entry
         end
+#### quick fix typos:  e.g. 2024/20225  => 2025     in bg.1
+        season = season.sub( '20225', '2025' )
+
 
         season = Season.parse( season )
 

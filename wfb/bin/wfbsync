@@ -161,6 +161,13 @@ datasets.each do |league_key, seasons|
 
           if !overwrite && Webcache.cached?( Metal.schedule_url( slug ))
             puts "  OK #{league_key} #{season.key}  - #{slug}   (do NOT overwrite)"
+          #### note - special rule for latest season
+          ##           do NOT overwrite if downloaded in the last 12h!!!
+          elsif overwrite && 
+            (season == Season('2025') || season == Season('2024/25')) &&
+            Webcache.cached?( Metal.schedule_url( slug )) &&
+            !Webcache.expired_in_12h?( Metal.schedule_url( slug ) ) 
+            puts "  OK #{league_key} #{season.key}  - #{slug}   (do NOT overwrite, use cache <12h)"
           else
             Metal.download_schedule( slug )
           end

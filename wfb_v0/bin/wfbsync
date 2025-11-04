@@ -1,0 +1,212 @@
+#!/usr/bin/env ruby
+
+##
+##  rename to wfbget  or wfbpull or such - why? why not?
+
+
+## tip: to test run:
+##   ruby -I ./lib bin/wfbsync
+##    or
+##   ruby -I wfb/lib wfb/bin/wfbsync
+##    or
+##   ruby -I wfb/lib wfb/bin/wfbsync -f world.csv 
+
+
+###
+##   only download  if NOT cached
+##        ALWAYS download if season is latest e.g 2024/25 or 2025
+
+
+
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/leagues/lib' )
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/fifa/lib' )
+require 'worldfootball'
+
+
+Webcache.root =  if File.exist?( '/sports/cache' )
+                     puts "  setting web cache to >/sports/cache<"
+                     '/sports/cache'
+                 else
+                     './cache'
+                 end
+
+## convert (default) output directory
+Worldfootball.config.convert.out_dir = if File.exist?( '/sports/cache.wfb')
+                                           puts "  setting convert out_dir to >/sports/cache.wfb<"
+                                           '/sports/cache.wfb'
+                                        else
+                                           './tmp' ## use tmp in working dir
+                                        end
+
+
+
+require 'optparse'
+
+
+
+module Worldfootball
+def self.main_sync( args=ARGV )
+
+opts = {
+    debug:    false,
+    convert:  true,
+    file:     nil,
+ }
+
+
+parser = OptionParser.new do |parser|
+  parser.banner = "Usage: #{$PROGRAM_NAME} [options]"
+
+##
+## check if git has a offline option?? (use same)
+##             check for other tools - why? why not?
+
+## todo - add a single letter option for offline/cached
+
+
+  parser.on( "--[no-]convert",
+               "turn on/off conversion to (tabular) .csv format in #{Worldfootball.config.convert.out_dir} - default is (#{opts[:convert]})" ) do |convert|
+    opts[:convert] = convert   # true|false
+  end
+
+ 
+  parser.on( "-f FILE", "--file FILE",
+                "read leagues (and seasons) via .csv file") do |file|
+    opts[:file] = file
+  end
+end
+
+
+
+
+parser.parse!( args )
+
+puts "OPTS:"
+p opts
+puts "ARGV:"
+p args
+
+
+## turn on debug output
+if opts[:debug]
+   Worldfootball.debug = true
+else
+  Worldfootball.debug = false
+end
+
+
+####
+#  assume leagues
+
+autofiller = ->(league_query) {
+                  league =  find_league!( league_query )  ## league info lookup
+                   ## note - default to latest season of league
+                   ##  might be 2024/25 or 2024 or
+                   #   for world cup 2022 or such
+                  league.seasons.keys[0]  ## assume first entry is latest season
+               }
+
+datasets = if opts[:file]
+              read_leagueset( opts[:file], autofill: autofiller )
+           else
+               raise ArgumentError, "file required; sorry"
+           end
+
+
+
+## step 0 - validate and fill-up seasons etc.
+datasets.each do |league_key, seasons|
+
+  league =  find_league!( league_key )  ## league info lookup
+
+  ## output more page meta info
+  puts "league meta:"
+  pp league
+end
+
+
+###
+## collect league names & more
+extra = {}
+
+
+## step 1 - download
+##
+
+##  note - only download if NOT cached
+##               or if seasson is latest
+
+
+
+datasets.each do |league_key, seasons|
+  league =  find_league!( league_key )  ## league info lookup
+  seasons.each do |season|
+      pages = league.pages!( season: season )
+      puts
+      pp [league.key, season.key]
+      pp pages
+      puts "   #{pages.size} page(s)"
+
+
+      ### check for latest season
+      ###   if latest than ALWAYS overwrite (that is, do NOT use cached version)
+      overwrite = false
+
+      overwrite = true   if season == Season('2025') ||
+                            season == Season('2024/25')
+
+                            
+      pages.each_with_index do |(slug,_),i|
+          puts "==> #{i+1}/#{pages.size} - #{league_key} @ #{slug}..."
+
+          if !overwrite && Webcache.cached?( Metal.schedule_url( slug ))
+            puts "  OK #{league_key} #{season.key}  - #{slug}   (do NOT overwrite)"
+          #### note - special rule for latest season
+          ##           do NOT overwrite if downloaded in the last 12h!!!
+          elsif overwrite && 
+            (season == Season('2025') || season == Season('2024/25')) &&
+            Webcache.cached?( Metal.schedule_url( slug )) &&
+            !Webcache.expired_in_12h?( Metal.schedule_url( slug ) ) 
+            puts "  OK #{league_key} #{season.key}  - #{slug}   (do NOT overwrite, use cache <12h)"
+          else
+            Metal.download_schedule( slug )
+          end
+      end
+ 
+      
+      ##
+      ## check for/collect extra (debug) league info
+      pages.each_with_index do |(slug,_),i|
+        puts "==> #{i+1}/#{pages.size} - #{league_key} @ #{slug}..."
+        page = Page::Schedule.from_cache( slug )
+        matches = page.matches
+
+        puts "   #{matches.size} match(es)"
+
+        league_extra = extra[ league.key ] ||= {}
+        season_extra = league_extra[ season.key] ||= { names: [] }
+        season_extra[:names]  <<  page.title
+      end
+  end # each seasons
+end # each league
+
+
+if opts[:convert]
+## step 2 - convert
+  datasets.each do |league_key, seasons|
+    seasons.each do |season|
+        ## write out (export to) comma-separated values (.csv) datafile
+        convert( league: league_key,
+                 season: season )
+    end
+  end
+end
+
+end   # def self.main
+end   # module Worldfootball
+
+
+Worldfootball.main_sync( ARGV )
+
+
+puts "bye"

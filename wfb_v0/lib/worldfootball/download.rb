@@ -37,15 +37,11 @@ end
 ##   or use Metal    - no "porcelain" downloaders / machinery
 class Metal
 
-  ## BASE_URL = 'https://www.weltfussball.de'
-  BASE_URL = 'https://www.worldfootball.net'
+  BASE_URL = 'https://www.weltfussball.de'
 
 
-  ## def self.schedule_url( slug )  "#{BASE_URL}/alle_spiele/#{slug}/";  end
-  ## def self.report_url( slug )    "#{BASE_URL}/spielbericht/#{slug}/"; end
-  ## def self.team_url( slug )   "#{BASE_URL}/teams/#{slug}/"; end
-  def self.schedule_url( slug )  "#{BASE_URL}/all_matches/#{slug}/";  end
-  def self.report_url( slug )    "#{BASE_URL}/report/#{slug}/"; end
+  def self.schedule_url( slug )  "#{BASE_URL}/alle_spiele/#{slug}/";  end
+  def self.report_url( slug )    "#{BASE_URL}/spielbericht/#{slug}/"; end
   def self.team_url( slug )   "#{BASE_URL}/teams/#{slug}/"; end
 
 ##

@@ -1,0 +1,102 @@
+#!/usr/bin/env ruby
+
+## tip: to test run:
+##   ruby -I ./lib bin/wfbgen
+##    or
+##   ruby -I wfb/lib wfb/bin/wfbgen
+
+###############
+#  wfbgen  
+#  
+
+
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/leagues/lib' )
+$LOAD_PATH.unshift( '/sports/sportdb/sportdb-writers/lib' )
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/fifa/lib' )
+
+require 'worldfootball'
+
+
+Webcache.root =  if File.exist?( '/sports/cache' )
+                     puts "  setting web cache to >/sports/cache<"
+                     '/sports/cache'
+                 else
+                     './cache'
+                 end
+
+## convert (default) output directory
+Worldfootball.config.convert.out_dir = if File.exist?( '/sports/cache.wfb')
+                                           puts "  setting convert out_dir to >/sports/cache.wfb<"
+                                           '/sports/cache.wfb'
+                                        else
+                                           './tmp' ## use tmp in working dir
+                                        end
+
+Worldfootball.config.generate.out_dir = if File.exist?( '/sports/cache.wfb.txt')
+                                           puts "  setting generate out_dir to >/sports/cache.wfb.txt<"
+                                           '/sports/cache.wfb.txt'
+                                        else
+                                           './tmp' ## use tmp in working dir
+                                        end
+
+
+require 'optparse'
+
+##
+#  by default convert all with overwrite/force set to false
+
+Webget.config.sleep = 2
+
+args = ARGV
+
+opts = {
+    force:   false,   # a.k.a. overwrite
+ }
+
+
+parser = OptionParser.new do |parser|
+  parser.banner = "Usage: #{$PROGRAM_NAME} [options]"
+
+
+  parser.on( "--force",
+               "always overwrite (force) datafile - default is (#{opts[:force]})" ) do |force|
+    opts[:force] = true   # true|false
+  end
+end
+
+
+parser.parse!( args )
+
+puts "OPTS:"
+p opts
+puts "ARGV:"
+p args
+
+
+keys =  if args.size == 0
+           Worldfootball::LEAGUES.keys
+        else
+           args
+        end
+
+
+
+keys.each_with_index do |key, i|
+  league = Worldfootball::LEAGUES[key]
+  seasons = league.seasons
+
+  puts "==> #{i+1}/#{keys.size} #{key} - #{seasons.size} seasons(s)..."
+
+  seasons.each_with_index do |season_rec,j|
+    season = season_rec[0]
+
+    next if key == 'nl.cup' && season == '1959/60'
+
+    puts "  #{j+1}/#{seasons.size} #{key} #{season}..."
+    Worldfootball.generate( league: key, season: season,
+                            overwrite: opts[:force] )
+  end
+end
+
+
+puts "bye"

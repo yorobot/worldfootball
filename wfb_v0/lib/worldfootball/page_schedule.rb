@@ -242,9 +242,7 @@ class Schedule < Page  ## note: use nested class for now - why? why not?
                    date_str.empty?
                   nil
                 else
-                  ## note - change date format 
-                  ##   to 16/09/2025
-                  Date.strptime( date_str, '%d/%m/%Y' )
+                  Date.strptime( date_str, '%d.%m.%Y' )
                 end
 
      ## note: keep structure flat for now
@@ -328,7 +326,7 @@ end
 ## helpers
 
 ## todo/check - rename/use HREF and not REF - why? why not?
-REF_SCORE_RE = %r{^/report/
+REF_SCORE_RE = %r{^/spielbericht/
                      ([a-z0-9_-]+)/$}x
 
 def norm_score_ref( str )
@@ -356,7 +354,7 @@ def norm_team_ref( str )
 end
 
 
-REF_SEASON_RE = %r{^/all_matches/
+REF_SEASON_RE = %r{^/alle_spiele/
                         ([a-z0-9_-]+)/$}x
 
 def norm_season_ref( str )

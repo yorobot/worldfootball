@@ -1,0 +1,76 @@
+#!/usr/bin/env ruby
+
+## tip: to test run:
+##   ruby -I ./lib bin/wfbdump
+##    or
+##   ruby -I wfb/lib wfb/bin/wfbdump
+
+
+#####
+#  wfbdump - dump matches, teams, rounds and more for (page) slug
+#    e.g.
+#    wfbdump caf-champions-league-2008
+#    wfbdump aut-bundesliga-2024-2025
+
+
+$LOAD_PATH.unshift( '/sports/sportdb/sport.db/fifa/lib' )
+require 'worldfootball'
+
+
+Webcache.root =  if File.exist?( '/sports/cache' )
+                     puts "  setting web cache to >/sports/cache<"
+                     '/sports/cache'
+                 else
+                     './cache'
+                 end
+
+
+
+require 'optparse'
+
+##
+#  by default convert all with overwrite/force set to false
+
+Webget.config.sleep = 2
+
+args = ARGV
+
+
+Worldfootball.debug = true
+
+##
+## download fresh copy?
+## Worldfootball::Metal.download_schedule( slug )
+
+slug = args[0] || 'caf-champions-league-2008'
+
+page = Worldfootball::Page::Schedule.from_cache( slug )
+
+matches = page.matches
+teams   = page.teams
+rounds  = page.rounds
+
+puts "  #{matches.size} match(es), #{teams.size} team(s), #{rounds.size} round(s)"
+# pp matches
+
+puts
+puts "  #{teams.size} team(s)"
+pp teams
+
+puts
+puts "  #{rounds.size} round(s)"
+pp rounds
+
+
+puts "==> page props"
+print "title: "
+puts page.title
+puts
+print "keywords: "
+puts page.keywords
+puts
+print "url: "
+puts page.url
+
+
+puts "bye"

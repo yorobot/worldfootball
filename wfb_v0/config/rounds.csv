@@ -1,0 +1,128 @@
+key,  name1, name2
+
+## de to en
+*,  1. Runde,         Round 1
+*,  2. Runde,         Round 2
+*,  3. Runde,         Round 3
+*,  4. Runde,         Round 4
+*,  5. Runde,         Round 5
+*,  6. Runde,         Round 6
+*,  7. Runde,         Round 7
+*,  8. Runde,         Round 8
+*,  9. Runde,         Round 9
+*,  Sechzehntelfinal, Round of 32
+*,  Achtelfinale,     Round of 16
+*,  Viertelfinale,    Quarterfinals
+*,  Halbfinale,       Semifinals
+*,  Finale,           Final
+
+*,  Spiel um Platz 6,   Match 6th place
+*,  Spiel um Platz 5,   Match 5th place
+*,  Spiel um Platz 3,   Match 3rd place     ## use Match for 3rd place
+
+*, 11. Platz,  Match 11th place
+*, 9. Platz,   Match 9th place
+*, 7. Platz,   Match 7th place
+*, 5. Platz,   Match 5th place
+*, 3. Platz,   Match 3rd place
+
+
+*,  Vorrunde,      Preliminary round
+
+*,  Qual. 1. Runde,  Qual. Round 1
+*,  Qual. 2. Runde,  Qual. Round 2
+
+
+*, Entscheidungsspiel,  Decider
+*, Finalrunde,          Finals    ## use Final round ???
+*, Ligaphase,           League phase
+
+
+
+*, Gruppe A,  Group A
+*, Gruppe B,  Group B
+*, Gruppe C,  Group C
+*, Gruppe D,  Group D
+*, Gruppe E,  Group E
+*, Gruppe F,  Group F
+*, Gruppe G,  Group G
+*, Gruppe H,  Group H
+*, Gruppe I,  Group I
+*, Gruppe J,  Group J
+*, Gruppe K,  Group K
+*, Gruppe L,  Group L
+
+*, Gruppe 1,  Group 1
+*, Gruppe 2,  Group 2
+*, Gruppe 3,  Group 3
+*, Gruppe 4,  Group 4
+*, Gruppe 5,  Group 5
+*, Gruppe 6,  Group 6
+*, Gruppe 7,  Group 7
+*, Gruppe 8,  Group 8
+
+
+
+
+## es to en
+*,  Recalificación,  Reclassification
+
+
+
+
+## misc - make more generic - why? why not?
+mx.1,  Qual. 1. Runde,  Play-in round 1
+mx.1,  Qual. 2. Runde,  Play-in round 2
+mx.2,  Qual. 1. Runde,  Play-in round 1
+mx.2,  Qual. 2. Runde,  Play-in round 2
+
+
+###
+##   quick fix - move groups to new groups column!!!!
+####   no longer use - keep group (do NOT generalize)
+#  ar.1,   Gruppe A,  Group
+#  ar.1,   Gruppe B,  Group
+#  ar.1,   Gruppe C,  Group
+#  ar.1,   Gruppe D,  Group
+#  ar.1,   Gruppe E,  Group
+#  ar.1,   Gruppe F,  Group
+#  ar.1,   Gruppe 1,  Group
+#  ar.1,   Gruppe 2,  Group
+
+#  co.1,   Gruppe A,  Group
+#  co.1,   Gruppe B,  Group
+
+
+
+#  caf.cl, Gruppe A,  Group
+#  caf.cl, Gruppe B,  Group
+#  caf.cl, Gruppe C,  Group
+#  caf.cl, Gruppe D,  Group
+
+
+#  uefa.cl, Gruppe A,  Group
+#  uefa.cl, Gruppe B,  Group
+#  uefa.cl, Gruppe C,  Group
+#  uefa.cl, Gruppe D,  Group
+#  uefa.cl, Gruppe E,  Group
+#  uefa.cl, Gruppe F,  Group
+#  uefa.cl, Gruppe G,  Group
+#  uefa.cl, Gruppe H,  Group
+
+#  uefa.el, Gruppe A,  Group
+#  uefa.el, Gruppe B,  Group
+#  uefa.el, Gruppe C,  Group
+#  uefa.el, Gruppe D,  Group
+#  uefa.el, Gruppe E,  Group
+#  uefa.el, Gruppe F,  Group
+#  uefa.el, Gruppe G,  Group
+#  uefa.el, Gruppe H,  Group
+
+#  uefa.conf, Gruppe A,  Group
+#  uefa.conf, Gruppe B,  Group
+#  uefa.conf, Gruppe C,  Group
+#  uefa.conf, Gruppe D,  Group
+#  uefa.conf, Gruppe E,  Group
+#  uefa.conf, Gruppe F,  Group
+#  uefa.conf, Gruppe G,  Group
+#  uefa.conf, Gruppe H,  Group

@@ -34,20 +34,20 @@ class Team < Page  ## note: use nested class for now - why? why not?
       ## puts "[#{i+1}] >#{text}<"
 
       ## assume long name first column if NOT starting w/ Land:
-      if i==0 && !text.start_with?( 'Country' )
+      if i==0 && !text.start_with?( 'Land' )
         long_name = text
       end
 
-      if text.start_with?( 'Country:' )
-         country = text.sub( 'Country:', '' ).strip
+      if text.start_with?( 'Land:' )
+         country = text.sub( 'Land:', '' ).strip
       end
 
-      if text.start_with?( 'Founded:' )
-         founded = text.sub( 'Founded:', '' ).strip
+      if text.start_with?( 'gegründet:' )
+         founded = text.sub( 'gegründet:', '' ).strip
       end
 
-      if text.start_with?( 'stadium:' )
-        ground = text.sub( 'stadium:', '' ).strip
+      if text.start_with?( 'Stadion:' )
+        ground = text.sub( 'Stadion:', '' ).strip
       end
     end
 

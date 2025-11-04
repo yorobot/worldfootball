@@ -1,0 +1,45 @@
+key,  name1, name2,
+
+*,   Meisterschaft,    Championship
+*,   Abstieg,          Relegation
+
+## use Playoffs - Championship  -- why? why not?
+## use Playoffs - Relegation    -- why? why not?
+
+
+at.1,   Meistergruppe,          Championship
+at.1,   Qualifikationsgruppe,   Relegation
+at.1,   Playoff,                Europa League Finals
+
+
+sk.1,   Meisterschaft,   Championship
+sk.1,   Abstieg,         Relegation
+sk.1,   Europa League,   Europa League Finals
+
+
+ua.1, Meisterschaft,    Championship
+ua.1, Abstieg,          Relegation
+ua.1, Playoffs EL,      Europa League Finals
+
+
+fi.1,  Meisterschaft,   Championship
+fi.1,  Abstieg,         Relegation
+fi.1,  Playoff EL,      Europa League Finals
+
+dk.1,  Meisterschaft,   Championship
+dk.1,  Abstieg,         Relegation
+dk.1,  Europa League,   Europa League Finals
+
+
+gr.1,  Meisterschaft,    Championship
+gr.1,  Abstieg,          Relegation
+gr.1,  Playoffs,         Playoffs
+gr.1,  Spiel um Platz 6, Match 6th Place
+
+
+nz.1,  Playoffs,         Playoff Finals
+
+
+
+##   mx.1,  Apertura Playoffs,   Apertura - Liguilla
+##   mx.1,  Clausura Playoffs,   Clausura - Liguilla

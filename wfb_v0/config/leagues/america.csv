@@ -1,0 +1,115 @@
+key,   slug
+
+
+# todo/fix: adjust date/time by -6 or 7 hours!!!
+#   /can-canadian-championship-2020/
+#     - Qual. 1. Runde
+#     - Qual. 2. Runde
+#     - Qual. 3. Runde
+#   todo/fix: check for leagues - premier league? championship? soccer league?
+ca.1,     can-premier-league-2024
+ca.cup,   can-canadian-championship-2024
+
+
+# todo/fix: adjust date/time by -7 hours!!!
+##  e.g. 25.07.2020	02:30  => 24.07.2020 19.30
+#        11.01.2020	04:00  => 10.01.2020 21.00
+#
+# e.g. /mex-primera-division-2020-2021-apertura/
+#      /mex-primera-division-2019-2020-clausura/
+#      /mex-primera-division-2019-2020-apertura-playoffs/
+#        - Viertelfinale
+#        - Halbfinale
+#        - Finale
+#      /mex-primera-division-2018-2019-clausura-playoffs/
+mx.1,    mex-primera-division-2024-2025-apertura_2
+
+##  merge  expansion and ascenso into one (mx.2) - possible? why? why not?
+
+## first expansion season ->  2020/21 Apertura
+## last ascenso season    ->  2019/20 Clausura
+mx.2.expansion,   mex-liga-de-expansion-2024-2025-apertura
+mx.2.ascenso,     mex-liga-de-ascenso-2019-2020-clausura
+
+mx.cup,  mex-copa-mx-2019-2020
+
+
+mx.3.a,  mex-lp-serie-a-2024-2025-apertura
+mx.3.b,  mex-lp-serie-b-2024-2025-apertura
+
+
+
+## change to mls - why? why not?
+## note - add alt msl for now
+
+us.1,    usa-major-league-soccer-2024
+mls,     usa-major-league-soccer-2024
+
+us.2,    usa-usl-championship-2024
+us.cup,  usa-u-s-open-cup-2024
+
+
+
+concacaf.cl,   concacaf-champions-league-2020
+
+
+
+#############
+###  South America
+
+br.1,    bra-serie-a-2024
+br.2,    bra-serie-b-2024
+br.3,    bra-serie-c-2024-playoffs
+br.4,    bra-serie-d-2024
+
+br.cup,  bra-copa-do-brasil-2024
+
+br.carioca,    bra-campeonato-carioca-2024-taca-guanabara-finals
+br.gauchao,    bra-campeonato-gaucho-2024-playoffs
+br.mineiro,     bra-campeonato-mineiro-2024-fase-final
+br.paranaense,  bra-campeonato-paranaense-2024-fase-final
+br.paulistao,   bra-campeonato-paulista-2024-playoffs
+
+
+
+
+co.1,    col-primera-a-2024-clausura
+co.2,    col-primera-b-2024-clausura
+co.cup,  col-copa-colombia-2024
+
+
+cl.1,    chi-primera-division-2024
+cl.cup,  chi-copa-chile-2024
+
+ec.1,    ecu-serie-a-2024-segunda-etapa
+ec.2,    ecu-serie-b-2024_2
+
+bo.1,    bol-liga-profesional-2024-clausura
+
+
+ar.1,            arg-primera-division-2024
+ar.2.nacional,   arg-primera-b-nacional-2024
+ar.2.metro,      arg-primera-b-metropolitana-2024-clausura
+ar.cup,          arg-copa-argentina-2024
+
+py.1,            par-primera-division-2024-clausura
+
+pe.1,            per-primera-division-2024-clausura_2
+
+uy.1,            uru-primera-division-2024-clausura
+uy.2,            uru-segunda-division-2024-fase-regular
+uy.cup,          uru-copa-2024
+
+ve.1,            ven-primera-division-2024-clausura
+
+
+copa.l,    copa-libertadores-2020
+copa.s,    copa-sudamericana-2025
+
+###################
+###  Central America & Caribbean Islands
+cr.1,  crc-primera-division-2020-2021-apertura
+sv.1,  slv-primera-division-2020-2021-apertura
+gt.1,  gua-liga-nacional-2020-2021-apertura
+hn.1,  hon-liga-nacional-2020-2021-apertura
+ni.1,  nca-liga-primera-2020-2021-apertura
